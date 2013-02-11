@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
+@interface ViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource,
+    UITableViewDelegate, UITableViewDataSource>
 {
     IBOutlet UIView *VerticalView;
     IBOutlet UIView *HorizontalView;
@@ -22,6 +23,14 @@
 @property (strong, nonatomic) IBOutlet UIView *VerticalView;
 @property (strong, nonatomic) IBOutlet UIView *HorizontalView;
 @property (strong, nonatomic) IBOutlet UIView *VerticalSettings;
+
+//History Table
+@property (strong, nonatomic) IBOutlet UIView *SideBar;
+@property (strong, nonatomic) IBOutlet UITableView *HistoryTable;
+@property (strong, nonatomic) IBOutlet UIButton *ClearButton;
+@property (strong, nonatomic) IBOutlet UILabel *HistoryLabel;
+@property (strong, nonatomic) IBOutlet UIButton *SlideButton;
+
 
 //Operation displays
 @property (strong, nonatomic) IBOutlet UILabel *opDisplay;

@@ -10,6 +10,7 @@
 #import "addFunc.h"
 #import "AudioToolbox/AudioToolbox.h"
 #import "BackgroundChooser.h"
+#import "queue.h"
 
 //CFURLRef soundFileURLRef;
 //SystemSoundID soundFileObject;
@@ -37,6 +38,7 @@
     addFunc *additionalFunc;
     BackgroundChooser *bgChooser;
     NSMutableString *displayString;
+    queue *history_queue;
 
 }
 
@@ -46,6 +48,12 @@
 //Operator displays
 @synthesize opDisplay;
 @synthesize HorizOpDisplay;
+//History Table
+@synthesize SideBar;
+@synthesize HistoryTable;
+@synthesize ClearButton;
+@synthesize HistoryLabel;
+@synthesize SlideButton;
 //View Controller
 @synthesize HorizontalView, VerticalView;
 @synthesize VerticalSettings;
@@ -147,6 +155,16 @@
     array = [[NSMutableArray alloc] initWithObjects:@"Metal", @"Flower", @"Wood", @"Tech", @"Space", nil];
     self.BGScroll.delegate = self;
     self.BGScroll.dataSource = self;
+    
+    //History Table
+    history_queue = [[queue init] alloc];
+    [HistoryTable.delegate self]; //Setting VC as Table delegate
+    [HistoryTable.dataSource self]; //Setting VC as Table data source
+    SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, 0, SideBar.frame.size.height);
+    SlideButton.frame = CGRectMake(0, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
+    HistoryLabel.alpha = 0;
+    HistoryTable.alpha = 0;
+    ClearButton.alpha = 0;
     
     //Orientation code
     isShowingLandscapeView = NO;
@@ -777,6 +795,72 @@
     }
     [self appear];
 }
+
+
+/*~~~~~~~~~~~~~~~~History Side Bar~~~~~~~~~~~~~~~~~*/
+
+-(IBAction)onOpenButtonClick:(id)sender
+{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.8];
+    
+    if (SideBar.frame.origin.x == self.view.frame.size.width/4) //Closing Side Bar
+    {
+        
+        SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, 0, SideBar.frame.size.height);
+        SlideButton.frame = CGRectMake(0, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
+        [self HistoryBar:0];
+        
+    }
+    else //Opening Side Bar
+    {
+        SideBar.frame = CGRectMake(self.view.frame.size.width/4, SideBar.frame.origin.y, self.view.frame.size.width/2, SideBar.frame.size.height);
+        SlideButton.frame = CGRectMake(self.view.frame.size.width/4, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
+        [self HistoryBar:1];
+    }
+    [UIView commitAnimations];
+}
+
+-(void) HistoryBar: (int) value
+{
+    HistoryLabel.alpha = value;
+    HistoryTable.alpha = value;
+    ClearButton.alpha = value;
+}
+
+
+/*
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self doSomethingWithRowAtIndexPath:indexPath];
+    //grab indexPath of the array
+}*/
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section
+{
+    return [history_queue size];
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    static NSString *CellIdentifier = @"Cell";
+    //here you check for PreCreated cell.
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    //Fill the cells...
+    cell.textLabel.text = [[history_queue values] objectAtIndex: indexPath.row];
+    //yourMutableArray is Array
+    return cell;
+}
+
+
 
 /*~~~~~~~~~~~~~~~~Background Theme~~~~~~~~~~~~~~~~~*/
 -(void) updateTheme

@@ -392,7 +392,7 @@
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="19"/>
                             <state key="normal" title="Return">
                                 <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="titleShadowColor" patternImage="42C2BAA5-D72C-4E29-B99D-D517151CC948" colorSpace="pattern"/>
+                                <color key="titleShadowColor" patternImage="7EB10E9A-3208-4CB1-9D29-BB2EE7471647" colorSpace="pattern"/>
                             </state>
                             <connections>
                                 <action selector="gotoCalc" destination="2" eventType="touchUpInside" id="xvJ-PQ-eLH"/>
@@ -992,7 +992,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="42C2BAA5-D72C-4E29-B99D-D517151CC948" width="320" height="460">
+        <image name="7EB10E9A-3208-4CB1-9D29-BB2EE7471647" width="320" height="460">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -10859,21 +10859,25 @@ CP6lAAAAAAAABAEAAAAAAAAAQgAAAAAAAAAAAAAAAAAI/qc
                 <relationship kind="action" name="logButton"/>
                 <relationship kind="action" name="minus"/>
                 <relationship kind="action" name="mult"/>
+                <relationship kind="action" name="onOpenButtonClick:"/>
                 <relationship kind="action" name="percentButton"/>
                 <relationship kind="action" name="piButton"/>
                 <relationship kind="action" name="plus"/>
-                <relationship kind="action" name="selectBG"/>
                 <relationship kind="action" name="sinButton"/>
                 <relationship kind="action" name="tanButton"/>
-                <relationship kind="action" name="test"/>
                 <relationship kind="action" name="xSqrButton"/>
                 <relationship kind="action" name="ytoxButton"/>
                 <relationship kind="outlet" name="BGScroll" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="ClearButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="HistoryLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="HistoryTable" candidateClass="UITableView"/>
                 <relationship kind="outlet" name="HorizOpDisplay" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="HorizontalBackground" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="HorizontalDisplay" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="HorizontalView" candidateClass="UIView"/>
                 <relationship kind="outlet" name="RadDeg" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="SideBar" candidateClass="UIView"/>
+                <relationship kind="outlet" name="SlideButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="VerticalBackground" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="VerticalDisplay" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="VerticalSettings" candidateClass="UIView"/>
@@ -10884,6 +10888,7 @@ CP6lAAAAAAAABAEAAAAAAAAAQgAAAAAAAAAAAAAAAAAI/qc
                 <relationship kind="outlet" name="cH" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="cV" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="cosH" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="display" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="divH" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="divV" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="divXH" candidateClass="UIButton"/>

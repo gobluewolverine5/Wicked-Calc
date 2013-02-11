@@ -57,6 +57,7 @@
 		99879AD116ABA15A00B959D2 /* Car Tech [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACB16ABA15A00B959D2 /* Car Tech [1h].png */; };
 		99879AD216ABA15A00B959D2 /* Car Tech [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACC16ABA15A00B959D2 /* Car Tech [2h].png */; };
 		99879AD316ABA15A00B959D2 /* Car Tech [Ah].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACD16ABA15A00B959D2 /* Car Tech [Ah].png */; };
+		99A0285016C8C48800AF194C /* queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0284F16C8C48800AF194C /* queue.m */; };
 		99BAF0721695779700D9F3B7 /* addFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BAF0711695779700D9F3B7 /* addFunc.m */; };
 		99BAF07A16957CE500D9F3B7 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BAF07916957CE500D9F3B7 /* Icon-72.png */; };
 		99BAF07D16957CEC00D9F3B7 /* icon(144).png in Resources */ = {isa = PBXBuildFile; fileRef = 99BAF07C16957CEC00D9F3B7 /* icon(144).png */; };
@@ -87,7 +88,7 @@
 		991DFF9616A31FE800923715 /* Space [Ah].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space [Ah].png"; path = "Pictures/Calc (space theme)/Space [Ah].png"; sourceTree = SOURCE_ROOT; };
 		99377C9716AE60A000FBE46B /* icon(57).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon(57).png"; path = "../icon(57).png"; sourceTree = "<group>"; };
 		99377C9916AE60B100FBE46B /* icon(114).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon(114).png"; path = "../icon(114).png"; sourceTree = "<group>"; };
-		99377C9B16AE612300FBE46B /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "../../../Box Documents/Calculator iOS/Pictures/Icon/iTunesArtwork@2x"; sourceTree = "<group>"; };
+		99377C9B16AE612300FBE46B /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = text; name = "iTunesArtwork@2x"; path = "../../../Box Documents/Calculator iOS/Pictures/Icon/iTunesArtwork@2x"; sourceTree = "<group>"; };
 		9950988516995A8F0020BDC4 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Pictures/iTunesArtwork; sourceTree = SOURCE_ROOT; };
 		9950988B169965EC0020BDC4 /* BackgroundChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundChooser.h; sourceTree = "<group>"; };
 		9950988C169965EC0020BDC4 /* BackgroundChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundChooser.m; sourceTree = "<group>"; };
@@ -136,6 +137,8 @@
 		99879ACB16ABA15A00B959D2 /* Car Tech [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech [1h].png"; sourceTree = "<group>"; };
 		99879ACC16ABA15A00B959D2 /* Car Tech [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech [2h].png"; sourceTree = "<group>"; };
 		99879ACD16ABA15A00B959D2 /* Car Tech [Ah].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech [Ah].png"; sourceTree = "<group>"; };
+		99A0284E16C8C48800AF194C /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		99A0284F16C8C48800AF194C /* queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = queue.m; sourceTree = "<group>"; };
 		99BAF0701695779700D9F3B7 /* addFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addFunc.h; sourceTree = "<group>"; };
 		99BAF0711695779700D9F3B7 /* addFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addFunc.m; sourceTree = "<group>"; };
 		99BAF07916957CE500D9F3B7 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
@@ -328,6 +331,8 @@
 				9950988B169965EC0020BDC4 /* BackgroundChooser.h */,
 				9950988C169965EC0020BDC4 /* BackgroundChooser.m */,
 				99709C061686E7BB00A793BC /* Supporting Files */,
+				99A0284E16C8C48800AF194C /* queue.h */,
+				99A0284F16C8C48800AF194C /* queue.m */,
 			);
 			path = fractionCalc;
 			sourceTree = "<group>";
@@ -595,6 +600,7 @@
 				99709C1F1686E7BB00A793BC /* ViewController.m in Sources */,
 				99BAF0721695779700D9F3B7 /* addFunc.m in Sources */,
 				9950988D169965ED0020BDC4 /* BackgroundChooser.m in Sources */,
+				99A0285016C8C48800AF194C /* queue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
