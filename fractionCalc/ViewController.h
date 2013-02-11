@@ -150,6 +150,10 @@
 -(IBAction) piButton;
 -(IBAction) epsilonButton;
 
+//History Table
+-(IBAction)onOpenButtonClick:(id)sender;
+-(IBAction)clearQueue:(id)sender;
+
 //Settings
 -(IBAction) gotoSettings;
 -(IBAction) gotoCalc;

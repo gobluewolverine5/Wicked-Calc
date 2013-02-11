@@ -15,7 +15,6 @@
 		991DFF9816A31FE800923715 /* Space [Ah].png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF9616A31FE800923715 /* Space [Ah].png */; };
 		99377C9816AE60A000FBE46B /* icon(57).png in Resources */ = {isa = PBXBuildFile; fileRef = 99377C9716AE60A000FBE46B /* icon(57).png */; };
 		99377C9A16AE60B100FBE46B /* icon(114).png in Resources */ = {isa = PBXBuildFile; fileRef = 99377C9916AE60B100FBE46B /* icon(114).png */; };
-		99377C9C16AE612300FBE46B /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 99377C9B16AE612300FBE46B /* iTunesArtwork@2x */; };
 		9950988616995A8F0020BDC4 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 9950988516995A8F0020BDC4 /* iTunesArtwork */; };
 		9950988D169965ED0020BDC4 /* BackgroundChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9950988C169965EC0020BDC4 /* BackgroundChooser.m */; };
 		9950989516998A130020BDC4 /* Wood (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 9950988F16998A130020BDC4 /* Wood (1v).png */; };
@@ -32,6 +31,7 @@
 		995511CC16970DA4008C70D0 /* Metal [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 995511CA16970DA4008C70D0 /* Metal [2h].png */; };
 		995511CE16970DB3008C70D0 /* Metal [Ah].png in Resources */ = {isa = PBXBuildFile; fileRef = 995511CD16970DB3008C70D0 /* Metal [Ah].png */; };
 		995511D016971324008C70D0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995511CF16971324008C70D0 /* AudioToolbox.framework */; };
+		99621A6216C959A80049157C /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 99621A6116C959A80049157C /* iTunesArtwork@2x */; };
 		996339C516B49BE800EBCD4A /* Light Clean Corners (Dv).png in Resources */ = {isa = PBXBuildFile; fileRef = 996339C316B49BE800EBCD4A /* Light Clean Corners (Dv).png */; };
 		996339C616B49BE800EBCD4A /* Light Clean Corners [Dh].png in Resources */ = {isa = PBXBuildFile; fileRef = 996339C416B49BE800EBCD4A /* Light Clean Corners [Dh].png */; };
 		99709C001686E7BB00A793BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99709BFF1686E7BB00A793BC /* UIKit.framework */; };
@@ -88,7 +88,6 @@
 		991DFF9616A31FE800923715 /* Space [Ah].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space [Ah].png"; path = "Pictures/Calc (space theme)/Space [Ah].png"; sourceTree = SOURCE_ROOT; };
 		99377C9716AE60A000FBE46B /* icon(57).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon(57).png"; path = "../icon(57).png"; sourceTree = "<group>"; };
 		99377C9916AE60B100FBE46B /* icon(114).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon(114).png"; path = "../icon(114).png"; sourceTree = "<group>"; };
-		99377C9B16AE612300FBE46B /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = text; name = "iTunesArtwork@2x"; path = "../../../Box Documents/Calculator iOS/Pictures/Icon/iTunesArtwork@2x"; sourceTree = "<group>"; };
 		9950988516995A8F0020BDC4 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Pictures/iTunesArtwork; sourceTree = SOURCE_ROOT; };
 		9950988B169965EC0020BDC4 /* BackgroundChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundChooser.h; sourceTree = "<group>"; };
 		9950988C169965EC0020BDC4 /* BackgroundChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundChooser.m; sourceTree = "<group>"; };
@@ -106,6 +105,7 @@
 		995511CA16970DA4008C70D0 /* Metal [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal [2h].png"; path = "Pictures/Metal [2h].png"; sourceTree = SOURCE_ROOT; };
 		995511CD16970DB3008C70D0 /* Metal [Ah].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal [Ah].png"; path = "Pictures/Metal [Ah].png"; sourceTree = SOURCE_ROOT; };
 		995511CF16971324008C70D0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		99621A6116C959A80049157C /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "Pictures/iTunesArtwork@2x"; sourceTree = SOURCE_ROOT; };
 		996339C316B49BE800EBCD4A /* Light Clean Corners (Dv).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Light Clean Corners (Dv).png"; path = "Pictures/Display/Light Clean Corners (Dv).png"; sourceTree = SOURCE_ROOT; };
 		996339C416B49BE800EBCD4A /* Light Clean Corners [Dh].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Light Clean Corners [Dh].png"; path = "Pictures/Display/Light Clean Corners [Dh].png"; sourceTree = SOURCE_ROOT; };
 		99709BFB1686E7BB00A793BC /* Wicked Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wicked Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,7 +211,7 @@
 				99377C9916AE60B100FBE46B /* icon(114).png */,
 				99377C9716AE60A000FBE46B /* icon(57).png */,
 				9950988516995A8F0020BDC4 /* iTunesArtwork */,
-				99377C9B16AE612300FBE46B /* iTunesArtwork@2x */,
+				99621A6116C959A80049157C /* iTunesArtwork@2x */,
 				99BAF07C16957CEC00D9F3B7 /* icon(144).png */,
 				99BAF07916957CE500D9F3B7 /* Icon-72.png */,
 			);
@@ -558,9 +558,9 @@
 				99879AD316ABA15A00B959D2 /* Car Tech [Ah].png in Resources */,
 				99377C9816AE60A000FBE46B /* icon(57).png in Resources */,
 				99377C9A16AE60B100FBE46B /* icon(114).png in Resources */,
-				99377C9C16AE612300FBE46B /* iTunesArtwork@2x in Resources */,
 				996339C516B49BE800EBCD4A /* Light Clean Corners (Dv).png in Resources */,
 				996339C616B49BE800EBCD4A /* Light Clean Corners [Dh].png in Resources */,
+				99621A6216C959A80049157C /* iTunesArtwork@2x in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

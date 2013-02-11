@@ -306,11 +306,16 @@
                     </view>
                     <connections>
                         <outlet property="BGScroll" destination="nCY-bV-vJU" id="lWN-Vj-ROf"/>
+                        <outlet property="ClearButton" destination="47Q-4q-mwI" id="RVG-CT-ytP"/>
+                        <outlet property="HistoryLabel" destination="fru-sQ-P83" id="jaX-jQ-nNO"/>
+                        <outlet property="HistoryTable" destination="N3v-YP-qJR" id="KGK-19-7hV"/>
                         <outlet property="HorizOpDisplay" destination="SZ8-n6-hB9" id="XAv-Is-tCG"/>
                         <outlet property="HorizontalBackground" destination="ZmI-MN-Eqk" id="36U-cH-T56"/>
                         <outlet property="HorizontalDisplay" destination="ao8-0B-4NL" id="NQO-FR-3OO"/>
                         <outlet property="HorizontalView" destination="DMZ-Se-NeY" id="cAn-QJ-thr"/>
                         <outlet property="RadDeg" destination="wIm-Lh-OAY" id="faj-L6-n3t"/>
+                        <outlet property="SideBar" destination="6d0-Xv-EK4" id="J48-HY-8RQ"/>
+                        <outlet property="SlideButton" destination="Y4g-gJ-W4K" id="cAP-Uv-x4Y"/>
                         <outlet property="VerticalBackground" destination="0l1-U1-fAi" id="9q4-5h-lwC"/>
                         <outlet property="VerticalDisplay" destination="XUs-dF-WdK" id="vbi-bo-cYg"/>
                         <outlet property="VerticalSettings" destination="1be-Q4-vao" id="G7U-Lk-ZUX"/>
@@ -374,38 +379,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
-                <view contentMode="scaleToFill" id="1be-Q4-vao" userLabel="Settings">
-                    <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <subviews>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Themes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fmT-NG-3G5">
-                            <rect key="frame" x="191" y="0.0" width="99" height="36"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="25"/>
-                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ge5-Bx-URf">
-                            <rect key="frame" x="181" y="251" width="118" height="45"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="19"/>
-                            <state key="normal" title="Return">
-                                <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="titleShadowColor" patternImage="7EB10E9A-3208-4CB1-9D29-BB2EE7471647" colorSpace="pattern"/>
-                            </state>
-                            <connections>
-                                <action selector="gotoCalc" destination="2" eventType="touchUpInside" id="xvJ-PQ-eLH"/>
-                            </connections>
-                        </button>
-                        <pickerView contentMode="scaleToFill" id="nCY-bV-vJU">
-                            <rect key="frame" x="0.0" y="32" width="480" height="216"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                        </pickerView>
-                    </subviews>
-                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                </view>
                 <view contentMode="scaleToFill" id="DMZ-Se-NeY" userLabel="Horiz">
                     <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -965,8 +938,90 @@
                                 <segment title="Rad"/>
                             </segments>
                         </segmentedControl>
+                        <view contentMode="scaleToFill" id="6d0-Xv-EK4">
+                            <rect key="frame" x="0.0" y="0.0" width="151" height="300"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="N3v-YP-qJR">
+                                    <rect key="frame" x="14" y="25" width="124" height="236"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </tableView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Result History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fru-sQ-P83">
+                                    <rect key="frame" x="33" y="0.0" width="86" height="27"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="47Q-4q-mwI">
+                                    <rect key="frame" x="40" y="264" width="73" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                    <state key="normal" title="Clear">
+                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="clearQueue:" destination="2" eventType="touchUpInside" id="GfE-HB-BEc"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y4g-gJ-W4K">
+                            <rect key="frame" x="173" y="65" width="36" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" title=">" backgroundImage="Metal [1h].png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onOpenButtonClick:" destination="2" eventType="touchUpInside" id="Ex6-eQ-szq"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </view>
+                <view contentMode="scaleToFill" id="1be-Q4-vao" userLabel="Settings">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="300"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Themes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fmT-NG-3G5">
+                            <rect key="frame" x="191" y="0.0" width="99" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="25"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ge5-Bx-URf">
+                            <rect key="frame" x="181" y="251" width="118" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="19"/>
+                            <state key="normal" title="Return">
+                                <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" patternImage="D695FF28-80E9-4E17-86D2-00F2B391197E" colorSpace="pattern"/>
+                            </state>
+                            <connections>
+                                <action selector="gotoCalc" destination="2" eventType="touchUpInside" id="xvJ-PQ-eLH"/>
+                            </connections>
+                        </button>
+                        <pickerView contentMode="scaleToFill" id="nCY-bV-vJU">
+                            <rect key="frame" x="0.0" y="32" width="480" height="216"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        </pickerView>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </view>
             </objects>
@@ -985,14 +1040,35 @@
         <!--View Controller-->
         <scene sceneID="wYA-9p-td2">
             <objects>
-                <viewController id="prs-6Z-sNh" sceneMemberID="viewController"/>
+                <viewController id="prs-6Z-sNh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nuo-6H-3gU">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Uoq-0N-Va2">
+                                <rect key="frame" x="62" y="695" width="90" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    </view>
+                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OAl-RG-NAv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-225" y="681"/>
         </scene>
     </scenes>
     <resources>
-        <image name="7EB10E9A-3208-4CB1-9D29-BB2EE7471647" width="320" height="460">
+        <image name="D695FF28-80E9-4E17-86D2-00F2B391197E" width="320" height="460">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -10841,6 +10917,7 @@ CP6lAAAAAAAABAEAAAAAAAAAQgAAAAAAAAAAAAAAAAAI/qc
             <relationships>
                 <relationship kind="action" name="SqrRootButton"/>
                 <relationship kind="action" name="absButton"/>
+                <relationship kind="action" name="clearQueue:"/>
                 <relationship kind="action" name="clickClear"/>
                 <relationship kind="action" name="clickDel"/>
                 <relationship kind="action" name="clickDigit:" candidateClass="UIButton"/>
@@ -10888,7 +10965,6 @@ CP6lAAAAAAAABAEAAAAAAAAAQgAAAAAAAAAAAAAAAAAI/qc
                 <relationship kind="outlet" name="cH" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="cV" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="cosH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="display" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="divH" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="divV" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="divXH" candidateClass="UIButton"/>

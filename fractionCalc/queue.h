@@ -37,4 +37,6 @@
 - (int) size;
 //Returns the total size of the queue
 
+- (id) index: (NSIndexPath*) at;
+
 @end

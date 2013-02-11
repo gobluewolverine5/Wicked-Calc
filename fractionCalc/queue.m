@@ -61,4 +61,9 @@
     return queue_array.count;
 }
 
+- (id) index:(NSIndexPath*)at
+{
+    return [queue_array objectAtIndex:at];
+}
+
 @end

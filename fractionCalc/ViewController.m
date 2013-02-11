@@ -157,7 +157,7 @@
     self.BGScroll.dataSource = self;
     
     //History Table
-    history_queue = [[queue init] alloc];
+    history_queue = [[queue alloc] init];
     [HistoryTable.delegate self]; //Setting VC as Table delegate
     [HistoryTable.dataSource self]; //Setting VC as Table data source
     SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, 0, SideBar.frame.size.height);
@@ -429,14 +429,26 @@
     if (operated == NO){
         [self displayCurrent];
         resultOrCurrent = NO;
+        [history_queue push:currentNumber];
     }
     else{
         [self calculate:op];
+        [history_queue push:result];
     }
     resultCalc = YES;
     currentNumber = [NSDecimalNumber zero];
     opDisplay.text = [NSString stringWithFormat:@""];
     HorizOpDisplay.text = [NSString stringWithFormat:@""];
+    
+    //updating the history table on equal press
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad && [history_queue size] > 14) {
+        [history_queue pop];
+    }
+    else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone &&
+             [history_queue size] > 5){
+        [history_queue pop];
+    }
+    [HistoryTable reloadData];
 }
 
 -(IBAction)clickSign
@@ -804,22 +816,31 @@
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:0.8];
     
-    if (SideBar.frame.origin.x == self.view.frame.size.width/4) //Closing Side Bar
+    if (SideBar.frame.size.width == self.view.frame.size.width/2) //Closing Side Bar
     {
         
         SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, 0, SideBar.frame.size.height);
         SlideButton.frame = CGRectMake(0, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
+        [SlideButton setTitle:@">" forState:UIControlStateNormal];
         [self HistoryBar:0];
         
     }
     else //Opening Side Bar
     {
-        SideBar.frame = CGRectMake(self.view.frame.size.width/4, SideBar.frame.origin.y, self.view.frame.size.width/2, SideBar.frame.size.height);
-        SlideButton.frame = CGRectMake(self.view.frame.size.width/4, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
+        SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, self.view.frame.size.width/2, SideBar.frame.size.height);
+        SlideButton.frame = CGRectMake(self.view.frame.size.width/2, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
+        [SlideButton setTitle:@"<" forState:UIControlStateNormal];
         [self HistoryBar:1];
     }
     [UIView commitAnimations];
 }
+
+-(IBAction)clearQueue:(id)sender
+{
+    [history_queue clearQueue];
+    [HistoryTable reloadData];
+}
+
 
 -(void) HistoryBar: (int) value
 {
@@ -829,11 +850,25 @@
 }
 
 
-/*
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [self doSomethingWithRowAtIndexPath:indexPath];
+    
+    AudioServicesPlaySystemSound(1104);
+    specialNum = YES;
+    if (resultCalc == YES) {
+        //NSLog(@"Has been reset");
+        [self reset];
+        resultCalc = NO;
+    }
+    currentNumber = [history_queue index:indexPath];
+    [self displayCurrent];
+    if (first == YES){NSLog(@"first = yes");}
+    [displayString setString:@""];
+    resultOrCurrent = NO;
+    opPressed = NO;
+    dot = NO;
     //grab indexPath of the array
-}*/
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {

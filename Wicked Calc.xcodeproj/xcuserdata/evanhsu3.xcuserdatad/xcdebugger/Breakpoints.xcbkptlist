@@ -13,7 +13,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "305"
          endingLineNumber = "305"
-         landmarkName = "-displayResult"
+         landmarkName = "-calculate:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -26,20 +26,7 @@
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "313"
          endingLineNumber = "313"
-         landmarkName = "@implementation ViewController"
-         landmarkType = "3">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "fractionCalc/ViewController.m"
-         timestampString = "381682930.486674"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "923"
-         endingLineNumber = "923"
-         landmarkName = "-selectBG"
+         landmarkName = "-calculate:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -47,12 +34,25 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "fractionCalc/ViewController.m"
-         timestampString = "381682930.486674"
+         timestampString = "382294480.260143"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1048"
-         endingLineNumber = "1048"
-         landmarkName = "-orientationChanged:"
+         startingLineNumber = "958"
+         endingLineNumber = "958"
+         landmarkName = "-updateTheme"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "fractionCalc/ViewController.m"
+         timestampString = "382294480.260143"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "1083"
+         endingLineNumber = "1083"
+         landmarkName = "-test"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
