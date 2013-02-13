@@ -152,14 +152,14 @@
     bgChooser = [[BackgroundChooser alloc] init];
     
     //Background Picker Wheel
-    array = [[NSMutableArray alloc] initWithObjects:@"Metal", @"Flower", @"Wood", @"Tech", @"Space", nil];
+    array = [[NSMutableArray alloc] initWithObjects:@"Metal", @"Flower", @"Wood", @"Tech", @"Space", @"Helion", @"INT Flower", @"Sky", @"Aqua Burst", @"Pyramid",  nil];
     self.BGScroll.delegate = self;
     self.BGScroll.dataSource = self;
     
     //History Table
     history_queue = [[queue alloc] init];
-    [HistoryTable.delegate self]; //Setting VC as Table delegate
-    [HistoryTable.dataSource self]; //Setting VC as Table data source
+    HistoryTable.delegate = self; //Setting VC as Table delegate
+    HistoryTable.dataSource = self; //Setting VC as Table data source
     SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, 0, SideBar.frame.size.height);
     SlideButton.frame = CGRectMake(0, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
     HistoryLabel.alpha = 0;
@@ -440,6 +440,7 @@
     opDisplay.text = [NSString stringWithFormat:@""];
     HorizOpDisplay.text = [NSString stringWithFormat:@""];
     
+    NSLog(@"The first element is: %@", [history_queue front]);
     //updating the history table on equal press
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad && [history_queue size] > 14) {
         [history_queue pop];
@@ -854,13 +855,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     AudioServicesPlaySystemSound(1104);
+    NSLog(@"Index %@ selected", [history_queue index:indexPath.row]);
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     specialNum = YES;
     if (resultCalc == YES) {
         //NSLog(@"Has been reset");
         [self reset];
         resultCalc = NO;
     }
-    currentNumber = [history_queue index:indexPath];
+    currentNumber = [history_queue index:indexPath.row];
     [self displayCurrent];
     if (first == YES){NSLog(@"first = yes");}
     [displayString setString:@""];
@@ -890,7 +893,8 @@
     }
     
     //Fill the cells...
-    cell.textLabel.text = [[history_queue values] objectAtIndex: indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@",[[history_queue values] objectAtIndex: indexPath.row]];
+    
     //yourMutableArray is Array
     return cell;
 }
@@ -962,6 +966,7 @@
     [absH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:themeNum] forState:UIControlStateNormal];
     [piH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:themeNum] forState:UIControlStateNormal];
     [eH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:themeNum] forState:UIControlStateNormal];
+    [SlideButton setBackgroundImage:[bgChooser chooseKeyHorizontalOne:themeNum] forState:UIControlStateNormal];
     
 }
 
@@ -1027,6 +1032,8 @@
     [absH setTitleColor:myColor forState:UIControlStateNormal];
     [piH setTitleColor:myColor forState:UIControlStateNormal];
     [eH setTitleColor:myColor forState:UIControlStateNormal];
+    [SlideButton setTitleColor:myColor forState:UIControlStateNormal];
+    
 }
 
 -(void) selectBG
@@ -1034,26 +1041,7 @@
     NSLog(@"It has been selected");
     UIColor *color;
     themeNum = [BGScroll selectedRowInComponent:0];
-    switch (themeNum) {
-        case 0:
-            color = [UIColor blackColor];
-            break;
-        case 1:
-            color = [UIColor whiteColor];
-            break;
-        case 2:
-            color = [UIColor blackColor];
-            break;
-        case 3:
-            color = [UIColor blackColor];
-            break;
-        case 4:
-            color = [UIColor cyanColor];
-            break;
-        default:
-            color = [UIColor blackColor];
-            break;
-    }
+    color = [bgChooser colorSelect:themeNum];
     NSLog(@"Theme number: %i", themeNum);
     [self updateTheme];
     [self updateButton:color];

@@ -16,5 +16,6 @@
 -(UIImage*) chooseKeyVerticalTwo: (int) number;
 -(UIImage*) chooseKeyHorizontalOne: (int) number;
 -(UIImage*) chooseKeyHorizontalTwo: (int) number;
+-(UIColor*) colorSelect: (int) number;
 
 @end

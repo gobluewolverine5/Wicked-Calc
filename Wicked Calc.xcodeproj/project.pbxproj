@@ -11,27 +11,14 @@
 		991DFF9216A31FD800923715 /* Space (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF8E16A31FD800923715 /* Space (2v).png */; };
 		991DFF9316A31FD800923715 /* Space [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF8F16A31FD800923715 /* Space [1h].png */; };
 		991DFF9416A31FD800923715 /* Space [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF9016A31FD800923715 /* Space [2h].png */; };
-		991DFF9716A31FE800923715 /* Space (Av).png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF9516A31FE800923715 /* Space (Av).png */; };
-		991DFF9816A31FE800923715 /* Space [Ah].png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF9616A31FE800923715 /* Space [Ah].png */; };
 		99377C9816AE60A000FBE46B /* icon(57).png in Resources */ = {isa = PBXBuildFile; fileRef = 99377C9716AE60A000FBE46B /* icon(57).png */; };
 		99377C9A16AE60B100FBE46B /* icon(114).png in Resources */ = {isa = PBXBuildFile; fileRef = 99377C9916AE60B100FBE46B /* icon(114).png */; };
-		9950988616995A8F0020BDC4 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 9950988516995A8F0020BDC4 /* iTunesArtwork */; };
 		9950988D169965ED0020BDC4 /* BackgroundChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9950988C169965EC0020BDC4 /* BackgroundChooser.m */; };
 		9950989516998A130020BDC4 /* Wood (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 9950988F16998A130020BDC4 /* Wood (1v).png */; };
 		9950989616998A130020BDC4 /* Wood (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 9950989016998A130020BDC4 /* Wood (2v).png */; };
-		9950989716998A130020BDC4 /* Wood (Av).png in Resources */ = {isa = PBXBuildFile; fileRef = 9950989116998A130020BDC4 /* Wood (Av).png */; };
 		9950989816998A130020BDC4 /* Wood [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 9950989216998A130020BDC4 /* Wood [1h].png */; };
 		9950989916998A130020BDC4 /* Wood [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 9950989316998A130020BDC4 /* Wood [2h].png */; };
-		9950989A16998A130020BDC4 /* Wood [Ah].png in Resources */ = {isa = PBXBuildFile; fileRef = 9950989416998A130020BDC4 /* Wood [Ah].png */; };
-		995511C11696FFFA008C70D0 /* Metal (Av).png in Resources */ = {isa = PBXBuildFile; fileRef = 995511BF1696FFFA008C70D0 /* Metal (Av).png */; };
-		995511C41697036D008C70D0 /* metal (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 995511C31697036D008C70D0 /* metal (1v).png */; };
-		995511C6169709A9008C70D0 /* Metal (Av) brighter.png in Resources */ = {isa = PBXBuildFile; fileRef = 995511C5169709A9008C70D0 /* Metal (Av) brighter.png */; };
-		995511C8169709C7008C70D0 /* metal (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 995511C7169709C7008C70D0 /* metal (2v).png */; };
-		995511CB16970DA4008C70D0 /* Metal [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 995511C916970DA4008C70D0 /* Metal [1h].png */; };
-		995511CC16970DA4008C70D0 /* Metal [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 995511CA16970DA4008C70D0 /* Metal [2h].png */; };
-		995511CE16970DB3008C70D0 /* Metal [Ah].png in Resources */ = {isa = PBXBuildFile; fileRef = 995511CD16970DB3008C70D0 /* Metal [Ah].png */; };
 		995511D016971324008C70D0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995511CF16971324008C70D0 /* AudioToolbox.framework */; };
-		99621A6216C959A80049157C /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 99621A6116C959A80049157C /* iTunesArtwork@2x */; };
 		996339C516B49BE800EBCD4A /* Light Clean Corners (Dv).png in Resources */ = {isa = PBXBuildFile; fileRef = 996339C316B49BE800EBCD4A /* Light Clean Corners (Dv).png */; };
 		996339C616B49BE800EBCD4A /* Light Clean Corners [Dh].png in Resources */ = {isa = PBXBuildFile; fileRef = 996339C416B49BE800EBCD4A /* Light Clean Corners [Dh].png */; };
 		99709C001686E7BB00A793BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99709BFF1686E7BB00A793BC /* UIKit.framework */; };
@@ -53,20 +40,62 @@
 		99709C341686E7BC00A793BC /* fractionCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99709C331686E7BC00A793BC /* fractionCalcTests.m */; };
 		99879ACE16ABA15A00B959D2 /* Car Tech (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99879AC816ABA15A00B959D2 /* Car Tech (1v).png */; };
 		99879ACF16ABA15A00B959D2 /* Car Tech (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99879AC916ABA15A00B959D2 /* Car Tech (2v).png */; };
-		99879AD016ABA15A00B959D2 /* Car Tech (Av).png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACA16ABA15A00B959D2 /* Car Tech (Av).png */; };
 		99879AD116ABA15A00B959D2 /* Car Tech [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACB16ABA15A00B959D2 /* Car Tech [1h].png */; };
 		99879AD216ABA15A00B959D2 /* Car Tech [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACC16ABA15A00B959D2 /* Car Tech [2h].png */; };
-		99879AD316ABA15A00B959D2 /* Car Tech [Ah].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACD16ABA15A00B959D2 /* Car Tech [Ah].png */; };
 		99A0285016C8C48800AF194C /* queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0284F16C8C48800AF194C /* queue.m */; };
+		99B6328C16CC08FE00AE7208 /* Metal (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6328A16CC08FE00AE7208 /* Metal (Av).jpg */; };
+		99B6328D16CC08FE00AE7208 /* Metal [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6328B16CC08FE00AE7208 /* Metal [Ah].jpg */; };
+		99B6329216CC091700AE7208 /* metal (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B6328E16CC091700AE7208 /* metal (1v).png */; };
+		99B6329316CC091700AE7208 /* metal (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B6328F16CC091700AE7208 /* metal (2v).png */; };
+		99B6329416CC091700AE7208 /* Metal [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B6329016CC091700AE7208 /* Metal [1h].png */; };
+		99B6329516CC091700AE7208 /* Metal [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B6329116CC091700AE7208 /* Metal [2h].png */; };
+		99B6329816CC092700AE7208 /* Wood (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6329616CC092700AE7208 /* Wood (Av).jpg */; };
+		99B6329916CC092700AE7208 /* Wood [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6329716CC092700AE7208 /* Wood [Ah].jpg */; };
+		99B6329C16CC096C00AE7208 /* Flower (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6329A16CC096C00AE7208 /* Flower (Av).jpg */; };
+		99B6329D16CC096C00AE7208 /* Flower [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6329B16CC096C00AE7208 /* Flower [Ah].jpg */; };
+		99B632A016CC098F00AE7208 /* Space (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6329E16CC098F00AE7208 /* Space (Av).jpg */; };
+		99B632A116CC098F00AE7208 /* Space [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6329F16CC098F00AE7208 /* Space [Ah].jpg */; };
+		99B632A416CC099D00AE7208 /* Car Tech (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632A216CC099D00AE7208 /* Car Tech (Av).jpg */; };
+		99B632A516CC099D00AE7208 /* Car Tech [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632A316CC099D00AE7208 /* Car Tech [Ah].jpg */; };
+		99B632AF16CC0A2E00AE7208 /* Int Flower WP (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632A716CC0A2E00AE7208 /* Int Flower WP (1v).png */; };
+		99B632B016CC0A2E00AE7208 /* Int Flower WP (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632A816CC0A2E00AE7208 /* Int Flower WP (2v).png */; };
+		99B632B116CC0A2E00AE7208 /* Int Flower WP (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632A916CC0A2E00AE7208 /* Int Flower WP (Av).jpg */; };
+		99B632B316CC0A2E00AE7208 /* Int Flower WP [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632AB16CC0A2E00AE7208 /* Int Flower WP [1h].png */; };
+		99B632B416CC0A2E00AE7208 /* Int Flower WP [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632AC16CC0A2E00AE7208 /* Int Flower WP [2h].png */; };
+		99B632B516CC0A2E00AE7208 /* Int Flower WP [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632AD16CC0A2E00AE7208 /* Int Flower WP [Ah].jpg */; };
+		99B632C216CC0A8D00AE7208 /* Helion (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632BA16CC0A8D00AE7208 /* Helion (1v).png */; };
+		99B632C316CC0A8D00AE7208 /* Helion (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632BB16CC0A8D00AE7208 /* Helion (2v).png */; };
+		99B632C416CC0A8D00AE7208 /* Helion (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632BC16CC0A8D00AE7208 /* Helion (Av).jpg */; };
+		99B632C616CC0A8D00AE7208 /* Helion [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632BE16CC0A8D00AE7208 /* Helion [1h].png */; };
+		99B632C716CC0A8D00AE7208 /* Helion [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632BF16CC0A8D00AE7208 /* Helion [2h].png */; };
+		99B632C816CC0A8D00AE7208 /* Helion [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632C016CC0A8D00AE7208 /* Helion [Ah].jpg */; };
+		99B632D416CC0AE300AE7208 /* Farm (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D016CC0AE300AE7208 /* Farm (1v).png */; };
+		99B632D516CC0AE300AE7208 /* Farm (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D116CC0AE300AE7208 /* Farm (2v).png */; };
+		99B632D616CC0AE300AE7208 /* Farm [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D216CC0AE300AE7208 /* Farm [1h].png */; };
+		99B632D716CC0AE300AE7208 /* Farm [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D316CC0AE300AE7208 /* Farm [2h].png */; };
+		99B632DA16CC0AF700AE7208 /* Farm (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D816CC0AF700AE7208 /* Farm (Av).jpg */; };
+		99B632DB16CC0AF700AE7208 /* Farm [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D916CC0AF700AE7208 /* Farm [Ah].jpg */; };
+		99B632E516CC0B2300AE7208 /* Aqua Burst (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632DF16CC0B2300AE7208 /* Aqua Burst (1v).png */; };
+		99B632E616CC0B2300AE7208 /* Aqua Burst (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632E016CC0B2300AE7208 /* Aqua Burst (2v).png */; };
+		99B632E716CC0B2300AE7208 /* Aqua Burst (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632E116CC0B2300AE7208 /* Aqua Burst (Av).jpg */; };
+		99B632E816CC0B2300AE7208 /* Aqua Burst [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632E216CC0B2300AE7208 /* Aqua Burst [1h].png */; };
+		99B632E916CC0B2300AE7208 /* Aqua Burst [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632E316CC0B2300AE7208 /* Aqua Burst [2h].png */; };
+		99B632EA16CC0B2300AE7208 /* Aqua Burst [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632E416CC0B2300AE7208 /* Aqua Burst [Ah].jpg */; };
+		99B632F416CC0B7F00AE7208 /* Metallic Pyramids (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632EE16CC0B7F00AE7208 /* Metallic Pyramids (1v).png */; };
+		99B632F516CC0B7F00AE7208 /* Metallic Pyramids (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632EF16CC0B7F00AE7208 /* Metallic Pyramids (2v).png */; };
+		99B632F616CC0B7F00AE7208 /* Metallic Pyramids (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632F016CC0B7F00AE7208 /* Metallic Pyramids (Av).jpg */; };
+		99B632F716CC0B7F00AE7208 /* Metallic Pyramids [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632F116CC0B7F00AE7208 /* Metallic Pyramids [1h].png */; };
+		99B632F816CC0B7F00AE7208 /* Metallic Pyramids [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632F216CC0B7F00AE7208 /* Metallic Pyramids [2h].png */; };
+		99B632F916CC0B7F00AE7208 /* Metallic pyramids [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632F316CC0B7F00AE7208 /* Metallic pyramids [Ah].jpg */; };
+		99B632FC16CC317800AE7208 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 99B632FA16CC317700AE7208 /* iTunesArtwork */; };
+		99B632FD16CC317800AE7208 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 99B632FB16CC317800AE7208 /* iTunesArtwork@2x */; };
 		99BAF0721695779700D9F3B7 /* addFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BAF0711695779700D9F3B7 /* addFunc.m */; };
 		99BAF07A16957CE500D9F3B7 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BAF07916957CE500D9F3B7 /* Icon-72.png */; };
 		99BAF07D16957CEC00D9F3B7 /* icon(144).png in Resources */ = {isa = PBXBuildFile; fileRef = 99BAF07C16957CEC00D9F3B7 /* icon(144).png */; };
 		99DA843D169DEC2400524D00 /* Flower (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA8437169DEC2400524D00 /* Flower (1v).png */; };
 		99DA843E169DEC2400524D00 /* Flower (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA8438169DEC2400524D00 /* Flower (2v).png */; };
-		99DA843F169DEC2400524D00 /* Flower (Av).png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA8439169DEC2400524D00 /* Flower (Av).png */; };
 		99DA8440169DEC2400524D00 /* Flower [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA843A169DEC2400524D00 /* Flower [1h].png */; };
 		99DA8441169DEC2400524D00 /* Flower [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA843B169DEC2400524D00 /* Flower [2h].png */; };
-		99DA8442169DEC2400524D00 /* Flower [Ah].png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA843C169DEC2400524D00 /* Flower [Ah].png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,28 +113,15 @@
 		991DFF8E16A31FD800923715 /* Space (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space (2v).png"; path = "Pictures/Calc (space theme)/Space (2v).png"; sourceTree = SOURCE_ROOT; };
 		991DFF8F16A31FD800923715 /* Space [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space [1h].png"; path = "Pictures/Calc (space theme)/Space [1h].png"; sourceTree = SOURCE_ROOT; };
 		991DFF9016A31FD800923715 /* Space [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space [2h].png"; path = "Pictures/Calc (space theme)/Space [2h].png"; sourceTree = SOURCE_ROOT; };
-		991DFF9516A31FE800923715 /* Space (Av).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space (Av).png"; path = "Pictures/Calc (space theme)/Space (Av).png"; sourceTree = SOURCE_ROOT; };
-		991DFF9616A31FE800923715 /* Space [Ah].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space [Ah].png"; path = "Pictures/Calc (space theme)/Space [Ah].png"; sourceTree = SOURCE_ROOT; };
 		99377C9716AE60A000FBE46B /* icon(57).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon(57).png"; path = "../icon(57).png"; sourceTree = "<group>"; };
 		99377C9916AE60B100FBE46B /* icon(114).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon(114).png"; path = "../icon(114).png"; sourceTree = "<group>"; };
-		9950988516995A8F0020BDC4 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Pictures/iTunesArtwork; sourceTree = SOURCE_ROOT; };
 		9950988B169965EC0020BDC4 /* BackgroundChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundChooser.h; sourceTree = "<group>"; };
 		9950988C169965EC0020BDC4 /* BackgroundChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundChooser.m; sourceTree = "<group>"; };
 		9950988F16998A130020BDC4 /* Wood (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wood (1v).png"; sourceTree = "<group>"; };
 		9950989016998A130020BDC4 /* Wood (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wood (2v).png"; sourceTree = "<group>"; };
-		9950989116998A130020BDC4 /* Wood (Av).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wood (Av).png"; sourceTree = "<group>"; };
 		9950989216998A130020BDC4 /* Wood [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wood [1h].png"; sourceTree = "<group>"; };
 		9950989316998A130020BDC4 /* Wood [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wood [2h].png"; sourceTree = "<group>"; };
-		9950989416998A130020BDC4 /* Wood [Ah].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wood [Ah].png"; sourceTree = "<group>"; };
-		995511BF1696FFFA008C70D0 /* Metal (Av).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal (Av).png"; path = "Pictures/Metal (Av).png"; sourceTree = SOURCE_ROOT; };
-		995511C31697036D008C70D0 /* metal (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "metal (1v).png"; path = "../Pictures/metal (1v).png"; sourceTree = "<group>"; };
-		995511C5169709A9008C70D0 /* Metal (Av) brighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal (Av) brighter.png"; path = "Pictures/Metal (Av) brighter.png"; sourceTree = SOURCE_ROOT; };
-		995511C7169709C7008C70D0 /* metal (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "metal (2v).png"; path = "Pictures/metal (2v).png"; sourceTree = SOURCE_ROOT; };
-		995511C916970DA4008C70D0 /* Metal [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal [1h].png"; path = "Pictures/Metal [1h].png"; sourceTree = SOURCE_ROOT; };
-		995511CA16970DA4008C70D0 /* Metal [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal [2h].png"; path = "Pictures/Metal [2h].png"; sourceTree = SOURCE_ROOT; };
-		995511CD16970DB3008C70D0 /* Metal [Ah].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal [Ah].png"; path = "Pictures/Metal [Ah].png"; sourceTree = SOURCE_ROOT; };
 		995511CF16971324008C70D0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		99621A6116C959A80049157C /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "Pictures/iTunesArtwork@2x"; sourceTree = SOURCE_ROOT; };
 		996339C316B49BE800EBCD4A /* Light Clean Corners (Dv).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Light Clean Corners (Dv).png"; path = "Pictures/Display/Light Clean Corners (Dv).png"; sourceTree = SOURCE_ROOT; };
 		996339C416B49BE800EBCD4A /* Light Clean Corners [Dh].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Light Clean Corners [Dh].png"; path = "Pictures/Display/Light Clean Corners [Dh].png"; sourceTree = SOURCE_ROOT; };
 		99709BFB1686E7BB00A793BC /* Wicked Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wicked Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,22 +149,64 @@
 		99709C331686E7BC00A793BC /* fractionCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fractionCalcTests.m; sourceTree = "<group>"; };
 		99879AC816ABA15A00B959D2 /* Car Tech (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech (1v).png"; sourceTree = "<group>"; };
 		99879AC916ABA15A00B959D2 /* Car Tech (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech (2v).png"; sourceTree = "<group>"; };
-		99879ACA16ABA15A00B959D2 /* Car Tech (Av).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech (Av).png"; sourceTree = "<group>"; };
 		99879ACB16ABA15A00B959D2 /* Car Tech [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech [1h].png"; sourceTree = "<group>"; };
 		99879ACC16ABA15A00B959D2 /* Car Tech [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech [2h].png"; sourceTree = "<group>"; };
-		99879ACD16ABA15A00B959D2 /* Car Tech [Ah].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech [Ah].png"; sourceTree = "<group>"; };
 		99A0284E16C8C48800AF194C /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		99A0284F16C8C48800AF194C /* queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = queue.m; sourceTree = "<group>"; };
+		99B6328A16CC08FE00AE7208 /* Metal (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Metal (Av).jpg"; path = "Pictures/Calc (metal theme)/Metal (Av).jpg"; sourceTree = SOURCE_ROOT; };
+		99B6328B16CC08FE00AE7208 /* Metal [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Metal [Ah].jpg"; path = "Pictures/Calc (metal theme)/Metal [Ah].jpg"; sourceTree = SOURCE_ROOT; };
+		99B6328E16CC091700AE7208 /* metal (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "metal (1v).png"; path = "Pictures/Calc (metal theme)/metal (1v).png"; sourceTree = SOURCE_ROOT; };
+		99B6328F16CC091700AE7208 /* metal (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "metal (2v).png"; path = "Pictures/Calc (metal theme)/metal (2v).png"; sourceTree = SOURCE_ROOT; };
+		99B6329016CC091700AE7208 /* Metal [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal [1h].png"; path = "Pictures/Calc (metal theme)/Metal [1h].png"; sourceTree = SOURCE_ROOT; };
+		99B6329116CC091700AE7208 /* Metal [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal [2h].png"; path = "Pictures/Calc (metal theme)/Metal [2h].png"; sourceTree = SOURCE_ROOT; };
+		99B6329616CC092700AE7208 /* Wood (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wood (Av).jpg"; sourceTree = "<group>"; };
+		99B6329716CC092700AE7208 /* Wood [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wood [Ah].jpg"; sourceTree = "<group>"; };
+		99B6329A16CC096C00AE7208 /* Flower (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Flower (Av).jpg"; path = "Pictures/Calc (flower pink theme)/Flower (Av).jpg"; sourceTree = SOURCE_ROOT; };
+		99B6329B16CC096C00AE7208 /* Flower [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Flower [Ah].jpg"; path = "Pictures/Calc (flower pink theme)/Flower [Ah].jpg"; sourceTree = SOURCE_ROOT; };
+		99B6329E16CC098F00AE7208 /* Space (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Space (Av).jpg"; path = "Pictures/Calc (space theme)/Space (Av).jpg"; sourceTree = SOURCE_ROOT; };
+		99B6329F16CC098F00AE7208 /* Space [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Space [Ah].jpg"; path = "Pictures/Calc (space theme)/Space [Ah].jpg"; sourceTree = SOURCE_ROOT; };
+		99B632A216CC099D00AE7208 /* Car Tech (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Car Tech (Av).jpg"; sourceTree = "<group>"; };
+		99B632A316CC099D00AE7208 /* Car Tech [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Car Tech [Ah].jpg"; sourceTree = "<group>"; };
+		99B632A716CC0A2E00AE7208 /* Int Flower WP (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Int Flower WP (1v).png"; path = "Pictures/Calc (Int Flower WP theme)/Int Flower WP (1v).png"; sourceTree = SOURCE_ROOT; };
+		99B632A816CC0A2E00AE7208 /* Int Flower WP (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Int Flower WP (2v).png"; path = "Pictures/Calc (Int Flower WP theme)/Int Flower WP (2v).png"; sourceTree = SOURCE_ROOT; };
+		99B632A916CC0A2E00AE7208 /* Int Flower WP (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Int Flower WP (Av).jpg"; path = "Pictures/Calc (Int Flower WP theme)/Int Flower WP (Av).jpg"; sourceTree = SOURCE_ROOT; };
+		99B632AB16CC0A2E00AE7208 /* Int Flower WP [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Int Flower WP [1h].png"; path = "Pictures/Calc (Int Flower WP theme)/Int Flower WP [1h].png"; sourceTree = SOURCE_ROOT; };
+		99B632AC16CC0A2E00AE7208 /* Int Flower WP [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Int Flower WP [2h].png"; path = "Pictures/Calc (Int Flower WP theme)/Int Flower WP [2h].png"; sourceTree = SOURCE_ROOT; };
+		99B632AD16CC0A2E00AE7208 /* Int Flower WP [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Int Flower WP [Ah].jpg"; path = "Pictures/Calc (Int Flower WP theme)/Int Flower WP [Ah].jpg"; sourceTree = SOURCE_ROOT; };
+		99B632BA16CC0A8D00AE7208 /* Helion (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Helion (1v).png"; path = "Pictures/Calc (Helion theme)/Helion (1v).png"; sourceTree = SOURCE_ROOT; };
+		99B632BB16CC0A8D00AE7208 /* Helion (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Helion (2v).png"; path = "Pictures/Calc (Helion theme)/Helion (2v).png"; sourceTree = SOURCE_ROOT; };
+		99B632BC16CC0A8D00AE7208 /* Helion (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Helion (Av).jpg"; path = "Pictures/Calc (Helion theme)/Helion (Av).jpg"; sourceTree = SOURCE_ROOT; };
+		99B632BE16CC0A8D00AE7208 /* Helion [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Helion [1h].png"; path = "Pictures/Calc (Helion theme)/Helion [1h].png"; sourceTree = SOURCE_ROOT; };
+		99B632BF16CC0A8D00AE7208 /* Helion [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Helion [2h].png"; path = "Pictures/Calc (Helion theme)/Helion [2h].png"; sourceTree = SOURCE_ROOT; };
+		99B632C016CC0A8D00AE7208 /* Helion [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Helion [Ah].jpg"; path = "Pictures/Calc (Helion theme)/Helion [Ah].jpg"; sourceTree = SOURCE_ROOT; };
+		99B632D016CC0AE300AE7208 /* Farm (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farm (1v).png"; path = "Pictures/Calc (farm theme)/Farm (1v).png"; sourceTree = SOURCE_ROOT; };
+		99B632D116CC0AE300AE7208 /* Farm (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farm (2v).png"; path = "Pictures/Calc (farm theme)/Farm (2v).png"; sourceTree = SOURCE_ROOT; };
+		99B632D216CC0AE300AE7208 /* Farm [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farm [1h].png"; path = "Pictures/Calc (farm theme)/Farm [1h].png"; sourceTree = SOURCE_ROOT; };
+		99B632D316CC0AE300AE7208 /* Farm [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farm [2h].png"; path = "Pictures/Calc (farm theme)/Farm [2h].png"; sourceTree = SOURCE_ROOT; };
+		99B632D816CC0AF700AE7208 /* Farm (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Farm (Av).jpg"; path = "Pictures/Calc (farm theme)/Farm (Av).jpg"; sourceTree = SOURCE_ROOT; };
+		99B632D916CC0AF700AE7208 /* Farm [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Farm [Ah].jpg"; path = "Pictures/Calc (farm theme)/Farm [Ah].jpg"; sourceTree = SOURCE_ROOT; };
+		99B632DF16CC0B2300AE7208 /* Aqua Burst (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aqua Burst (1v).png"; path = "Pictures/Calc (Aqua burst)/Aqua Burst (1v).png"; sourceTree = SOURCE_ROOT; };
+		99B632E016CC0B2300AE7208 /* Aqua Burst (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aqua Burst (2v).png"; path = "Pictures/Calc (Aqua burst)/Aqua Burst (2v).png"; sourceTree = SOURCE_ROOT; };
+		99B632E116CC0B2300AE7208 /* Aqua Burst (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Aqua Burst (Av).jpg"; path = "Pictures/Calc (Aqua burst)/Aqua Burst (Av).jpg"; sourceTree = SOURCE_ROOT; };
+		99B632E216CC0B2300AE7208 /* Aqua Burst [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aqua Burst [1h].png"; path = "Pictures/Calc (Aqua burst)/Aqua Burst [1h].png"; sourceTree = SOURCE_ROOT; };
+		99B632E316CC0B2300AE7208 /* Aqua Burst [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aqua Burst [2h].png"; path = "Pictures/Calc (Aqua burst)/Aqua Burst [2h].png"; sourceTree = SOURCE_ROOT; };
+		99B632E416CC0B2300AE7208 /* Aqua Burst [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Aqua Burst [Ah].jpg"; path = "Pictures/Calc (Aqua burst)/Aqua Burst [Ah].jpg"; sourceTree = SOURCE_ROOT; };
+		99B632EE16CC0B7F00AE7208 /* Metallic Pyramids (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metallic Pyramids (1v).png"; path = "Pictures/Calc (Pyramid theme)/Metallic Pyramids (1v).png"; sourceTree = SOURCE_ROOT; };
+		99B632EF16CC0B7F00AE7208 /* Metallic Pyramids (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metallic Pyramids (2v).png"; path = "Pictures/Calc (Pyramid theme)/Metallic Pyramids (2v).png"; sourceTree = SOURCE_ROOT; };
+		99B632F016CC0B7F00AE7208 /* Metallic Pyramids (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Metallic Pyramids (Av).jpg"; path = "Pictures/Calc (Pyramid theme)/Metallic Pyramids (Av).jpg"; sourceTree = SOURCE_ROOT; };
+		99B632F116CC0B7F00AE7208 /* Metallic Pyramids [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metallic Pyramids [1h].png"; path = "Pictures/Calc (Pyramid theme)/Metallic Pyramids [1h].png"; sourceTree = SOURCE_ROOT; };
+		99B632F216CC0B7F00AE7208 /* Metallic Pyramids [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metallic Pyramids [2h].png"; path = "Pictures/Calc (Pyramid theme)/Metallic Pyramids [2h].png"; sourceTree = SOURCE_ROOT; };
+		99B632F316CC0B7F00AE7208 /* Metallic pyramids [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Metallic pyramids [Ah].jpg"; path = "Pictures/Calc (Pyramid theme)/Metallic pyramids [Ah].jpg"; sourceTree = SOURCE_ROOT; };
+		99B632FA16CC317700AE7208 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Pictures/Icon/iTunesArtwork; sourceTree = SOURCE_ROOT; };
+		99B632FB16CC317800AE7208 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "Pictures/Icon/iTunesArtwork@2x"; sourceTree = SOURCE_ROOT; };
 		99BAF0701695779700D9F3B7 /* addFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addFunc.h; sourceTree = "<group>"; };
 		99BAF0711695779700D9F3B7 /* addFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addFunc.m; sourceTree = "<group>"; };
 		99BAF07916957CE500D9F3B7 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
 		99BAF07C16957CEC00D9F3B7 /* icon(144).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon(144).png"; path = "../icon(144).png"; sourceTree = "<group>"; };
 		99DA8437169DEC2400524D00 /* Flower (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower (1v).png"; path = "Pictures/Calc (flower pink theme)/Flower (1v).png"; sourceTree = SOURCE_ROOT; };
 		99DA8438169DEC2400524D00 /* Flower (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower (2v).png"; path = "Pictures/Calc (flower pink theme)/Flower (2v).png"; sourceTree = SOURCE_ROOT; };
-		99DA8439169DEC2400524D00 /* Flower (Av).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower (Av).png"; path = "Pictures/Calc (flower pink theme)/Flower (Av).png"; sourceTree = SOURCE_ROOT; };
 		99DA843A169DEC2400524D00 /* Flower [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower [1h].png"; path = "Pictures/Calc (flower pink theme)/Flower [1h].png"; sourceTree = SOURCE_ROOT; };
 		99DA843B169DEC2400524D00 /* Flower [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower [2h].png"; path = "Pictures/Calc (flower pink theme)/Flower [2h].png"; sourceTree = SOURCE_ROOT; };
-		99DA843C169DEC2400524D00 /* Flower [Ah].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower [Ah].png"; path = "Pictures/Calc (flower pink theme)/Flower [Ah].png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,25 +234,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		991DFF8A16A31F9600923715 /* Space */ = {
+		991DFF8A16A31F9600923715 /* 4. Space */ = {
 			isa = PBXGroup;
 			children = (
-				991DFF8C16A31FB000923715 /* Background */,
-				991DFF8B16A31FA900923715 /* Keys */,
+				991DFF8C16A31FB000923715 /* Keys */,
+				991DFF8B16A31FA900923715 /* Background */,
 			);
-			name = Space;
+			name = "4. Space";
 			sourceTree = "<group>";
 		};
-		991DFF8B16A31FA900923715 /* Keys */ = {
+		991DFF8B16A31FA900923715 /* Background */ = {
 			isa = PBXGroup;
 			children = (
-				991DFF9516A31FE800923715 /* Space (Av).png */,
-				991DFF9616A31FE800923715 /* Space [Ah].png */,
+				99B6329E16CC098F00AE7208 /* Space (Av).jpg */,
+				99B6329F16CC098F00AE7208 /* Space [Ah].jpg */,
 			);
-			name = Keys;
+			name = Background;
 			sourceTree = "<group>";
 		};
-		991DFF8C16A31FB000923715 /* Background */ = {
+		991DFF8C16A31FB000923715 /* Keys */ = {
 			isa = PBXGroup;
 			children = (
 				991DFF8D16A31FD800923715 /* Space (1v).png */,
@@ -202,37 +260,37 @@
 				991DFF8F16A31FD800923715 /* Space [1h].png */,
 				991DFF9016A31FD800923715 /* Space [2h].png */,
 			);
-			name = Background;
+			name = Keys;
 			sourceTree = "<group>";
 		};
 		99246ABB169599BE0036FFF0 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
+				99B632FA16CC317700AE7208 /* iTunesArtwork */,
+				99B632FB16CC317800AE7208 /* iTunesArtwork@2x */,
 				99377C9916AE60B100FBE46B /* icon(114).png */,
 				99377C9716AE60A000FBE46B /* icon(57).png */,
-				9950988516995A8F0020BDC4 /* iTunesArtwork */,
-				99621A6116C959A80049157C /* iTunesArtwork@2x */,
 				99BAF07C16957CEC00D9F3B7 /* icon(144).png */,
 				99BAF07916957CE500D9F3B7 /* Icon-72.png */,
 			);
 			name = Icon;
 			sourceTree = "<group>";
 		};
-		9950988E16998A120020BDC4 /* Wood */ = {
+		9950988E16998A120020BDC4 /* 2. Wood */ = {
 			isa = PBXGroup;
 			children = (
 				9950989C16998A3C0020BDC4 /* Keys */,
 				9950989B16998A220020BDC4 /* Background */,
 			);
-			name = Wood;
+			name = "2. Wood";
 			path = "../Pictures/Calc (wood theme)";
 			sourceTree = "<group>";
 		};
 		9950989B16998A220020BDC4 /* Background */ = {
 			isa = PBXGroup;
 			children = (
-				9950989416998A130020BDC4 /* Wood [Ah].png */,
-				9950989116998A130020BDC4 /* Wood (Av).png */,
+				99B6329616CC092700AE7208 /* Wood (Av).jpg */,
+				99B6329716CC092700AE7208 /* Wood [Ah].jpg */,
 			);
 			name = Background;
 			sourceTree = "<group>";
@@ -257,21 +315,20 @@
 			name = Display;
 			sourceTree = "<group>";
 		};
-		995511BB1696FFDE008C70D0 /* Metal */ = {
+		995511BB1696FFDE008C70D0 /* 0. Metal */ = {
 			isa = PBXGroup;
 			children = (
 				995511C21697003D008C70D0 /* Keys */,
 				995511BD1696FFE9008C70D0 /* Background */,
 			);
-			name = Metal;
+			name = "0. Metal";
 			sourceTree = "<group>";
 		};
 		995511BD1696FFE9008C70D0 /* Background */ = {
 			isa = PBXGroup;
 			children = (
-				995511CD16970DB3008C70D0 /* Metal [Ah].png */,
-				995511C5169709A9008C70D0 /* Metal (Av) brighter.png */,
-				995511BF1696FFFA008C70D0 /* Metal (Av).png */,
+				99B6328A16CC08FE00AE7208 /* Metal (Av).jpg */,
+				99B6328B16CC08FE00AE7208 /* Metal [Ah].jpg */,
 			);
 			name = Background;
 			sourceTree = "<group>";
@@ -279,10 +336,10 @@
 		995511C21697003D008C70D0 /* Keys */ = {
 			isa = PBXGroup;
 			children = (
-				995511C916970DA4008C70D0 /* Metal [1h].png */,
-				995511CA16970DA4008C70D0 /* Metal [2h].png */,
-				995511C7169709C7008C70D0 /* metal (2v).png */,
-				995511C31697036D008C70D0 /* metal (1v).png */,
+				99B6328E16CC091700AE7208 /* metal (1v).png */,
+				99B6328F16CC091700AE7208 /* metal (2v).png */,
+				99B6329016CC091700AE7208 /* Metal [1h].png */,
+				99B6329116CC091700AE7208 /* Metal [2h].png */,
 			);
 			name = Keys;
 			sourceTree = "<group>";
@@ -330,9 +387,9 @@
 				99BAF0711695779700D9F3B7 /* addFunc.m */,
 				9950988B169965EC0020BDC4 /* BackgroundChooser.h */,
 				9950988C169965EC0020BDC4 /* BackgroundChooser.m */,
-				99709C061686E7BB00A793BC /* Supporting Files */,
 				99A0284E16C8C48800AF194C /* queue.h */,
 				99A0284F16C8C48800AF194C /* queue.m */,
+				99709C061686E7BB00A793BC /* Supporting Files */,
 			);
 			path = fractionCalc;
 			sourceTree = "<group>";
@@ -370,13 +427,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		99879AC716ABA15A00B959D2 /* Calc (car tech theme) */ = {
+		99879AC716ABA15A00B959D2 /* 3. Tech */ = {
 			isa = PBXGroup;
 			children = (
 				99879AD516ABA17E00B959D2 /* Background */,
 				99879AD416ABA16D00B959D2 /* Keys */,
 			);
-			name = "Calc (car tech theme)";
+			name = "3. Tech";
 			path = "Pictures/Calc (car tech theme)";
 			sourceTree = SOURCE_ROOT;
 		};
@@ -394,8 +451,153 @@
 		99879AD516ABA17E00B959D2 /* Background */ = {
 			isa = PBXGroup;
 			children = (
-				99879ACA16ABA15A00B959D2 /* Car Tech (Av).png */,
-				99879ACD16ABA15A00B959D2 /* Car Tech [Ah].png */,
+				99B632A216CC099D00AE7208 /* Car Tech (Av).jpg */,
+				99B632A316CC099D00AE7208 /* Car Tech [Ah].jpg */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		99B632A616CC0A1A00AE7208 /* 6. Int Flower */ = {
+			isa = PBXGroup;
+			children = (
+				99B632B816CC0A5100AE7208 /* Keys */,
+				99B632B716CC0A4400AE7208 /* Background */,
+			);
+			name = "6. Int Flower";
+			sourceTree = "<group>";
+		};
+		99B632B716CC0A4400AE7208 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				99B632A916CC0A2E00AE7208 /* Int Flower WP (Av).jpg */,
+				99B632AD16CC0A2E00AE7208 /* Int Flower WP [Ah].jpg */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		99B632B816CC0A5100AE7208 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				99B632AB16CC0A2E00AE7208 /* Int Flower WP [1h].png */,
+				99B632AC16CC0A2E00AE7208 /* Int Flower WP [2h].png */,
+				99B632A716CC0A2E00AE7208 /* Int Flower WP (1v).png */,
+				99B632A816CC0A2E00AE7208 /* Int Flower WP (2v).png */,
+			);
+			name = Keys;
+			sourceTree = "<group>";
+		};
+		99B632B916CC0A7E00AE7208 /* 5. Helion */ = {
+			isa = PBXGroup;
+			children = (
+				99B632CB16CC0A9600AE7208 /* Keys */,
+				99B632CA16CC0A9000AE7208 /* Background */,
+			);
+			name = "5. Helion";
+			sourceTree = "<group>";
+		};
+		99B632CA16CC0A9000AE7208 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				99B632BC16CC0A8D00AE7208 /* Helion (Av).jpg */,
+				99B632C016CC0A8D00AE7208 /* Helion [Ah].jpg */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		99B632CB16CC0A9600AE7208 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				99B632BA16CC0A8D00AE7208 /* Helion (1v).png */,
+				99B632BB16CC0A8D00AE7208 /* Helion (2v).png */,
+				99B632BE16CC0A8D00AE7208 /* Helion [1h].png */,
+				99B632BF16CC0A8D00AE7208 /* Helion [2h].png */,
+			);
+			name = Keys;
+			sourceTree = "<group>";
+		};
+		99B632CC16CC0AB800AE7208 /* 7. Sky */ = {
+			isa = PBXGroup;
+			children = (
+				99B632CF16CC0ACD00AE7208 /* Keys */,
+				99B632CD16CC0AC100AE7208 /* Background */,
+			);
+			name = "7. Sky";
+			sourceTree = "<group>";
+		};
+		99B632CD16CC0AC100AE7208 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				99B632D816CC0AF700AE7208 /* Farm (Av).jpg */,
+				99B632D916CC0AF700AE7208 /* Farm [Ah].jpg */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		99B632CF16CC0ACD00AE7208 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				99B632D016CC0AE300AE7208 /* Farm (1v).png */,
+				99B632D116CC0AE300AE7208 /* Farm (2v).png */,
+				99B632D216CC0AE300AE7208 /* Farm [1h].png */,
+				99B632D316CC0AE300AE7208 /* Farm [2h].png */,
+			);
+			name = Keys;
+			sourceTree = "<group>";
+		};
+		99B632DC16CC0B0800AE7208 /* 8. Aqua Burst */ = {
+			isa = PBXGroup;
+			children = (
+				99B632DE16CC0B1200AE7208 /* Background */,
+				99B632DD16CC0B0E00AE7208 /* Keys */,
+			);
+			name = "8. Aqua Burst";
+			sourceTree = "<group>";
+		};
+		99B632DD16CC0B0E00AE7208 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				99B632DF16CC0B2300AE7208 /* Aqua Burst (1v).png */,
+				99B632E016CC0B2300AE7208 /* Aqua Burst (2v).png */,
+				99B632E216CC0B2300AE7208 /* Aqua Burst [1h].png */,
+				99B632E316CC0B2300AE7208 /* Aqua Burst [2h].png */,
+			);
+			name = Keys;
+			sourceTree = "<group>";
+		};
+		99B632DE16CC0B1200AE7208 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				99B632E116CC0B2300AE7208 /* Aqua Burst (Av).jpg */,
+				99B632E416CC0B2300AE7208 /* Aqua Burst [Ah].jpg */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		99B632EB16CC0B5700AE7208 /* 9. Pyramid */ = {
+			isa = PBXGroup;
+			children = (
+				99B632ED16CC0B6E00AE7208 /* Background */,
+				99B632EC16CC0B6800AE7208 /* Keys */,
+			);
+			name = "9. Pyramid";
+			sourceTree = "<group>";
+		};
+		99B632EC16CC0B6800AE7208 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				99B632EE16CC0B7F00AE7208 /* Metallic Pyramids (1v).png */,
+				99B632EF16CC0B7F00AE7208 /* Metallic Pyramids (2v).png */,
+				99B632F116CC0B7F00AE7208 /* Metallic Pyramids [1h].png */,
+				99B632F216CC0B7F00AE7208 /* Metallic Pyramids [2h].png */,
+			);
+			name = Keys;
+			sourceTree = "<group>";
+		};
+		99B632ED16CC0B6E00AE7208 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				99B632F016CC0B7F00AE7208 /* Metallic Pyramids (Av).jpg */,
+				99B632F316CC0B7F00AE7208 /* Metallic pyramids [Ah].jpg */,
 			);
 			name = Background;
 			sourceTree = "<group>";
@@ -405,24 +607,29 @@
 			children = (
 				99709C171686E7BB00A793BC /* MainStoryboard_iPhone.storyboard */,
 				99709C1A1686E7BB00A793BC /* MainStoryboard_iPad.storyboard */,
+				995511BB1696FFDE008C70D0 /* 0. Metal */,
+				99DA8435169DEBF900524D00 /* 1. Flower */,
+				9950988E16998A120020BDC4 /* 2. Wood */,
+				99879AC716ABA15A00B959D2 /* 3. Tech */,
+				991DFF8A16A31F9600923715 /* 4. Space */,
+				99B632B916CC0A7E00AE7208 /* 5. Helion */,
+				99B632A616CC0A1A00AE7208 /* 6. Int Flower */,
+				99B632CC16CC0AB800AE7208 /* 7. Sky */,
+				99B632DC16CC0B0800AE7208 /* 8. Aqua Burst */,
+				99B632EB16CC0B5700AE7208 /* 9. Pyramid */,
 				9952AB7F16B03E030075D233 /* Display */,
-				99879AC716ABA15A00B959D2 /* Calc (car tech theme) */,
-				991DFF8A16A31F9600923715 /* Space */,
-				99DA8435169DEBF900524D00 /* Flower */,
-				9950988E16998A120020BDC4 /* Wood */,
-				995511BB1696FFDE008C70D0 /* Metal */,
 				99246ABB169599BE0036FFF0 /* Icon */,
 			);
 			name = Design;
 			sourceTree = "<group>";
 		};
-		99DA8435169DEBF900524D00 /* Flower */ = {
+		99DA8435169DEBF900524D00 /* 1. Flower */ = {
 			isa = PBXGroup;
 			children = (
 				99DA8445169DEC3A00524D00 /* Background */,
 				99DA8443169DEC2800524D00 /* Keys */,
 			);
-			name = Flower;
+			name = "1. Flower";
 			sourceTree = "<group>";
 		};
 		99DA8443169DEC2800524D00 /* Keys */ = {
@@ -439,8 +646,8 @@
 		99DA8445169DEC3A00524D00 /* Background */ = {
 			isa = PBXGroup;
 			children = (
-				99DA8439169DEC2400524D00 /* Flower (Av).png */,
-				99DA843C169DEC2400524D00 /* Flower [Ah].png */,
+				99B6329A16CC096C00AE7208 /* Flower (Av).jpg */,
+				99B6329B16CC096C00AE7208 /* Flower [Ah].jpg */,
 			);
 			name = Background;
 			sourceTree = "<group>";
@@ -524,43 +731,72 @@
 				99709C1C1686E7BB00A793BC /* MainStoryboard_iPad.storyboard in Resources */,
 				99BAF07A16957CE500D9F3B7 /* Icon-72.png in Resources */,
 				99BAF07D16957CEC00D9F3B7 /* icon(144).png in Resources */,
-				995511C11696FFFA008C70D0 /* Metal (Av).png in Resources */,
-				995511C41697036D008C70D0 /* metal (1v).png in Resources */,
-				995511C6169709A9008C70D0 /* Metal (Av) brighter.png in Resources */,
-				995511C8169709C7008C70D0 /* metal (2v).png in Resources */,
-				995511CB16970DA4008C70D0 /* Metal [1h].png in Resources */,
-				995511CC16970DA4008C70D0 /* Metal [2h].png in Resources */,
-				995511CE16970DB3008C70D0 /* Metal [Ah].png in Resources */,
-				9950988616995A8F0020BDC4 /* iTunesArtwork in Resources */,
 				9950989516998A130020BDC4 /* Wood (1v).png in Resources */,
 				9950989616998A130020BDC4 /* Wood (2v).png in Resources */,
-				9950989716998A130020BDC4 /* Wood (Av).png in Resources */,
 				9950989816998A130020BDC4 /* Wood [1h].png in Resources */,
 				9950989916998A130020BDC4 /* Wood [2h].png in Resources */,
-				9950989A16998A130020BDC4 /* Wood [Ah].png in Resources */,
 				99DA843D169DEC2400524D00 /* Flower (1v).png in Resources */,
 				99DA843E169DEC2400524D00 /* Flower (2v).png in Resources */,
-				99DA843F169DEC2400524D00 /* Flower (Av).png in Resources */,
 				99DA8440169DEC2400524D00 /* Flower [1h].png in Resources */,
 				99DA8441169DEC2400524D00 /* Flower [2h].png in Resources */,
-				99DA8442169DEC2400524D00 /* Flower [Ah].png in Resources */,
 				991DFF9116A31FD800923715 /* Space (1v).png in Resources */,
 				991DFF9216A31FD800923715 /* Space (2v).png in Resources */,
 				991DFF9316A31FD800923715 /* Space [1h].png in Resources */,
 				991DFF9416A31FD800923715 /* Space [2h].png in Resources */,
-				991DFF9716A31FE800923715 /* Space (Av).png in Resources */,
-				991DFF9816A31FE800923715 /* Space [Ah].png in Resources */,
 				99879ACE16ABA15A00B959D2 /* Car Tech (1v).png in Resources */,
 				99879ACF16ABA15A00B959D2 /* Car Tech (2v).png in Resources */,
-				99879AD016ABA15A00B959D2 /* Car Tech (Av).png in Resources */,
 				99879AD116ABA15A00B959D2 /* Car Tech [1h].png in Resources */,
 				99879AD216ABA15A00B959D2 /* Car Tech [2h].png in Resources */,
-				99879AD316ABA15A00B959D2 /* Car Tech [Ah].png in Resources */,
 				99377C9816AE60A000FBE46B /* icon(57).png in Resources */,
 				99377C9A16AE60B100FBE46B /* icon(114).png in Resources */,
 				996339C516B49BE800EBCD4A /* Light Clean Corners (Dv).png in Resources */,
 				996339C616B49BE800EBCD4A /* Light Clean Corners [Dh].png in Resources */,
-				99621A6216C959A80049157C /* iTunesArtwork@2x in Resources */,
+				99B6328C16CC08FE00AE7208 /* Metal (Av).jpg in Resources */,
+				99B6328D16CC08FE00AE7208 /* Metal [Ah].jpg in Resources */,
+				99B6329216CC091700AE7208 /* metal (1v).png in Resources */,
+				99B6329316CC091700AE7208 /* metal (2v).png in Resources */,
+				99B6329416CC091700AE7208 /* Metal [1h].png in Resources */,
+				99B6329516CC091700AE7208 /* Metal [2h].png in Resources */,
+				99B6329816CC092700AE7208 /* Wood (Av).jpg in Resources */,
+				99B6329916CC092700AE7208 /* Wood [Ah].jpg in Resources */,
+				99B6329C16CC096C00AE7208 /* Flower (Av).jpg in Resources */,
+				99B6329D16CC096C00AE7208 /* Flower [Ah].jpg in Resources */,
+				99B632A016CC098F00AE7208 /* Space (Av).jpg in Resources */,
+				99B632A116CC098F00AE7208 /* Space [Ah].jpg in Resources */,
+				99B632A416CC099D00AE7208 /* Car Tech (Av).jpg in Resources */,
+				99B632A516CC099D00AE7208 /* Car Tech [Ah].jpg in Resources */,
+				99B632AF16CC0A2E00AE7208 /* Int Flower WP (1v).png in Resources */,
+				99B632B016CC0A2E00AE7208 /* Int Flower WP (2v).png in Resources */,
+				99B632B116CC0A2E00AE7208 /* Int Flower WP (Av).jpg in Resources */,
+				99B632B316CC0A2E00AE7208 /* Int Flower WP [1h].png in Resources */,
+				99B632B416CC0A2E00AE7208 /* Int Flower WP [2h].png in Resources */,
+				99B632B516CC0A2E00AE7208 /* Int Flower WP [Ah].jpg in Resources */,
+				99B632C216CC0A8D00AE7208 /* Helion (1v).png in Resources */,
+				99B632C316CC0A8D00AE7208 /* Helion (2v).png in Resources */,
+				99B632C416CC0A8D00AE7208 /* Helion (Av).jpg in Resources */,
+				99B632C616CC0A8D00AE7208 /* Helion [1h].png in Resources */,
+				99B632C716CC0A8D00AE7208 /* Helion [2h].png in Resources */,
+				99B632C816CC0A8D00AE7208 /* Helion [Ah].jpg in Resources */,
+				99B632D416CC0AE300AE7208 /* Farm (1v).png in Resources */,
+				99B632D516CC0AE300AE7208 /* Farm (2v).png in Resources */,
+				99B632D616CC0AE300AE7208 /* Farm [1h].png in Resources */,
+				99B632D716CC0AE300AE7208 /* Farm [2h].png in Resources */,
+				99B632DA16CC0AF700AE7208 /* Farm (Av).jpg in Resources */,
+				99B632DB16CC0AF700AE7208 /* Farm [Ah].jpg in Resources */,
+				99B632E516CC0B2300AE7208 /* Aqua Burst (1v).png in Resources */,
+				99B632E616CC0B2300AE7208 /* Aqua Burst (2v).png in Resources */,
+				99B632E716CC0B2300AE7208 /* Aqua Burst (Av).jpg in Resources */,
+				99B632E816CC0B2300AE7208 /* Aqua Burst [1h].png in Resources */,
+				99B632E916CC0B2300AE7208 /* Aqua Burst [2h].png in Resources */,
+				99B632EA16CC0B2300AE7208 /* Aqua Burst [Ah].jpg in Resources */,
+				99B632F416CC0B7F00AE7208 /* Metallic Pyramids (1v).png in Resources */,
+				99B632F516CC0B7F00AE7208 /* Metallic Pyramids (2v).png in Resources */,
+				99B632F616CC0B7F00AE7208 /* Metallic Pyramids (Av).jpg in Resources */,
+				99B632F716CC0B7F00AE7208 /* Metallic Pyramids [1h].png in Resources */,
+				99B632F816CC0B7F00AE7208 /* Metallic Pyramids [2h].png in Resources */,
+				99B632F916CC0B7F00AE7208 /* Metallic pyramids [Ah].jpg in Resources */,
+				99B632FC16CC317800AE7208 /* iTunesArtwork in Resources */,
+				99B632FD16CC317800AE7208 /* iTunesArtwork@2x in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -61,7 +61,7 @@
     return queue_array.count;
 }
 
-- (id) index:(NSIndexPath*)at
+- (id) index:(NSUInteger*)at
 {
     return [queue_array objectAtIndex:at];
 }
