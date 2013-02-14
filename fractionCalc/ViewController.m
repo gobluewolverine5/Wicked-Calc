@@ -817,7 +817,8 @@
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:0.8];
     
-    if (SideBar.frame.size.width == self.view.frame.size.width/2) //Closing Side Bar
+    if (SideBar.frame.size.width == self.view.frame.size.width/2 ||
+        SideBar.frame.size.width == self.view.frame.size.width/4) //Closing Side Bar
     {
         
         SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, 0, SideBar.frame.size.height);
@@ -828,9 +829,17 @@
     }
     else //Opening Side Bar
     {
-        SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, self.view.frame.size.width/2, SideBar.frame.size.height);
-        SlideButton.frame = CGRectMake(self.view.frame.size.width/2, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
-        [SlideButton setTitle:@"<" forState:UIControlStateNormal];
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
+            SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, self.view.frame.size.width/2, SideBar.frame.size.height);
+            SlideButton.frame = CGRectMake(self.view.frame.size.width/2, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
+            [SlideButton setTitle:@"<" forState:UIControlStateNormal];
+        }
+        else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
+            SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, self.view.frame.size.width/4, SideBar.frame.size.height);
+            SlideButton.frame = CGRectMake(self.view.frame.size.width/4, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
+            [SlideButton setTitle:@"<" forState:UIControlStateNormal];
+        }
+
         [self HistoryBar:1];
     }
     [UIView commitAnimations];
