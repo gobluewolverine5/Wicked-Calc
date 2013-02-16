@@ -53,6 +53,26 @@
             NSLog(@"case 10");//Pyramid
             return [UIImage imageNamed:@"Metallic Pyramids (Av).jpg"];
             break;
+        case 10:
+            NSLog(@"case 11"); //Blue
+            return [UIImage imageNamed:@"Blue (Av).jpg"];
+            break;
+        case 11:
+            NSLog(@"case 12");//Button
+            return [UIImage imageNamed:@"Button (Av).jpg"];
+            break;
+        case 12:
+            NSLog(@"case 13");//Grate
+            return [UIImage imageNamed:@"Grate (Av).png"];
+            break;
+        case 13:
+            NSLog(@"case 14");//Frosty Leaves
+            return [UIImage imageNamed:@"Frosty Leaves (Av).jpg"];
+            break;
+        case 14:
+            NSLog(@"case 15");//Green
+            return [UIImage imageNamed:@"Green Theme (Av).jpg"];
+            break;
         default:
             NSLog(@"case default");
             return [UIImage imageNamed:@"Metal (Av).jpg"];
@@ -102,6 +122,26 @@
         case 9:
             NSLog(@"case 10");//Pyramid
             return [UIImage imageNamed:@"Metallic Pyramids [Ah].jpg"];
+            break;
+        case 10:
+            NSLog(@"case 11"); //Blue
+            return [UIImage imageNamed:@"Blue [Ah].jpg"];
+            break;
+        case 11:
+            NSLog(@"case 12");//Button
+            return [UIImage imageNamed:@"Button [Ah].jpg"];
+            break;
+        case 12:
+            NSLog(@"case 13");//Grate
+            return [UIImage imageNamed:@"Grate [Ah].jpg"];
+            break;
+        case 13:
+            NSLog(@"case 14");//Frosty Leaves
+            return [UIImage imageNamed:@"Frosty Leaves [Ah].jpg"];
+            break;
+        case 14:
+            NSLog(@"case 15");//Green
+            return [UIImage imageNamed:@"Green Theme [Ah].jpg"];
             break;
         default:
             NSLog(@"case default");
@@ -153,6 +193,26 @@
             NSLog(@"case 10");//Pyramid
             return [UIImage imageNamed:@"Metallic Pyramids (1v).png"];
             break;
+        case 10:
+            NSLog(@"case 11"); //Blue
+            return [UIImage imageNamed:@"Blue (1v).png"];
+            break;
+        case 11:
+            NSLog(@"case 12");//Button
+            return [UIImage imageNamed:@"Button (1v).png"];
+            break;
+        case 12:
+            NSLog(@"case 13");//Grate
+            return [UIImage imageNamed:@"Grate (1v).png"];
+            break;
+        case 13:
+            NSLog(@"case 14");//Frosty Leaves
+            return [UIImage imageNamed:@"Frosty Leaves (1v).png"];
+            break;
+        case 14:
+            NSLog(@"case 15");//Green
+            return [UIImage imageNamed:@"Green (1v).png"];
+            break;
         default:
             NSLog(@"case default");
             return [UIImage imageNamed:@"metal (1v).png"];
@@ -202,6 +262,26 @@
         case 9:
             NSLog(@"case 10");//Pyramid
             return [UIImage imageNamed:@"Metallic Pyramids (2v).png"];
+            break;
+        case 10:
+            NSLog(@"case 11"); //Blue
+            return [UIImage imageNamed:@"Blue (2v).png"];
+            break;
+        case 11:
+            NSLog(@"case 12");//Button
+            return [UIImage imageNamed:@"Button (2v).png"];
+            break;
+        case 12:
+            NSLog(@"case 13");//Grate
+            return [UIImage imageNamed:@"Grate (2v).png"];
+            break;
+        case 13:
+            NSLog(@"case 14");//Frosty Leaves
+            return [UIImage imageNamed:@"Frosty Leaves (2v).png"];
+            break;
+        case 14:
+            NSLog(@"case 15");//Green
+            return [UIImage imageNamed:@"Green (2v).png"];
             break;
         default:
             NSLog(@"case default");
@@ -253,6 +333,26 @@
             NSLog(@"case 10");//Pyramid
             return [UIImage imageNamed:@"Metallic Pyramids [1h].png"];
             break;
+        case 10:
+            NSLog(@"case 11"); //Blue
+            return [UIImage imageNamed:@"Blue [1h].png"];
+            break;
+        case 11:
+            NSLog(@"case 12");//Button
+            return [UIImage imageNamed:@"Button [1h].png"];
+            break;
+        case 12:
+            NSLog(@"case 13");//Grate
+            return [UIImage imageNamed:@"Grate [1h].png"];
+            break;
+        case 13:
+            NSLog(@"case 14");//Frosty Leaves
+            return [UIImage imageNamed:@"Frosty Leaves [1h].png"];
+            break;
+        case 14:
+            NSLog(@"case 15");//Green
+            return [UIImage imageNamed:@"Green [1h].png"];
+            break;
         default:
             NSLog(@"case default");
             return [UIImage imageNamed:@"Metal [1h].png"];
@@ -303,6 +403,26 @@
             NSLog(@"case 10");//Pyramid
             return [UIImage imageNamed:@"Metallic Pyramids [2h].png"];
             break;
+        case 10:
+            NSLog(@"case 11"); //Blue
+            return [UIImage imageNamed:@"Blue [2h].png"];
+            break;
+        case 11:
+            NSLog(@"case 12");//Button
+            return [UIImage imageNamed:@"Button [2h].png"];
+            break;
+        case 12:
+            NSLog(@"case 13");//Grate
+            return [UIImage imageNamed:@"Grate [2h].png"];
+            break;
+        case 13:
+            NSLog(@"case 14");//Frosty Leaves
+            return [UIImage imageNamed:@"Frosty Leaves [2h].png"];
+            break;
+        case 14:
+            NSLog(@"case 15");//Green
+            return [UIImage imageNamed:@"Green [2h].png"];
+            break;
         default:
             NSLog(@"case default");
             return [UIImage imageNamed:@"Metal [2h].png"];
@@ -343,6 +463,21 @@
             break;
         case 9://Pyramid
             color = [UIColor whiteColor];
+            break;
+        case 10://Blue
+            color = [UIColor blackColor];
+            break;
+        case 11://Button
+            color = [UIColor blackColor];
+            break;
+        case 12://Grate
+            color = [UIColor blueColor];
+            break;
+        case 13://Frosty Leaves
+            color = [UIColor blackColor];
+            break;
+        case 14://Green Color
+            color = [UIColor blackColor];
             break;
         default:
             color = [UIColor blackColor];

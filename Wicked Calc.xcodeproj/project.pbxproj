@@ -92,6 +92,36 @@
 		99BAF0721695779700D9F3B7 /* addFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BAF0711695779700D9F3B7 /* addFunc.m */; };
 		99BAF07A16957CE500D9F3B7 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BAF07916957CE500D9F3B7 /* Icon-72.png */; };
 		99BAF07D16957CEC00D9F3B7 /* icon(144).png in Resources */ = {isa = PBXBuildFile; fileRef = 99BAF07C16957CEC00D9F3B7 /* icon(144).png */; };
+		99CC719316D0022A00819189 /* Blue [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC718D16D0022A00819189 /* Blue [1h].png */; };
+		99CC719416D0022A00819189 /* Blue (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC718E16D0022A00819189 /* Blue (1v).png */; };
+		99CC719516D0022A00819189 /* Blue [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC718F16D0022A00819189 /* Blue [2h].png */; };
+		99CC719616D0022A00819189 /* Blue (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719016D0022A00819189 /* Blue (2v).png */; };
+		99CC719716D0022A00819189 /* Blue [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719116D0022A00819189 /* Blue [Ah].jpg */; };
+		99CC719816D0022A00819189 /* Blue (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719216D0022A00819189 /* Blue (Av).jpg */; };
+		99CC71A116D0025200819189 /* Button [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719B16D0025200819189 /* Button [1h].png */; };
+		99CC71A216D0025200819189 /* Button (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719C16D0025200819189 /* Button (1v).png */; };
+		99CC71A316D0025200819189 /* Button [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719D16D0025200819189 /* Button [2h].png */; };
+		99CC71A416D0025200819189 /* Button (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719E16D0025200819189 /* Button (2v).png */; };
+		99CC71A516D0025200819189 /* Button [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719F16D0025200819189 /* Button [Ah].jpg */; };
+		99CC71A616D0025200819189 /* Button (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71A016D0025200819189 /* Button (Av).jpg */; };
+		99CC71AE16D0034D00819189 /* Grate (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71A816D0034D00819189 /* Grate (1v).png */; };
+		99CC71AF16D0034D00819189 /* Grate (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71A916D0034D00819189 /* Grate (2v).png */; };
+		99CC71B016D0034D00819189 /* Grate (Av).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71AA16D0034D00819189 /* Grate (Av).png */; };
+		99CC71B116D0034D00819189 /* Grate [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71AB16D0034D00819189 /* Grate [1h].png */; };
+		99CC71B216D0034D00819189 /* Grate [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71AC16D0034D00819189 /* Grate [2h].png */; };
+		99CC71B316D0034D00819189 /* Grate [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71AD16D0034D00819189 /* Grate [Ah].jpg */; };
+		99CC71BB16D0036E00819189 /* Frosty Leaves (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71B516D0036E00819189 /* Frosty Leaves (1v).png */; };
+		99CC71BC16D0036E00819189 /* Frosty Leaves (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71B616D0036E00819189 /* Frosty Leaves (2v).png */; };
+		99CC71BD16D0036E00819189 /* Frosty Leaves (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71B716D0036E00819189 /* Frosty Leaves (Av).jpg */; };
+		99CC71BE16D0036E00819189 /* Frosty Leaves [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71B816D0036E00819189 /* Frosty Leaves [1h].png */; };
+		99CC71BF16D0036E00819189 /* Frosty Leaves [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71B916D0036E00819189 /* Frosty Leaves [2h].png */; };
+		99CC71C016D0036E00819189 /* Frosty Leaves [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71BA16D0036E00819189 /* Frosty Leaves [Ah].jpg */; };
+		99CC71C816D0038E00819189 /* Green [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71C216D0038E00819189 /* Green [1h].png */; };
+		99CC71C916D0038E00819189 /* Green (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71C316D0038E00819189 /* Green (1v).png */; };
+		99CC71CA16D0038E00819189 /* Green [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71C416D0038E00819189 /* Green [2h].png */; };
+		99CC71CB16D0038E00819189 /* Green (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71C516D0038E00819189 /* Green (2v).png */; };
+		99CC71CC16D0038E00819189 /* Green Theme [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71C616D0038E00819189 /* Green Theme [Ah].jpg */; };
+		99CC71CD16D0038E00819189 /* Green Theme (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CC71C716D0038E00819189 /* Green Theme (Av).jpg */; };
 		99DA843D169DEC2400524D00 /* Flower (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA8437169DEC2400524D00 /* Flower (1v).png */; };
 		99DA843E169DEC2400524D00 /* Flower (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA8438169DEC2400524D00 /* Flower (2v).png */; };
 		99DA8440169DEC2400524D00 /* Flower [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA843A169DEC2400524D00 /* Flower [1h].png */; };
@@ -203,6 +233,36 @@
 		99BAF0711695779700D9F3B7 /* addFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addFunc.m; sourceTree = "<group>"; };
 		99BAF07916957CE500D9F3B7 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
 		99BAF07C16957CEC00D9F3B7 /* icon(144).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon(144).png"; path = "../icon(144).png"; sourceTree = "<group>"; };
+		99CC718D16D0022A00819189 /* Blue [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue [1h].png"; sourceTree = "<group>"; };
+		99CC718E16D0022A00819189 /* Blue (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue (1v).png"; sourceTree = "<group>"; };
+		99CC718F16D0022A00819189 /* Blue [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue [2h].png"; sourceTree = "<group>"; };
+		99CC719016D0022A00819189 /* Blue (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue (2v).png"; sourceTree = "<group>"; };
+		99CC719116D0022A00819189 /* Blue [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue [Ah].jpg"; sourceTree = "<group>"; };
+		99CC719216D0022A00819189 /* Blue (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue (Av).jpg"; sourceTree = "<group>"; };
+		99CC719B16D0025200819189 /* Button [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button [1h].png"; sourceTree = "<group>"; };
+		99CC719C16D0025200819189 /* Button (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button (1v).png"; sourceTree = "<group>"; };
+		99CC719D16D0025200819189 /* Button [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button [2h].png"; sourceTree = "<group>"; };
+		99CC719E16D0025200819189 /* Button (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button (2v).png"; sourceTree = "<group>"; };
+		99CC719F16D0025200819189 /* Button [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Button [Ah].jpg"; sourceTree = "<group>"; };
+		99CC71A016D0025200819189 /* Button (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Button (Av).jpg"; sourceTree = "<group>"; };
+		99CC71A816D0034D00819189 /* Grate (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grate (1v).png"; sourceTree = "<group>"; };
+		99CC71A916D0034D00819189 /* Grate (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grate (2v).png"; sourceTree = "<group>"; };
+		99CC71AA16D0034D00819189 /* Grate (Av).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grate (Av).png"; sourceTree = "<group>"; };
+		99CC71AB16D0034D00819189 /* Grate [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grate [1h].png"; sourceTree = "<group>"; };
+		99CC71AC16D0034D00819189 /* Grate [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grate [2h].png"; sourceTree = "<group>"; };
+		99CC71AD16D0034D00819189 /* Grate [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grate [Ah].jpg"; sourceTree = "<group>"; };
+		99CC71B516D0036E00819189 /* Frosty Leaves (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frosty Leaves (1v).png"; sourceTree = "<group>"; };
+		99CC71B616D0036E00819189 /* Frosty Leaves (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frosty Leaves (2v).png"; sourceTree = "<group>"; };
+		99CC71B716D0036E00819189 /* Frosty Leaves (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frosty Leaves (Av).jpg"; sourceTree = "<group>"; };
+		99CC71B816D0036E00819189 /* Frosty Leaves [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frosty Leaves [1h].png"; sourceTree = "<group>"; };
+		99CC71B916D0036E00819189 /* Frosty Leaves [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frosty Leaves [2h].png"; sourceTree = "<group>"; };
+		99CC71BA16D0036E00819189 /* Frosty Leaves [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frosty Leaves [Ah].jpg"; sourceTree = "<group>"; };
+		99CC71C216D0038E00819189 /* Green [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green [1h].png"; sourceTree = "<group>"; };
+		99CC71C316D0038E00819189 /* Green (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green (1v).png"; sourceTree = "<group>"; };
+		99CC71C416D0038E00819189 /* Green [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green [2h].png"; sourceTree = "<group>"; };
+		99CC71C516D0038E00819189 /* Green (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green (2v).png"; sourceTree = "<group>"; };
+		99CC71C616D0038E00819189 /* Green Theme [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Green Theme [Ah].jpg"; sourceTree = "<group>"; };
+		99CC71C716D0038E00819189 /* Green Theme (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Green Theme (Av).jpg"; sourceTree = "<group>"; };
 		99DA8437169DEC2400524D00 /* Flower (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower (1v).png"; path = "Pictures/Calc (flower pink theme)/Flower (1v).png"; sourceTree = SOURCE_ROOT; };
 		99DA8438169DEC2400524D00 /* Flower (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower (2v).png"; path = "Pictures/Calc (flower pink theme)/Flower (2v).png"; sourceTree = SOURCE_ROOT; };
 		99DA843A169DEC2400524D00 /* Flower [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower [1h].png"; path = "Pictures/Calc (flower pink theme)/Flower [1h].png"; sourceTree = SOURCE_ROOT; };
@@ -617,10 +677,165 @@
 				99B632CC16CC0AB800AE7208 /* 7. Sky */,
 				99B632DC16CC0B0800AE7208 /* 8. Aqua Burst */,
 				99B632EB16CC0B5700AE7208 /* 9. Pyramid */,
+				99CC718C16D0022A00819189 /* 10. Blue */,
+				99CC719A16D0025200819189 /* 11. Button */,
+				99CC71A716D0034D00819189 /* 12. Grate */,
+				99CC71B416D0036E00819189 /* 13. Frosty Leaves */,
+				99CC71C116D0038E00819189 /* 14. Green */,
 				9952AB7F16B03E030075D233 /* Display */,
 				99246ABB169599BE0036FFF0 /* Icon */,
 			);
 			name = Design;
+			sourceTree = "<group>";
+		};
+		99CC718C16D0022A00819189 /* 10. Blue */ = {
+			isa = PBXGroup;
+			children = (
+				99CC71CF16D003E200819189 /* Keys */,
+				99CC71CE16D003D700819189 /* Background */,
+			);
+			name = "10. Blue";
+			path = "Pictures/Calc (Blue Theme)";
+			sourceTree = SOURCE_ROOT;
+		};
+		99CC719A16D0025200819189 /* 11. Button */ = {
+			isa = PBXGroup;
+			children = (
+				99CC71D116D003F300819189 /* Background */,
+				99CC71D016D003ED00819189 /* Keys */,
+			);
+			name = "11. Button";
+			path = "Pictures/Calc (Button Theme)";
+			sourceTree = SOURCE_ROOT;
+		};
+		99CC71A716D0034D00819189 /* 12. Grate */ = {
+			isa = PBXGroup;
+			children = (
+				99CC71D316D0041500819189 /* Keys */,
+				99CC71D216D0040F00819189 /* Background */,
+			);
+			name = "12. Grate";
+			path = "Pictures/Calc (grate theme)";
+			sourceTree = SOURCE_ROOT;
+		};
+		99CC71B416D0036E00819189 /* 13. Frosty Leaves */ = {
+			isa = PBXGroup;
+			children = (
+				99CC71D516D0043900819189 /* Keys */,
+				99CC71D416D0042900819189 /* Background */,
+			);
+			name = "13. Frosty Leaves";
+			path = "Pictures/Calc (Frosty Leaves)";
+			sourceTree = SOURCE_ROOT;
+		};
+		99CC71C116D0038E00819189 /* 14. Green */ = {
+			isa = PBXGroup;
+			children = (
+				99CC71D716D0045600819189 /* Keys */,
+				99CC71D616D0045000819189 /* Background */,
+			);
+			name = "14. Green";
+			path = "Pictures/Calc (Green Theme)";
+			sourceTree = SOURCE_ROOT;
+		};
+		99CC71CE16D003D700819189 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				99CC719116D0022A00819189 /* Blue [Ah].jpg */,
+				99CC719216D0022A00819189 /* Blue (Av).jpg */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		99CC71CF16D003E200819189 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				99CC718D16D0022A00819189 /* Blue [1h].png */,
+				99CC718E16D0022A00819189 /* Blue (1v).png */,
+				99CC718F16D0022A00819189 /* Blue [2h].png */,
+				99CC719016D0022A00819189 /* Blue (2v).png */,
+			);
+			name = Keys;
+			sourceTree = "<group>";
+		};
+		99CC71D016D003ED00819189 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				99CC719B16D0025200819189 /* Button [1h].png */,
+				99CC719C16D0025200819189 /* Button (1v).png */,
+				99CC719D16D0025200819189 /* Button [2h].png */,
+				99CC719E16D0025200819189 /* Button (2v).png */,
+			);
+			name = Keys;
+			sourceTree = "<group>";
+		};
+		99CC71D116D003F300819189 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				99CC719F16D0025200819189 /* Button [Ah].jpg */,
+				99CC71A016D0025200819189 /* Button (Av).jpg */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		99CC71D216D0040F00819189 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				99CC71AA16D0034D00819189 /* Grate (Av).png */,
+				99CC71AD16D0034D00819189 /* Grate [Ah].jpg */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		99CC71D316D0041500819189 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				99CC71AB16D0034D00819189 /* Grate [1h].png */,
+				99CC71AC16D0034D00819189 /* Grate [2h].png */,
+				99CC71A816D0034D00819189 /* Grate (1v).png */,
+				99CC71A916D0034D00819189 /* Grate (2v).png */,
+			);
+			name = Keys;
+			sourceTree = "<group>";
+		};
+		99CC71D416D0042900819189 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				99CC71B716D0036E00819189 /* Frosty Leaves (Av).jpg */,
+				99CC71BA16D0036E00819189 /* Frosty Leaves [Ah].jpg */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		99CC71D516D0043900819189 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				99CC71B816D0036E00819189 /* Frosty Leaves [1h].png */,
+				99CC71B916D0036E00819189 /* Frosty Leaves [2h].png */,
+				99CC71B516D0036E00819189 /* Frosty Leaves (1v).png */,
+				99CC71B616D0036E00819189 /* Frosty Leaves (2v).png */,
+			);
+			name = Keys;
+			sourceTree = "<group>";
+		};
+		99CC71D616D0045000819189 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				99CC71C616D0038E00819189 /* Green Theme [Ah].jpg */,
+				99CC71C716D0038E00819189 /* Green Theme (Av).jpg */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		99CC71D716D0045600819189 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				99CC71C216D0038E00819189 /* Green [1h].png */,
+				99CC71C316D0038E00819189 /* Green (1v).png */,
+				99CC71C416D0038E00819189 /* Green [2h].png */,
+				99CC71C516D0038E00819189 /* Green (2v).png */,
+			);
+			name = Keys;
 			sourceTree = "<group>";
 		};
 		99DA8435169DEBF900524D00 /* 1. Flower */ = {
@@ -797,6 +1012,36 @@
 				99B632F916CC0B7F00AE7208 /* Metallic pyramids [Ah].jpg in Resources */,
 				99B632FC16CC317800AE7208 /* iTunesArtwork in Resources */,
 				99B632FD16CC317800AE7208 /* iTunesArtwork@2x in Resources */,
+				99CC719316D0022A00819189 /* Blue [1h].png in Resources */,
+				99CC719416D0022A00819189 /* Blue (1v).png in Resources */,
+				99CC719516D0022A00819189 /* Blue [2h].png in Resources */,
+				99CC719616D0022A00819189 /* Blue (2v).png in Resources */,
+				99CC719716D0022A00819189 /* Blue [Ah].jpg in Resources */,
+				99CC719816D0022A00819189 /* Blue (Av).jpg in Resources */,
+				99CC71A116D0025200819189 /* Button [1h].png in Resources */,
+				99CC71A216D0025200819189 /* Button (1v).png in Resources */,
+				99CC71A316D0025200819189 /* Button [2h].png in Resources */,
+				99CC71A416D0025200819189 /* Button (2v).png in Resources */,
+				99CC71A516D0025200819189 /* Button [Ah].jpg in Resources */,
+				99CC71A616D0025200819189 /* Button (Av).jpg in Resources */,
+				99CC71AE16D0034D00819189 /* Grate (1v).png in Resources */,
+				99CC71AF16D0034D00819189 /* Grate (2v).png in Resources */,
+				99CC71B016D0034D00819189 /* Grate (Av).png in Resources */,
+				99CC71B116D0034D00819189 /* Grate [1h].png in Resources */,
+				99CC71B216D0034D00819189 /* Grate [2h].png in Resources */,
+				99CC71B316D0034D00819189 /* Grate [Ah].jpg in Resources */,
+				99CC71BB16D0036E00819189 /* Frosty Leaves (1v).png in Resources */,
+				99CC71BC16D0036E00819189 /* Frosty Leaves (2v).png in Resources */,
+				99CC71BD16D0036E00819189 /* Frosty Leaves (Av).jpg in Resources */,
+				99CC71BE16D0036E00819189 /* Frosty Leaves [1h].png in Resources */,
+				99CC71BF16D0036E00819189 /* Frosty Leaves [2h].png in Resources */,
+				99CC71C016D0036E00819189 /* Frosty Leaves [Ah].jpg in Resources */,
+				99CC71C816D0038E00819189 /* Green [1h].png in Resources */,
+				99CC71C916D0038E00819189 /* Green (1v).png in Resources */,
+				99CC71CA16D0038E00819189 /* Green [2h].png in Resources */,
+				99CC71CB16D0038E00819189 /* Green (2v).png in Resources */,
+				99CC71CC16D0038E00819189 /* Green Theme [Ah].jpg in Resources */,
+				99CC71CD16D0038E00819189 /* Green Theme (Av).jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

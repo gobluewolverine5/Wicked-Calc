@@ -152,7 +152,7 @@
     bgChooser = [[BackgroundChooser alloc] init];
     
     //Background Picker Wheel
-    array = [[NSMutableArray alloc] initWithObjects:@"Metal", @"Flower", @"Wood", @"Tech", @"Space", @"Helion", @"INT Flower", @"Sky", @"Aqua Burst", @"Pyramid",  nil];
+    array = [[NSMutableArray alloc] initWithObjects:@"Metal", @"Flower", @"Wood", @"Tech", @"Space", @"Helion", @"INT Flower", @"Sky", @"Aqua Burst", @"Pyramid", @"Blue", @"Button", @"Grate", @"Frosty Leaves", @"Green", nil];
     self.BGScroll.delegate = self;
     self.BGScroll.dataSource = self;
     
