@@ -15,7 +15,7 @@
     switch (number) {
         case 0:
             NSLog(@"case 1"); //Metal
-            return [UIImage imageNamed:@"Metal (Av).jpg"];
+            return [UIImage imageNamed:@"Metal (Av) brighter.png"];
             break;
         case 1:
             NSLog(@"case 2");//Flower
@@ -75,7 +75,7 @@
             break;
         default:
             NSLog(@"case default");
-            return [UIImage imageNamed:@"Metal (Av).jpg"];
+            return [UIImage imageNamed:@"Metal (Av) brighter.png"];
             break;
     }
 }
@@ -121,7 +121,7 @@
             break;
         case 9:
             NSLog(@"case 10");//Pyramid
-            return [UIImage imageNamed:@"Metallic Pyramids [Ah].jpg"];
+            return [UIImage imageNamed:@"Metallic pyramids [Ah].jpg"];
             break;
         case 10:
             NSLog(@"case 11"); //Blue
@@ -155,7 +155,7 @@
     switch (number) {
         case 0:
             NSLog(@"case 1");//Metal
-            return [UIImage imageNamed:@"metal (1v).png"];
+            return [UIImage imageNamed:@"Metal [2h].png"];
             break;
         case 1:
             NSLog(@"case 2");//Flower
@@ -183,7 +183,7 @@
             break;
         case 7:
             NSLog(@"case 8");//Sky
-            return [UIImage imageNamed:@"Farm (1v).png"];
+            return [UIImage imageNamed:@"New Sky (1v).png"];
             break;
         case 8:
             NSLog(@"case 9");//Aqua Burst
@@ -191,7 +191,7 @@
             break;
         case 9:
             NSLog(@"case 10");//Pyramid
-            return [UIImage imageNamed:@"Metallic Pyramids (1v).png"];
+            return [UIImage imageNamed:@"Pyramids (1v).png"];
             break;
         case 10:
             NSLog(@"case 11"); //Blue
@@ -203,7 +203,7 @@
             break;
         case 12:
             NSLog(@"case 13");//Grate
-            return [UIImage imageNamed:@"Grate (1v).png"];
+            return [UIImage imageNamed:@"Pyramids (1v).png"];
             break;
         case 13:
             NSLog(@"case 14");//Frosty Leaves
@@ -215,7 +215,7 @@
             break;
         default:
             NSLog(@"case default");
-            return [UIImage imageNamed:@"metal (1v).png"];
+            return [UIImage imageNamed:@"Metal [2h].png"];
             break;
     }
 }
@@ -253,7 +253,7 @@
             break;
         case 7:
             NSLog(@"case 8");//Sky
-            return [UIImage imageNamed:@"Farm (2v).png"];
+            return [UIImage imageNamed:@"New Sky (2v).png"];
             break;
         case 8:
             NSLog(@"case 9");//Aqua Burst
@@ -261,7 +261,7 @@
             break;
         case 9:
             NSLog(@"case 10");//Pyramid
-            return [UIImage imageNamed:@"Metallic Pyramids (2v).png"];
+            return [UIImage imageNamed:@"Pyramids (2v).png"];
             break;
         case 10:
             NSLog(@"case 11"); //Blue
@@ -273,7 +273,7 @@
             break;
         case 12:
             NSLog(@"case 13");//Grate
-            return [UIImage imageNamed:@"Grate (2v).png"];
+            return [UIImage imageNamed:@"Pyramids (2v).png"];
             break;
         case 13:
             NSLog(@"case 14");//Frosty Leaves
@@ -323,7 +323,7 @@
             break;
         case 7:
             NSLog(@"case 8");//Sky
-            return [UIImage imageNamed:@"Farm [1h].png"];
+            return [UIImage imageNamed:@"New Sky [1h].png"];
             break;
         case 8:
             NSLog(@"case 9");//Aqua Burst
@@ -331,7 +331,7 @@
             break;
         case 9:
             NSLog(@"case 10");//Pyramid
-            return [UIImage imageNamed:@"Metallic Pyramids [1h].png"];
+            return [UIImage imageNamed:@"Pyramids [1h].png"];
             break;
         case 10:
             NSLog(@"case 11"); //Blue
@@ -343,7 +343,7 @@
             break;
         case 12:
             NSLog(@"case 13");//Grate
-            return [UIImage imageNamed:@"Grate [1h].png"];
+            return [UIImage imageNamed:@"Pyramids [1h].png"];
             break;
         case 13:
             NSLog(@"case 14");//Frosty Leaves
@@ -393,7 +393,7 @@
             break;
         case 7:
             NSLog(@"case 8");//Sky
-            return [UIImage imageNamed:@"Farm [2h].png"];
+            return [UIImage imageNamed:@"New Sky [2h].png"];
             break;
         case 8:
             NSLog(@"case 9");//Aqua Burst
@@ -401,11 +401,11 @@
             break;
         case 9:
             NSLog(@"case 10");//Pyramid
-            return [UIImage imageNamed:@"Metallic Pyramids [2h].png"];
+            return [UIImage imageNamed:@"Pyramids [2h].png"];
             break;
         case 10:
             NSLog(@"case 11"); //Blue
-            return [UIImage imageNamed:@"Blue [2h].png"];
+            return [UIImage imageNamed:@"Blue (2h).png"];
             break;
         case 11:
             NSLog(@"case 12");//Button
@@ -413,7 +413,7 @@
             break;
         case 12:
             NSLog(@"case 13");//Grate
-            return [UIImage imageNamed:@"Grate [2h].png"];
+            return [UIImage imageNamed:@"Pyramids [2h].png"];
             break;
         case 13:
             NSLog(@"case 14");//Frosty Leaves

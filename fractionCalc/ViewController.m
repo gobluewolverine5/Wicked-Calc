@@ -60,6 +60,7 @@
 //Background Image Views
 @synthesize VerticalBackground;
 @synthesize HorizontalBackground;
+@synthesize PreviewWindow;
 //Vertical Buttons
 @synthesize cV;
 @synthesize divV;
@@ -767,19 +768,19 @@
     dot = NO;
 }
 /*~~~~~~~~~~~~~~~~~~Animations~~~~~~~~~~~~~~~~~~~~~*/
--(void) dissapear
+-(void) dissapear:(UIView*) object
 {
-    self.view.alpha = 1.0;
+    object.alpha = 1.0;
     [UIView animateWithDuration:0.3 animations:^() {
-        self.view.alpha = 0;
+        object.alpha = 0;
     }];
 }
 
--(void) appear
+-(void) appear:(UIView*) object
 {
-    self.view.alpha = 0;
+    object.alpha = 0;
     [UIView animateWithDuration:0.3 animations:^() {
-        self.view.alpha = 1.0;
+        object.alpha = 1.0;
     }];
 }
 /*~~~~~~~~~~~~~~~~~~Settings~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -788,10 +789,9 @@
 {
     AudioServicesPlaySystemSound(1104);
     settingCalled = YES;
-    [self dissapear];
+    //[self dissapear:self.view];
     self.view = self.VerticalSettings;
-    self.view.alpha = 0;
-    [self appear];
+    //[self appear:self.VerticalSettings];
 }
 
 -(IBAction) gotoCalc
@@ -799,14 +799,14 @@
     AudioServicesPlaySystemSound(1104);
     [self selectBG];
     settingCalled = NO;
-    [self dissapear];
+    //[self dissapear:self.VerticalSettings];
     if (vertOrHoriz) {
         self.view = self.VerticalView;
     }
     else{
         self.view = self.HorizontalView;
     }
-    [self appear];
+    //[self appear:self.view];
 }
 
 
@@ -1056,6 +1056,13 @@
     [self updateButton:color];
 }
 
+-(void) pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+    themeNum = [BGScroll selectedRowInComponent:0];
+    PreviewWindow.image = [bgChooser chooseBackgroundHorizontal:themeNum];
+    
+}
+
 -(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
 {
     //One Column
@@ -1074,19 +1081,6 @@
     return [array objectAtIndex:row];
 }
 
--(IBAction) test
-{
-    if ([BGScroll selectedRowInComponent:0] == 1) {
-        NSLog(@"this is a test");
-    }
-    else if ([BGScroll selectedRowInComponent:0] == 2) {
-        NSLog(@"this is the 2nd test");
-    }
-    else{
-        NSLog(@"default");
-    }
-    
-}
 /*~~~~~~~~~~~~~Orientation Functions~~~~~~~~~~~~~~~*/
 
 -(BOOL)shouldAutorotate{
@@ -1115,9 +1109,9 @@
             self.view = self.VerticalSettings;
         }
         else{
-            [self dissapear];
+            //[self dissapear];
             self.view = self.VerticalView;
-            [self appear];
+            //[self appear];
         }
     }
     else if (deviceOrientation == UIInterfaceOrientationPortraitUpsideDown){
@@ -1129,9 +1123,9 @@
             self.view = self.VerticalSettings;
         }
         else{
-            [self dissapear];
+            //[self dissapear];
             self.view = self.VerticalView;
-            [self appear];
+            //[self appear];
         }
     }
     else if (deviceOrientation == UIInterfaceOrientationLandscapeRight){
@@ -1142,9 +1136,9 @@
             self.view = self.VerticalSettings;
         }
         else{
-            [self dissapear];
+            //[self dissapear];
             self.view = self.HorizontalView;
-            [self appear];
+            //[self appear];
         }
     }
     else if (deviceOrientation == UIInterfaceOrientationLandscapeLeft){
@@ -1155,9 +1149,9 @@
             self.view = self.VerticalSettings;
         }
         else{
-            [self dissapear];
+            //[self dissapear];
             self.view = self.HorizontalView;
-            [self appear];
+            //[self appear];
         }
         
     }

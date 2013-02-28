@@ -39,6 +39,7 @@
 //ImageView background
 @property (strong, nonatomic) IBOutlet UIImageView *VerticalBackground;
 @property (strong, nonatomic) IBOutlet UIImageView *HorizontalBackground;
+@property (strong, nonatomic) IBOutlet UIImageView *PreviewWindow;
 
 //Vertical Buttons
 @property (weak, nonatomic) IBOutlet UIButton *cV;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9902E14916DFC48400F0669D /* Metal (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 9902E14816DFC48400F0669D /* Metal (1v).png */; };
 		991DFF9116A31FD800923715 /* Space (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF8D16A31FD800923715 /* Space (1v).png */; };
 		991DFF9216A31FD800923715 /* Space (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF8E16A31FD800923715 /* Space (2v).png */; };
 		991DFF9316A31FD800923715 /* Space [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF8F16A31FD800923715 /* Space [1h].png */; };
@@ -21,6 +22,7 @@
 		995511D016971324008C70D0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995511CF16971324008C70D0 /* AudioToolbox.framework */; };
 		996339C516B49BE800EBCD4A /* Light Clean Corners (Dv).png in Resources */ = {isa = PBXBuildFile; fileRef = 996339C316B49BE800EBCD4A /* Light Clean Corners (Dv).png */; };
 		996339C616B49BE800EBCD4A /* Light Clean Corners [Dh].png in Resources */ = {isa = PBXBuildFile; fileRef = 996339C416B49BE800EBCD4A /* Light Clean Corners [Dh].png */; };
+		99688BA916DFC05C003A1868 /* Metal (Av) brighter.png in Resources */ = {isa = PBXBuildFile; fileRef = 99688BA716DFC05C003A1868 /* Metal (Av) brighter.png */; };
 		99709C001686E7BB00A793BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99709BFF1686E7BB00A793BC /* UIKit.framework */; };
 		99709C021686E7BB00A793BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99709C011686E7BB00A793BC /* Foundation.framework */; };
 		99709C041686E7BB00A793BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99709C031686E7BB00A793BC /* CoreGraphics.framework */; };
@@ -43,9 +45,7 @@
 		99879AD116ABA15A00B959D2 /* Car Tech [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACB16ABA15A00B959D2 /* Car Tech [1h].png */; };
 		99879AD216ABA15A00B959D2 /* Car Tech [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACC16ABA15A00B959D2 /* Car Tech [2h].png */; };
 		99A0285016C8C48800AF194C /* queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0284F16C8C48800AF194C /* queue.m */; };
-		99B6328C16CC08FE00AE7208 /* Metal (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6328A16CC08FE00AE7208 /* Metal (Av).jpg */; };
 		99B6328D16CC08FE00AE7208 /* Metal [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6328B16CC08FE00AE7208 /* Metal [Ah].jpg */; };
-		99B6329216CC091700AE7208 /* metal (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B6328E16CC091700AE7208 /* metal (1v).png */; };
 		99B6329316CC091700AE7208 /* metal (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B6328F16CC091700AE7208 /* metal (2v).png */; };
 		99B6329416CC091700AE7208 /* Metal [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B6329016CC091700AE7208 /* Metal [1h].png */; };
 		99B6329516CC091700AE7208 /* Metal [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B6329116CC091700AE7208 /* Metal [2h].png */; };
@@ -69,10 +69,6 @@
 		99B632C616CC0A8D00AE7208 /* Helion [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632BE16CC0A8D00AE7208 /* Helion [1h].png */; };
 		99B632C716CC0A8D00AE7208 /* Helion [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632BF16CC0A8D00AE7208 /* Helion [2h].png */; };
 		99B632C816CC0A8D00AE7208 /* Helion [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632C016CC0A8D00AE7208 /* Helion [Ah].jpg */; };
-		99B632D416CC0AE300AE7208 /* Farm (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D016CC0AE300AE7208 /* Farm (1v).png */; };
-		99B632D516CC0AE300AE7208 /* Farm (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D116CC0AE300AE7208 /* Farm (2v).png */; };
-		99B632D616CC0AE300AE7208 /* Farm [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D216CC0AE300AE7208 /* Farm [1h].png */; };
-		99B632D716CC0AE300AE7208 /* Farm [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D316CC0AE300AE7208 /* Farm [2h].png */; };
 		99B632DA16CC0AF700AE7208 /* Farm (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D816CC0AF700AE7208 /* Farm (Av).jpg */; };
 		99B632DB16CC0AF700AE7208 /* Farm [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632D916CC0AF700AE7208 /* Farm [Ah].jpg */; };
 		99B632E516CC0B2300AE7208 /* Aqua Burst (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632DF16CC0B2300AE7208 /* Aqua Burst (1v).png */; };
@@ -81,21 +77,13 @@
 		99B632E816CC0B2300AE7208 /* Aqua Burst [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632E216CC0B2300AE7208 /* Aqua Burst [1h].png */; };
 		99B632E916CC0B2300AE7208 /* Aqua Burst [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632E316CC0B2300AE7208 /* Aqua Burst [2h].png */; };
 		99B632EA16CC0B2300AE7208 /* Aqua Burst [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632E416CC0B2300AE7208 /* Aqua Burst [Ah].jpg */; };
-		99B632F416CC0B7F00AE7208 /* Metallic Pyramids (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632EE16CC0B7F00AE7208 /* Metallic Pyramids (1v).png */; };
-		99B632F516CC0B7F00AE7208 /* Metallic Pyramids (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632EF16CC0B7F00AE7208 /* Metallic Pyramids (2v).png */; };
 		99B632F616CC0B7F00AE7208 /* Metallic Pyramids (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632F016CC0B7F00AE7208 /* Metallic Pyramids (Av).jpg */; };
-		99B632F716CC0B7F00AE7208 /* Metallic Pyramids [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632F116CC0B7F00AE7208 /* Metallic Pyramids [1h].png */; };
-		99B632F816CC0B7F00AE7208 /* Metallic Pyramids [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99B632F216CC0B7F00AE7208 /* Metallic Pyramids [2h].png */; };
 		99B632F916CC0B7F00AE7208 /* Metallic pyramids [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B632F316CC0B7F00AE7208 /* Metallic pyramids [Ah].jpg */; };
 		99B632FC16CC317800AE7208 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 99B632FA16CC317700AE7208 /* iTunesArtwork */; };
 		99B632FD16CC317800AE7208 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 99B632FB16CC317800AE7208 /* iTunesArtwork@2x */; };
 		99BAF0721695779700D9F3B7 /* addFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BAF0711695779700D9F3B7 /* addFunc.m */; };
 		99BAF07A16957CE500D9F3B7 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BAF07916957CE500D9F3B7 /* Icon-72.png */; };
 		99BAF07D16957CEC00D9F3B7 /* icon(144).png in Resources */ = {isa = PBXBuildFile; fileRef = 99BAF07C16957CEC00D9F3B7 /* icon(144).png */; };
-		99CC719316D0022A00819189 /* Blue [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC718D16D0022A00819189 /* Blue [1h].png */; };
-		99CC719416D0022A00819189 /* Blue (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC718E16D0022A00819189 /* Blue (1v).png */; };
-		99CC719516D0022A00819189 /* Blue [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC718F16D0022A00819189 /* Blue [2h].png */; };
-		99CC719616D0022A00819189 /* Blue (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719016D0022A00819189 /* Blue (2v).png */; };
 		99CC719716D0022A00819189 /* Blue [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719116D0022A00819189 /* Blue [Ah].jpg */; };
 		99CC719816D0022A00819189 /* Blue (Av).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719216D0022A00819189 /* Blue (Av).jpg */; };
 		99CC71A116D0025200819189 /* Button [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99CC719B16D0025200819189 /* Button [1h].png */; };
@@ -126,6 +114,18 @@
 		99DA843E169DEC2400524D00 /* Flower (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA8438169DEC2400524D00 /* Flower (2v).png */; };
 		99DA8440169DEC2400524D00 /* Flower [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA843A169DEC2400524D00 /* Flower [1h].png */; };
 		99DA8441169DEC2400524D00 /* Flower [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA843B169DEC2400524D00 /* Flower [2h].png */; };
+		99FA74D016DA5F6D00E4CA10 /* Blue (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74CC16DA5F6D00E4CA10 /* Blue (1v).png */; };
+		99FA74D116DA5F6D00E4CA10 /* Blue (2h).png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74CD16DA5F6D00E4CA10 /* Blue (2h).png */; };
+		99FA74D216DA5F6D00E4CA10 /* Blue (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74CE16DA5F6D00E4CA10 /* Blue (2v).png */; };
+		99FA74D316DA5F6D00E4CA10 /* Blue [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74CF16DA5F6D00E4CA10 /* Blue [1h].png */; };
+		99FA74E016DA60C900E4CA10 /* Pyramids (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74DC16DA60C900E4CA10 /* Pyramids (1v).png */; };
+		99FA74E116DA60C900E4CA10 /* Pyramids (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74DD16DA60C900E4CA10 /* Pyramids (2v).png */; };
+		99FA74E216DA60C900E4CA10 /* Pyramids [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74DE16DA60C900E4CA10 /* Pyramids [1h].png */; };
+		99FA74E316DA60C900E4CA10 /* Pyramids [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74DF16DA60C900E4CA10 /* Pyramids [2h].png */; };
+		99FA74E816DA624200E4CA10 /* New Sky (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74E416DA624200E4CA10 /* New Sky (1v).png */; };
+		99FA74E916DA624200E4CA10 /* New Sky (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74E516DA624200E4CA10 /* New Sky (2v).png */; };
+		99FA74EA16DA624200E4CA10 /* New Sky [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74E616DA624200E4CA10 /* New Sky [1h].png */; };
+		99FA74EB16DA624200E4CA10 /* New Sky [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74E716DA624200E4CA10 /* New Sky [2h].png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +139,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9902E14816DFC48400F0669D /* Metal (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal (1v).png"; path = "Pictures/Calc (metal theme)/Metal (1v).png"; sourceTree = SOURCE_ROOT; };
 		991DFF8D16A31FD800923715 /* Space (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space (1v).png"; path = "Pictures/Calc (space theme)/Space (1v).png"; sourceTree = SOURCE_ROOT; };
 		991DFF8E16A31FD800923715 /* Space (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space (2v).png"; path = "Pictures/Calc (space theme)/Space (2v).png"; sourceTree = SOURCE_ROOT; };
 		991DFF8F16A31FD800923715 /* Space [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space [1h].png"; path = "Pictures/Calc (space theme)/Space [1h].png"; sourceTree = SOURCE_ROOT; };
@@ -154,6 +155,7 @@
 		995511CF16971324008C70D0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		996339C316B49BE800EBCD4A /* Light Clean Corners (Dv).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Light Clean Corners (Dv).png"; path = "Pictures/Display/Light Clean Corners (Dv).png"; sourceTree = SOURCE_ROOT; };
 		996339C416B49BE800EBCD4A /* Light Clean Corners [Dh].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Light Clean Corners [Dh].png"; path = "Pictures/Display/Light Clean Corners [Dh].png"; sourceTree = SOURCE_ROOT; };
+		99688BA716DFC05C003A1868 /* Metal (Av) brighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal (Av) brighter.png"; path = "Pictures/Calc (metal theme)/Metal (Av) brighter.png"; sourceTree = SOURCE_ROOT; };
 		99709BFB1686E7BB00A793BC /* Wicked Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wicked Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99709BFF1686E7BB00A793BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99709C011686E7BB00A793BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -183,9 +185,7 @@
 		99879ACC16ABA15A00B959D2 /* Car Tech [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech [2h].png"; sourceTree = "<group>"; };
 		99A0284E16C8C48800AF194C /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		99A0284F16C8C48800AF194C /* queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = queue.m; sourceTree = "<group>"; };
-		99B6328A16CC08FE00AE7208 /* Metal (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Metal (Av).jpg"; path = "Pictures/Calc (metal theme)/Metal (Av).jpg"; sourceTree = SOURCE_ROOT; };
 		99B6328B16CC08FE00AE7208 /* Metal [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Metal [Ah].jpg"; path = "Pictures/Calc (metal theme)/Metal [Ah].jpg"; sourceTree = SOURCE_ROOT; };
-		99B6328E16CC091700AE7208 /* metal (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "metal (1v).png"; path = "Pictures/Calc (metal theme)/metal (1v).png"; sourceTree = SOURCE_ROOT; };
 		99B6328F16CC091700AE7208 /* metal (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "metal (2v).png"; path = "Pictures/Calc (metal theme)/metal (2v).png"; sourceTree = SOURCE_ROOT; };
 		99B6329016CC091700AE7208 /* Metal [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal [1h].png"; path = "Pictures/Calc (metal theme)/Metal [1h].png"; sourceTree = SOURCE_ROOT; };
 		99B6329116CC091700AE7208 /* Metal [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal [2h].png"; path = "Pictures/Calc (metal theme)/Metal [2h].png"; sourceTree = SOURCE_ROOT; };
@@ -209,10 +209,6 @@
 		99B632BE16CC0A8D00AE7208 /* Helion [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Helion [1h].png"; path = "Pictures/Calc (Helion theme)/Helion [1h].png"; sourceTree = SOURCE_ROOT; };
 		99B632BF16CC0A8D00AE7208 /* Helion [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Helion [2h].png"; path = "Pictures/Calc (Helion theme)/Helion [2h].png"; sourceTree = SOURCE_ROOT; };
 		99B632C016CC0A8D00AE7208 /* Helion [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Helion [Ah].jpg"; path = "Pictures/Calc (Helion theme)/Helion [Ah].jpg"; sourceTree = SOURCE_ROOT; };
-		99B632D016CC0AE300AE7208 /* Farm (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farm (1v).png"; path = "Pictures/Calc (farm theme)/Farm (1v).png"; sourceTree = SOURCE_ROOT; };
-		99B632D116CC0AE300AE7208 /* Farm (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farm (2v).png"; path = "Pictures/Calc (farm theme)/Farm (2v).png"; sourceTree = SOURCE_ROOT; };
-		99B632D216CC0AE300AE7208 /* Farm [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farm [1h].png"; path = "Pictures/Calc (farm theme)/Farm [1h].png"; sourceTree = SOURCE_ROOT; };
-		99B632D316CC0AE300AE7208 /* Farm [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farm [2h].png"; path = "Pictures/Calc (farm theme)/Farm [2h].png"; sourceTree = SOURCE_ROOT; };
 		99B632D816CC0AF700AE7208 /* Farm (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Farm (Av).jpg"; path = "Pictures/Calc (farm theme)/Farm (Av).jpg"; sourceTree = SOURCE_ROOT; };
 		99B632D916CC0AF700AE7208 /* Farm [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Farm [Ah].jpg"; path = "Pictures/Calc (farm theme)/Farm [Ah].jpg"; sourceTree = SOURCE_ROOT; };
 		99B632DF16CC0B2300AE7208 /* Aqua Burst (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aqua Burst (1v).png"; path = "Pictures/Calc (Aqua burst)/Aqua Burst (1v).png"; sourceTree = SOURCE_ROOT; };
@@ -221,11 +217,7 @@
 		99B632E216CC0B2300AE7208 /* Aqua Burst [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aqua Burst [1h].png"; path = "Pictures/Calc (Aqua burst)/Aqua Burst [1h].png"; sourceTree = SOURCE_ROOT; };
 		99B632E316CC0B2300AE7208 /* Aqua Burst [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Aqua Burst [2h].png"; path = "Pictures/Calc (Aqua burst)/Aqua Burst [2h].png"; sourceTree = SOURCE_ROOT; };
 		99B632E416CC0B2300AE7208 /* Aqua Burst [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Aqua Burst [Ah].jpg"; path = "Pictures/Calc (Aqua burst)/Aqua Burst [Ah].jpg"; sourceTree = SOURCE_ROOT; };
-		99B632EE16CC0B7F00AE7208 /* Metallic Pyramids (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metallic Pyramids (1v).png"; path = "Pictures/Calc (Pyramid theme)/Metallic Pyramids (1v).png"; sourceTree = SOURCE_ROOT; };
-		99B632EF16CC0B7F00AE7208 /* Metallic Pyramids (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metallic Pyramids (2v).png"; path = "Pictures/Calc (Pyramid theme)/Metallic Pyramids (2v).png"; sourceTree = SOURCE_ROOT; };
 		99B632F016CC0B7F00AE7208 /* Metallic Pyramids (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Metallic Pyramids (Av).jpg"; path = "Pictures/Calc (Pyramid theme)/Metallic Pyramids (Av).jpg"; sourceTree = SOURCE_ROOT; };
-		99B632F116CC0B7F00AE7208 /* Metallic Pyramids [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metallic Pyramids [1h].png"; path = "Pictures/Calc (Pyramid theme)/Metallic Pyramids [1h].png"; sourceTree = SOURCE_ROOT; };
-		99B632F216CC0B7F00AE7208 /* Metallic Pyramids [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metallic Pyramids [2h].png"; path = "Pictures/Calc (Pyramid theme)/Metallic Pyramids [2h].png"; sourceTree = SOURCE_ROOT; };
 		99B632F316CC0B7F00AE7208 /* Metallic pyramids [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Metallic pyramids [Ah].jpg"; path = "Pictures/Calc (Pyramid theme)/Metallic pyramids [Ah].jpg"; sourceTree = SOURCE_ROOT; };
 		99B632FA16CC317700AE7208 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Pictures/Icon/iTunesArtwork; sourceTree = SOURCE_ROOT; };
 		99B632FB16CC317800AE7208 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; name = "iTunesArtwork@2x"; path = "Pictures/Icon/iTunesArtwork@2x"; sourceTree = SOURCE_ROOT; };
@@ -233,10 +225,6 @@
 		99BAF0711695779700D9F3B7 /* addFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addFunc.m; sourceTree = "<group>"; };
 		99BAF07916957CE500D9F3B7 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
 		99BAF07C16957CEC00D9F3B7 /* icon(144).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon(144).png"; path = "../icon(144).png"; sourceTree = "<group>"; };
-		99CC718D16D0022A00819189 /* Blue [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue [1h].png"; sourceTree = "<group>"; };
-		99CC718E16D0022A00819189 /* Blue (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue (1v).png"; sourceTree = "<group>"; };
-		99CC718F16D0022A00819189 /* Blue [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue [2h].png"; sourceTree = "<group>"; };
-		99CC719016D0022A00819189 /* Blue (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue (2v).png"; sourceTree = "<group>"; };
 		99CC719116D0022A00819189 /* Blue [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue [Ah].jpg"; sourceTree = "<group>"; };
 		99CC719216D0022A00819189 /* Blue (Av).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blue (Av).jpg"; sourceTree = "<group>"; };
 		99CC719B16D0025200819189 /* Button [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button [1h].png"; sourceTree = "<group>"; };
@@ -267,6 +255,18 @@
 		99DA8438169DEC2400524D00 /* Flower (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower (2v).png"; path = "Pictures/Calc (flower pink theme)/Flower (2v).png"; sourceTree = SOURCE_ROOT; };
 		99DA843A169DEC2400524D00 /* Flower [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower [1h].png"; path = "Pictures/Calc (flower pink theme)/Flower [1h].png"; sourceTree = SOURCE_ROOT; };
 		99DA843B169DEC2400524D00 /* Flower [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower [2h].png"; path = "Pictures/Calc (flower pink theme)/Flower [2h].png"; sourceTree = SOURCE_ROOT; };
+		99FA74CC16DA5F6D00E4CA10 /* Blue (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue (1v).png"; sourceTree = "<group>"; };
+		99FA74CD16DA5F6D00E4CA10 /* Blue (2h).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue (2h).png"; sourceTree = "<group>"; };
+		99FA74CE16DA5F6D00E4CA10 /* Blue (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue (2v).png"; sourceTree = "<group>"; };
+		99FA74CF16DA5F6D00E4CA10 /* Blue [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue [1h].png"; sourceTree = "<group>"; };
+		99FA74DC16DA60C900E4CA10 /* Pyramids (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pyramids (1v).png"; path = "Pictures/Calc (Pyramid theme)/Pyramids (1v).png"; sourceTree = SOURCE_ROOT; };
+		99FA74DD16DA60C900E4CA10 /* Pyramids (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pyramids (2v).png"; path = "Pictures/Calc (Pyramid theme)/Pyramids (2v).png"; sourceTree = SOURCE_ROOT; };
+		99FA74DE16DA60C900E4CA10 /* Pyramids [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pyramids [1h].png"; path = "Pictures/Calc (Pyramid theme)/Pyramids [1h].png"; sourceTree = SOURCE_ROOT; };
+		99FA74DF16DA60C900E4CA10 /* Pyramids [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pyramids [2h].png"; path = "Pictures/Calc (Pyramid theme)/Pyramids [2h].png"; sourceTree = SOURCE_ROOT; };
+		99FA74E416DA624200E4CA10 /* New Sky (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Sky (1v).png"; path = "Pictures/Calc (farm theme)/New Sky (1v).png"; sourceTree = SOURCE_ROOT; };
+		99FA74E516DA624200E4CA10 /* New Sky (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Sky (2v).png"; path = "Pictures/Calc (farm theme)/New Sky (2v).png"; sourceTree = SOURCE_ROOT; };
+		99FA74E616DA624200E4CA10 /* New Sky [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Sky [1h].png"; path = "Pictures/Calc (farm theme)/New Sky [1h].png"; sourceTree = SOURCE_ROOT; };
+		99FA74E716DA624200E4CA10 /* New Sky [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Sky [2h].png"; path = "Pictures/Calc (farm theme)/New Sky [2h].png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,7 +387,7 @@
 		995511BD1696FFE9008C70D0 /* Background */ = {
 			isa = PBXGroup;
 			children = (
-				99B6328A16CC08FE00AE7208 /* Metal (Av).jpg */,
+				99688BA716DFC05C003A1868 /* Metal (Av) brighter.png */,
 				99B6328B16CC08FE00AE7208 /* Metal [Ah].jpg */,
 			);
 			name = Background;
@@ -396,7 +396,7 @@
 		995511C21697003D008C70D0 /* Keys */ = {
 			isa = PBXGroup;
 			children = (
-				99B6328E16CC091700AE7208 /* metal (1v).png */,
+				9902E14816DFC48400F0669D /* Metal (1v).png */,
 				99B6328F16CC091700AE7208 /* metal (2v).png */,
 				99B6329016CC091700AE7208 /* Metal [1h].png */,
 				99B6329116CC091700AE7208 /* Metal [2h].png */,
@@ -596,10 +596,10 @@
 		99B632CF16CC0ACD00AE7208 /* Keys */ = {
 			isa = PBXGroup;
 			children = (
-				99B632D016CC0AE300AE7208 /* Farm (1v).png */,
-				99B632D116CC0AE300AE7208 /* Farm (2v).png */,
-				99B632D216CC0AE300AE7208 /* Farm [1h].png */,
-				99B632D316CC0AE300AE7208 /* Farm [2h].png */,
+				99FA74E416DA624200E4CA10 /* New Sky (1v).png */,
+				99FA74E516DA624200E4CA10 /* New Sky (2v).png */,
+				99FA74E616DA624200E4CA10 /* New Sky [1h].png */,
+				99FA74E716DA624200E4CA10 /* New Sky [2h].png */,
 			);
 			name = Keys;
 			sourceTree = "<group>";
@@ -645,10 +645,10 @@
 		99B632EC16CC0B6800AE7208 /* Keys */ = {
 			isa = PBXGroup;
 			children = (
-				99B632EE16CC0B7F00AE7208 /* Metallic Pyramids (1v).png */,
-				99B632EF16CC0B7F00AE7208 /* Metallic Pyramids (2v).png */,
-				99B632F116CC0B7F00AE7208 /* Metallic Pyramids [1h].png */,
-				99B632F216CC0B7F00AE7208 /* Metallic Pyramids [2h].png */,
+				99FA74DC16DA60C900E4CA10 /* Pyramids (1v).png */,
+				99FA74DD16DA60C900E4CA10 /* Pyramids (2v).png */,
+				99FA74DE16DA60C900E4CA10 /* Pyramids [1h].png */,
+				99FA74DF16DA60C900E4CA10 /* Pyramids [2h].png */,
 			);
 			name = Keys;
 			sourceTree = "<group>";
@@ -750,10 +750,10 @@
 		99CC71CF16D003E200819189 /* Keys */ = {
 			isa = PBXGroup;
 			children = (
-				99CC718D16D0022A00819189 /* Blue [1h].png */,
-				99CC718E16D0022A00819189 /* Blue (1v).png */,
-				99CC718F16D0022A00819189 /* Blue [2h].png */,
-				99CC719016D0022A00819189 /* Blue (2v).png */,
+				99FA74CC16DA5F6D00E4CA10 /* Blue (1v).png */,
+				99FA74CD16DA5F6D00E4CA10 /* Blue (2h).png */,
+				99FA74CE16DA5F6D00E4CA10 /* Blue (2v).png */,
+				99FA74CF16DA5F6D00E4CA10 /* Blue [1h].png */,
 			);
 			name = Keys;
 			sourceTree = "<group>";
@@ -966,9 +966,7 @@
 				99377C9A16AE60B100FBE46B /* icon(114).png in Resources */,
 				996339C516B49BE800EBCD4A /* Light Clean Corners (Dv).png in Resources */,
 				996339C616B49BE800EBCD4A /* Light Clean Corners [Dh].png in Resources */,
-				99B6328C16CC08FE00AE7208 /* Metal (Av).jpg in Resources */,
 				99B6328D16CC08FE00AE7208 /* Metal [Ah].jpg in Resources */,
-				99B6329216CC091700AE7208 /* metal (1v).png in Resources */,
 				99B6329316CC091700AE7208 /* metal (2v).png in Resources */,
 				99B6329416CC091700AE7208 /* Metal [1h].png in Resources */,
 				99B6329516CC091700AE7208 /* Metal [2h].png in Resources */,
@@ -992,10 +990,6 @@
 				99B632C616CC0A8D00AE7208 /* Helion [1h].png in Resources */,
 				99B632C716CC0A8D00AE7208 /* Helion [2h].png in Resources */,
 				99B632C816CC0A8D00AE7208 /* Helion [Ah].jpg in Resources */,
-				99B632D416CC0AE300AE7208 /* Farm (1v).png in Resources */,
-				99B632D516CC0AE300AE7208 /* Farm (2v).png in Resources */,
-				99B632D616CC0AE300AE7208 /* Farm [1h].png in Resources */,
-				99B632D716CC0AE300AE7208 /* Farm [2h].png in Resources */,
 				99B632DA16CC0AF700AE7208 /* Farm (Av).jpg in Resources */,
 				99B632DB16CC0AF700AE7208 /* Farm [Ah].jpg in Resources */,
 				99B632E516CC0B2300AE7208 /* Aqua Burst (1v).png in Resources */,
@@ -1004,18 +998,10 @@
 				99B632E816CC0B2300AE7208 /* Aqua Burst [1h].png in Resources */,
 				99B632E916CC0B2300AE7208 /* Aqua Burst [2h].png in Resources */,
 				99B632EA16CC0B2300AE7208 /* Aqua Burst [Ah].jpg in Resources */,
-				99B632F416CC0B7F00AE7208 /* Metallic Pyramids (1v).png in Resources */,
-				99B632F516CC0B7F00AE7208 /* Metallic Pyramids (2v).png in Resources */,
 				99B632F616CC0B7F00AE7208 /* Metallic Pyramids (Av).jpg in Resources */,
-				99B632F716CC0B7F00AE7208 /* Metallic Pyramids [1h].png in Resources */,
-				99B632F816CC0B7F00AE7208 /* Metallic Pyramids [2h].png in Resources */,
 				99B632F916CC0B7F00AE7208 /* Metallic pyramids [Ah].jpg in Resources */,
 				99B632FC16CC317800AE7208 /* iTunesArtwork in Resources */,
 				99B632FD16CC317800AE7208 /* iTunesArtwork@2x in Resources */,
-				99CC719316D0022A00819189 /* Blue [1h].png in Resources */,
-				99CC719416D0022A00819189 /* Blue (1v).png in Resources */,
-				99CC719516D0022A00819189 /* Blue [2h].png in Resources */,
-				99CC719616D0022A00819189 /* Blue (2v).png in Resources */,
 				99CC719716D0022A00819189 /* Blue [Ah].jpg in Resources */,
 				99CC719816D0022A00819189 /* Blue (Av).jpg in Resources */,
 				99CC71A116D0025200819189 /* Button [1h].png in Resources */,
@@ -1042,6 +1028,20 @@
 				99CC71CB16D0038E00819189 /* Green (2v).png in Resources */,
 				99CC71CC16D0038E00819189 /* Green Theme [Ah].jpg in Resources */,
 				99CC71CD16D0038E00819189 /* Green Theme (Av).jpg in Resources */,
+				99FA74D016DA5F6D00E4CA10 /* Blue (1v).png in Resources */,
+				99FA74D116DA5F6D00E4CA10 /* Blue (2h).png in Resources */,
+				99FA74D216DA5F6D00E4CA10 /* Blue (2v).png in Resources */,
+				99FA74D316DA5F6D00E4CA10 /* Blue [1h].png in Resources */,
+				99FA74E016DA60C900E4CA10 /* Pyramids (1v).png in Resources */,
+				99FA74E116DA60C900E4CA10 /* Pyramids (2v).png in Resources */,
+				99FA74E216DA60C900E4CA10 /* Pyramids [1h].png in Resources */,
+				99FA74E316DA60C900E4CA10 /* Pyramids [2h].png in Resources */,
+				99FA74E816DA624200E4CA10 /* New Sky (1v).png in Resources */,
+				99FA74E916DA624200E4CA10 /* New Sky (2v).png in Resources */,
+				99FA74EA16DA624200E4CA10 /* New Sky [1h].png in Resources */,
+				99FA74EB16DA624200E4CA10 /* New Sky [2h].png in Resources */,
+				99688BA916DFC05C003A1868 /* Metal (Av) brighter.png in Resources */,
+				9902E14916DFC48400F0669D /* Metal (1v).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
