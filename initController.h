@@ -1,14 +1,14 @@
 //
-//  ViewController.h
-//  fractionCalc
+//  initController.h
+//  Wicked Calc
 //
-//  Created by Evan Hsu on 12/23/12.
-//  Copyright (c) 2012 Evan Hsu. All rights reserved.
+//  Created by Evan Hsu on 3/6/13.
+//  Copyright (c) 2013 Evan Hsu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface initController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 {
     IBOutlet UIView *VerticalView;
     IBOutlet UIView *HorizontalView;
@@ -24,6 +24,10 @@
 @property (strong, nonatomic) IBOutlet UILabel *VerticalDisplay;
 @property (strong, nonatomic) IBOutlet UILabel *HorizontalDisplay;
 
+//Operation displays
+@property (strong, nonatomic) IBOutlet UILabel *opDisplay;
+@property (strong, nonatomic) IBOutlet UILabel *HorizOpDisplay;
+
 //Orientation Views
 @property (strong, nonatomic) IBOutlet UIView *VerticalView;
 @property (strong, nonatomic) IBOutlet UIView *HorizontalView;
@@ -34,11 +38,6 @@
 @property (strong, nonatomic) IBOutlet UIButton *ClearButton;
 @property (strong, nonatomic) IBOutlet UILabel *HistoryLabel;
 @property (strong, nonatomic) IBOutlet UIButton *SlideButton;
-
-
-//Operation displays
-@property (strong, nonatomic) IBOutlet UILabel *opDisplay;
-@property (strong, nonatomic) IBOutlet UILabel *HorizOpDisplay;
 
 //ImageView background
 @property (strong, nonatomic) IBOutlet UIImageView *VerticalBackground;

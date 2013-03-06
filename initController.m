@@ -1,26 +1,23 @@
 //
-//  ViewController.m
-//  fractionCalc
+//  initController.m
+//  Wicked Calc
 //
-//  Created by Evan Hsu on 12/23/12.
-//  Copyright (c) 2012 Evan Hsu. All rights reserved.
+//  Created by Evan Hsu on 3/6/13.
+//  Copyright (c) 2013 Evan Hsu. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "initController.h"
 #import "AudioToolbox/AudioToolbox.h"
 #import "BackgroundChooser.h"
 #import "queue.h"
 #import "SettingsViewController.h"
 #import "Calculator.h"
 
-//CFURLRef soundFileURLRef;
-//SystemSoundID soundFileObject;
-
-@interface ViewController ()
+@interface initController ()
 
 @end
 
-@implementation ViewController
+@implementation initController
 {
     BOOL isShowingLandscapeView;
     NSMutableArray *array;
@@ -28,7 +25,7 @@
     BackgroundChooser *bgChooser;
     queue *history_queue;
     Calculator *myCalculator;
-
+    
 }
 //Passed Variables
 @synthesize vertOrHoriz;
@@ -120,6 +117,7 @@
     [super viewDidLoad];
     
     /*Variable Declaration*/
+    themeNum = 0;
     
     /*Object Allocation*/
     myCalculator = [[Calculator alloc] init];
@@ -145,7 +143,7 @@
     
     [self updateOrientation];
     [self selectBG:themeNum];
-    //NSLog(@"LOADED AND THEMENUM: %i", themeNum);
+    NSLog(@"LOADED AND THEMENUM: %i", themeNum);
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -257,6 +255,7 @@
 }
 
 
+
 /*~~~~~~~~~~~~~~~~~~Misc Keys~~~~~~~~~~~~~~~~~~~~~*/
 
 
@@ -325,7 +324,7 @@
     [myCalculator dot];
     //updating vertical and horizontal displays
     [self displayDisplayString];
-
+    
 }
 
 -(IBAction) clickDel
@@ -407,12 +406,27 @@
     [myCalculator piButton];
     [self displayCurrent];
 }
-
 -(IBAction) epsilonButton
 {
     AudioServicesPlaySystemSound(1104);
     [myCalculator epsilonButton];
     [self displayCurrent];
+}
+/*~~~~~~~~~~~~~~~~~~Animations~~~~~~~~~~~~~~~~~~~~~*/
+-(void) dissapear:(UIView*) object
+{
+    object.alpha = 1.0;
+    [UIView animateWithDuration:0.3 animations:^() {
+        object.alpha = 0;
+    }];
+}
+
+-(void) appear:(UIView*) object
+{
+    object.alpha = 0;
+    [UIView animateWithDuration:0.3 animations:^() {
+        object.alpha = 1.0;
+    }];
 }
 
 /*~~~~~~~~~~~~~~~~History Side Bar~~~~~~~~~~~~~~~~~*/
@@ -444,7 +458,7 @@
             SlideButton.frame = CGRectMake(self.view.frame.size.width/4, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
             [SlideButton setTitle:@"<" forState:UIControlStateNormal];
         }
-
+        
         [self HistoryBar:1];
     }
     [UIView commitAnimations];
@@ -511,12 +525,13 @@
     //themeNum = [BGScroll selectedRowInComponent:0];
     color = [bgChooser colorSelect:num];
     NSLog(@"Theme number: %i", num);
-    [self updateTheme: num];
+    [self updateTheme:num];
     [self updateButton:color];
 }
 
 -(void) updateTheme: (int) num
 {
+    NSLog(@"updateTheme: %i", num);
     VerticalBackground.image = [bgChooser chooseBackgroundVertical:num];
     HorizontalBackground.image = [bgChooser chooseBackgroundHorizontal:num];
     
@@ -703,20 +718,5 @@
     }
 }
 
+
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

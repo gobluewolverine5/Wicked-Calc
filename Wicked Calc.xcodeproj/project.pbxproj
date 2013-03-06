@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9902E14916DFC48400F0669D /* Metal (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 9902E14816DFC48400F0669D /* Metal (1v).png */; };
+		9902E15616DFFD2500F0669D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9902E15516DFFD2500F0669D /* SettingsViewController.m */; };
 		991DFF9116A31FD800923715 /* Space (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF8D16A31FD800923715 /* Space (1v).png */; };
 		991DFF9216A31FD800923715 /* Space (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF8E16A31FD800923715 /* Space (2v).png */; };
 		991DFF9316A31FD800923715 /* Space [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 991DFF8F16A31FD800923715 /* Space [1h].png */; };
@@ -20,8 +21,10 @@
 		9950989816998A130020BDC4 /* Wood [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 9950989216998A130020BDC4 /* Wood [1h].png */; };
 		9950989916998A130020BDC4 /* Wood [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 9950989316998A130020BDC4 /* Wood [2h].png */; };
 		995511D016971324008C70D0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995511CF16971324008C70D0 /* AudioToolbox.framework */; };
+		99586FDF16E3B5830053C165 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 99586FDE16E3B5830053C165 /* Calculator.m */; };
 		996339C516B49BE800EBCD4A /* Light Clean Corners (Dv).png in Resources */ = {isa = PBXBuildFile; fileRef = 996339C316B49BE800EBCD4A /* Light Clean Corners (Dv).png */; };
 		996339C616B49BE800EBCD4A /* Light Clean Corners [Dh].png in Resources */ = {isa = PBXBuildFile; fileRef = 996339C416B49BE800EBCD4A /* Light Clean Corners [Dh].png */; };
+		99650DCB16E708940015AA8B /* initController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99650DCA16E708940015AA8B /* initController.m */; };
 		99688BA916DFC05C003A1868 /* Metal (Av) brighter.png in Resources */ = {isa = PBXBuildFile; fileRef = 99688BA716DFC05C003A1868 /* Metal (Av) brighter.png */; };
 		99709C001686E7BB00A793BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99709BFF1686E7BB00A793BC /* UIKit.framework */; };
 		99709C021686E7BB00A793BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99709C011686E7BB00A793BC /* Foundation.framework */; };
@@ -140,6 +143,8 @@
 
 /* Begin PBXFileReference section */
 		9902E14816DFC48400F0669D /* Metal (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal (1v).png"; path = "Pictures/Calc (metal theme)/Metal (1v).png"; sourceTree = SOURCE_ROOT; };
+		9902E15416DFFD2500F0669D /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9902E15516DFFD2500F0669D /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		991DFF8D16A31FD800923715 /* Space (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space (1v).png"; path = "Pictures/Calc (space theme)/Space (1v).png"; sourceTree = SOURCE_ROOT; };
 		991DFF8E16A31FD800923715 /* Space (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space (2v).png"; path = "Pictures/Calc (space theme)/Space (2v).png"; sourceTree = SOURCE_ROOT; };
 		991DFF8F16A31FD800923715 /* Space [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Space [1h].png"; path = "Pictures/Calc (space theme)/Space [1h].png"; sourceTree = SOURCE_ROOT; };
@@ -153,8 +158,12 @@
 		9950989216998A130020BDC4 /* Wood [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wood [1h].png"; sourceTree = "<group>"; };
 		9950989316998A130020BDC4 /* Wood [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wood [2h].png"; sourceTree = "<group>"; };
 		995511CF16971324008C70D0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		99586FDD16E3B5830053C165 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		99586FDE16E3B5830053C165 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		996339C316B49BE800EBCD4A /* Light Clean Corners (Dv).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Light Clean Corners (Dv).png"; path = "Pictures/Display/Light Clean Corners (Dv).png"; sourceTree = SOURCE_ROOT; };
 		996339C416B49BE800EBCD4A /* Light Clean Corners [Dh].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Light Clean Corners [Dh].png"; path = "Pictures/Display/Light Clean Corners [Dh].png"; sourceTree = SOURCE_ROOT; };
+		99650DC916E708940015AA8B /* initController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = initController.h; path = ../initController.h; sourceTree = "<group>"; };
+		99650DCA16E708940015AA8B /* initController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = initController.m; path = ../initController.m; sourceTree = "<group>"; };
 		99688BA716DFC05C003A1868 /* Metal (Av) brighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal (Av) brighter.png"; path = "Pictures/Calc (metal theme)/Metal (Av) brighter.png"; sourceTree = SOURCE_ROOT; };
 		99709BFB1686E7BB00A793BC /* Wicked Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wicked Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99709BFF1686E7BB00A793BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -294,6 +303,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9902A78316E720FE000D4505 /* Calculator Core */ = {
+			isa = PBXGroup;
+			children = (
+				99586FDD16E3B5830053C165 /* Calculator.h */,
+				99586FDE16E3B5830053C165 /* Calculator.m */,
+				99BAF0701695779700D9F3B7 /* addFunc.h */,
+				99BAF0711695779700D9F3B7 /* addFunc.m */,
+			);
+			name = "Calculator Core";
+			sourceTree = "<group>";
+		};
+		9902A78416E7214C000D4505 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				99709C1D1686E7BB00A793BC /* ViewController.h */,
+				99709C1E1686E7BB00A793BC /* ViewController.m */,
+				99650DC916E708940015AA8B /* initController.h */,
+				99650DCA16E708940015AA8B /* initController.m */,
+				9902E15416DFFD2500F0669D /* SettingsViewController.h */,
+				9902E15516DFFD2500F0669D /* SettingsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9902A78516E72183000D4505 /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				99A0284E16C8C48800AF194C /* queue.h */,
+				99A0284F16C8C48800AF194C /* queue.m */,
+			);
+			name = SideBar;
+			sourceTree = "<group>";
+		};
 		991DFF8A16A31F9600923715 /* 4. Space */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,17 +480,12 @@
 		99709C051686E7BB00A793BC /* fractionCalc */ = {
 			isa = PBXGroup;
 			children = (
+				9902A78516E72183000D4505 /* SideBar */,
+				9902A78416E7214C000D4505 /* ViewControllers */,
+				9902A78316E720FE000D4505 /* Calculator Core */,
 				99BAF074169577CF00D9F3B7 /* Design */,
 				99709C0E1686E7BB00A793BC /* AppDelegate.h */,
 				99709C0F1686E7BB00A793BC /* AppDelegate.m */,
-				99709C1D1686E7BB00A793BC /* ViewController.h */,
-				99709C1E1686E7BB00A793BC /* ViewController.m */,
-				99BAF0701695779700D9F3B7 /* addFunc.h */,
-				99BAF0711695779700D9F3B7 /* addFunc.m */,
-				9950988B169965EC0020BDC4 /* BackgroundChooser.h */,
-				9950988C169965EC0020BDC4 /* BackgroundChooser.m */,
-				99A0284E16C8C48800AF194C /* queue.h */,
-				99A0284F16C8C48800AF194C /* queue.m */,
 				99709C061686E7BB00A793BC /* Supporting Files */,
 			);
 			path = fractionCalc;
@@ -667,6 +704,8 @@
 			children = (
 				99709C171686E7BB00A793BC /* MainStoryboard_iPhone.storyboard */,
 				99709C1A1686E7BB00A793BC /* MainStoryboard_iPad.storyboard */,
+				9950988B169965EC0020BDC4 /* BackgroundChooser.h */,
+				9950988C169965EC0020BDC4 /* BackgroundChooser.m */,
 				995511BB1696FFDE008C70D0 /* 0. Metal */,
 				99DA8435169DEBF900524D00 /* 1. Flower */,
 				9950988E16998A120020BDC4 /* 2. Wood */,
@@ -1082,6 +1121,9 @@
 				99BAF0721695779700D9F3B7 /* addFunc.m in Sources */,
 				9950988D169965ED0020BDC4 /* BackgroundChooser.m in Sources */,
 				99A0285016C8C48800AF194C /* queue.m in Sources */,
+				9902E15616DFFD2500F0669D /* SettingsViewController.m in Sources */,
+				99586FDF16E3B5830053C165 /* Calculator.m in Sources */,
+				99650DCB16E708940015AA8B /* initController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

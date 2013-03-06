@@ -8,39 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "fractionCalc/ViewController.m"
-         timestampString = "383411980.012666"
+         timestampString = "384247565.510125"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "306"
-         endingLineNumber = "306"
-         landmarkName = "-calculate:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "fractionCalc/ViewController.m"
-         timestampString = "383411980.012666"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "314"
-         endingLineNumber = "314"
-         landmarkName = "-calculate:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "fractionCalc/ViewController.m"
-         timestampString = "383412595.247038"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "972"
-         endingLineNumber = "972"
-         landmarkName = "-updateTheme"
-         landmarkType = "5">
+         startingLineNumber = "725"
+         endingLineNumber = "725">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>

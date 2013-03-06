@@ -53,7 +53,7 @@
     return number;
 }
 
--(NSDecimalNumber*) sinOp: (NSDecimalNumber*) number: (BOOL) deg
+-(NSDecimalNumber*) sinOp: (NSDecimalNumber*)number seg:(BOOL) deg
 {
     // Traditional computational result. Same as on mac and iOS calculators.
     double init = [number doubleValue];
@@ -65,7 +65,7 @@
                    @"%.15f", sin(init)]];
     return number;
 }
--(NSDecimalNumber*) cosOp: (NSDecimalNumber*) number: (BOOL) deg
+-(NSDecimalNumber*) cosOp: (NSDecimalNumber*) number seg:(BOOL) deg
 {
     double init = [number doubleValue];
     if (deg) {//Degrees Calculation
@@ -77,7 +77,7 @@
     return number;
 }
 
--(NSDecimalNumber*) tanOp: (NSDecimalNumber*) number: (BOOL) deg
+-(NSDecimalNumber*) tanOp: (NSDecimalNumber*)number seg:(BOOL) deg
 {
     double init = [number doubleValue];
     if (deg) {//Degrees Calculation

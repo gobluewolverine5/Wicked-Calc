@@ -14,9 +14,9 @@
 -(NSDecimalNumber *) factorial: (NSDecimalNumber*) number;
 -(NSDecimalNumber*) SqrRoot: (NSDecimalNumber*) number;
 -(NSDecimalNumber*) percent: (NSDecimalNumber*) number;
--(NSDecimalNumber*) sinOp: (NSDecimalNumber*) number: (BOOL) deg;
--(NSDecimalNumber*) cosOp: (NSDecimalNumber*) number: (BOOL) deg;
--(NSDecimalNumber*) tanOp: (NSDecimalNumber*) number: (BOOL) deg;
+-(NSDecimalNumber*) sinOp: (NSDecimalNumber*)number seg:(BOOL) deg;
+-(NSDecimalNumber*) cosOp: (NSDecimalNumber*)number seg:(BOOL) deg;
+-(NSDecimalNumber*) tanOp: (NSDecimalNumber*)number seg:(BOOL) deg;
 -(NSDecimalNumber*) lnOp: (NSDecimalNumber*) number;
 -(NSDecimalNumber*) logOp: (NSDecimalNumber*) number;
 -(NSDecimalNumber*) divX: (NSDecimalNumber*) number;
