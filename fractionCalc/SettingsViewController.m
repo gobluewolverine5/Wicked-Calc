@@ -8,6 +8,7 @@
 
 #import "SettingsViewController.h"
 #import "ViewController.h"
+#import "BackgroundChooser.h"
 
 @interface SettingsViewController ()
 
@@ -15,12 +16,14 @@
 
 @implementation SettingsViewController{
     NSMutableArray *array;
+    BackgroundChooser *bgChooser;
 }
 
 @synthesize vertOrHoriz;
 @synthesize orientation_id;
 @synthesize themeNum;
 @synthesize BGscroll;
+@synthesize PreviewWindow;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,6 +37,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //Object allocation
+    bgChooser = [[BackgroundChooser alloc] init];
     
     //list of Picker View themes
     array = [[NSMutableArray alloc] initWithObjects:@"Metal", @"Flower", @"Wood", @"Tech", @"Space",
@@ -80,6 +86,7 @@
 {
     //updating themeNum on Picker View index
     themeNum = [BGscroll selectedRowInComponent:0];
+    PreviewWindow.image = [bgChooser chooseBackgroundHorizontal:themeNum];
 }
 
 -(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
@@ -99,7 +106,6 @@
     //set item per row
     return [array objectAtIndex:row];
 }
-
 
 /*~~~~~~~~~~~~~~~~~Orientation~~~~~~~~~~~~~~~~~~~~*/
 

@@ -18,5 +18,6 @@
 
 /*Objects*/
 @property (strong, nonatomic) IBOutlet UIPickerView *BGscroll;
+@property (strong, nonatomic) IBOutlet UIImageView *PreviewWindow;
 
 @end

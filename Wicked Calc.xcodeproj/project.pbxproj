@@ -24,7 +24,6 @@
 		99586FDF16E3B5830053C165 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 99586FDE16E3B5830053C165 /* Calculator.m */; };
 		996339C516B49BE800EBCD4A /* Light Clean Corners (Dv).png in Resources */ = {isa = PBXBuildFile; fileRef = 996339C316B49BE800EBCD4A /* Light Clean Corners (Dv).png */; };
 		996339C616B49BE800EBCD4A /* Light Clean Corners [Dh].png in Resources */ = {isa = PBXBuildFile; fileRef = 996339C416B49BE800EBCD4A /* Light Clean Corners [Dh].png */; };
-		99650DCB16E708940015AA8B /* initController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99650DCA16E708940015AA8B /* initController.m */; };
 		99688BA916DFC05C003A1868 /* Metal (Av) brighter.png in Resources */ = {isa = PBXBuildFile; fileRef = 99688BA716DFC05C003A1868 /* Metal (Av) brighter.png */; };
 		99709C001686E7BB00A793BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99709BFF1686E7BB00A793BC /* UIKit.framework */; };
 		99709C021686E7BB00A793BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99709C011686E7BB00A793BC /* Foundation.framework */; };
@@ -162,8 +161,6 @@
 		99586FDE16E3B5830053C165 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		996339C316B49BE800EBCD4A /* Light Clean Corners (Dv).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Light Clean Corners (Dv).png"; path = "Pictures/Display/Light Clean Corners (Dv).png"; sourceTree = SOURCE_ROOT; };
 		996339C416B49BE800EBCD4A /* Light Clean Corners [Dh].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Light Clean Corners [Dh].png"; path = "Pictures/Display/Light Clean Corners [Dh].png"; sourceTree = SOURCE_ROOT; };
-		99650DC916E708940015AA8B /* initController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = initController.h; path = ../initController.h; sourceTree = "<group>"; };
-		99650DCA16E708940015AA8B /* initController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = initController.m; path = ../initController.m; sourceTree = "<group>"; };
 		99688BA716DFC05C003A1868 /* Metal (Av) brighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Metal (Av) brighter.png"; path = "Pictures/Calc (metal theme)/Metal (Av) brighter.png"; sourceTree = SOURCE_ROOT; };
 		99709BFB1686E7BB00A793BC /* Wicked Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wicked Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99709BFF1686E7BB00A793BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -319,8 +316,6 @@
 			children = (
 				99709C1D1686E7BB00A793BC /* ViewController.h */,
 				99709C1E1686E7BB00A793BC /* ViewController.m */,
-				99650DC916E708940015AA8B /* initController.h */,
-				99650DCA16E708940015AA8B /* initController.m */,
 				9902E15416DFFD2500F0669D /* SettingsViewController.h */,
 				9902E15516DFFD2500F0669D /* SettingsViewController.m */,
 			);
@@ -1123,7 +1118,6 @@
 				99A0285016C8C48800AF194C /* queue.m in Sources */,
 				9902E15616DFFD2500F0669D /* SettingsViewController.m in Sources */,
 				99586FDF16E3B5830053C165 /* Calculator.m in Sources */,
-				99650DCB16E708940015AA8B /* initController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
