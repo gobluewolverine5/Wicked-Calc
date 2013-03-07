@@ -172,18 +172,18 @@
 
 -(void) displayResult
 {
-    VerticalDisplay.text = [NSString stringWithFormat:@"%@",
-                            [myCalculator returnResult]];
-    HorizontalDisplay.text = [NSString stringWithFormat:@"%@",
-                              [myCalculator returnResult]];
+    VerticalDisplay.text = [NSString stringWithFormat:@"%.10g",
+                            [[myCalculator returnResult] doubleValue]];
+    HorizontalDisplay.text = [NSString stringWithFormat:@"%.10g",
+                              [[myCalculator returnResult] doubleValue]];
 }
 
 -(void) displayCurrent
 {
-    VerticalDisplay.text = [NSString stringWithFormat:@"%@",
-                            [myCalculator returnCurrent]];
-    HorizontalDisplay.text = [NSString stringWithFormat:@"%@",
-                              [myCalculator returnCurrent]];
+    VerticalDisplay.text = [NSString stringWithFormat:@"%.10g",
+                            [[myCalculator returnCurrent] doubleValue]];
+    HorizontalDisplay.text = [NSString stringWithFormat:@"%.10g",
+                              [[myCalculator returnCurrent] doubleValue]];
 }
 
 -(void) displayDisplayString
