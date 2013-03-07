@@ -471,7 +471,7 @@
             color = [UIColor blackColor];
             break;
         case 12://Grate
-            color = [UIColor blueColor];
+            color = [UIColor whiteColor];
             break;
         case 13://Frosty Leaves
             color = [UIColor blackColor];

@@ -22,12 +22,12 @@
 
 @implementation ViewController
 {
-    BOOL isShowingLandscapeView;
     NSMutableArray *array;
     SystemSoundID soundID;
     BackgroundChooser *bgChooser;
     queue *history_queue;
     Calculator *myCalculator;
+    int tab;
 
 }
 //Passed Variables
@@ -42,12 +42,35 @@
 //Operator displays
 @synthesize opDisplay;
 @synthesize HorizOpDisplay;
-//History Table
+/*Side Bar*/
+@synthesize SlideButton;
 @synthesize SideBar;
+@synthesize SideBarBackground;
+//History Bar
 @synthesize HistoryTable;
 @synthesize ClearButton;
 @synthesize HistoryLabel;
-@synthesize SlideButton;
+@synthesize ResultHistory;
+@synthesize TabOne;
+@synthesize HistoryBG;
+//Notes
+@synthesize Notes;
+@synthesize TabTwo;
+@synthesize mainImage;
+@synthesize tempDrawing;
+@synthesize Eraser;
+@synthesize colorBlack;
+@synthesize colorBlue;
+@synthesize NotesBG;
+//Info
+@synthesize Info;
+@synthesize textone;
+@synthesize texttwo;
+@synthesize textthree;
+@synthesize textfour;
+@synthesize iconview;
+@synthesize TabThree;
+@synthesize InfoBG;
 //View Controller
 @synthesize HorizontalView, VerticalView;
 //Background Image Views
@@ -120,24 +143,33 @@
     [super viewDidLoad];
     
     /*Variable Declaration*/
+    tab = 0;
     
     /*Object Allocation*/
     myCalculator = [[Calculator alloc] init];
     bgChooser = [[BackgroundChooser alloc] init];
     
-    /*History Table*/
+    /*Side Bar*/
     history_queue = [[queue alloc] init];
     HistoryTable.delegate = self; //Setting VC as Table delegate
     HistoryTable.dataSource = self; //Setting VC as Table data source
     SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, 0, SideBar.frame.size.height);
     SlideButton.frame = CGRectMake(0, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
-    HistoryLabel.alpha = 0;
-    HistoryTable.alpha = 0;
-    ClearButton.alpha = 0;
+    SideBarBackground.frame = CGRectMake(0, SideBarBackground.frame.origin.y, 0, SideBarBackground.frame.size.height);
+    [self HistoryBar:0];
+    [self NotesBar:0];
+    [self InfoBar:0];
+    [self Tabs:0];
+    
+    //Drawing
+    red = 0.0 / 255.0;
+    green = 0.0 / 255.0;
+    blue = 0.0 / 255.0;
+    brush = 3.0;
+    opacity = 1.0;
     
     /*Orientation code*/
     //self.view = self.HorizontalView;
-    isShowingLandscapeView = NO;
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(orientationChanged:) name:@"UIDeviceOrientationDidChangeNotification"
@@ -296,7 +328,7 @@
     
     //Popping Result History if Full
     NSLog(@"The first element is: %@", [history_queue front]);
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad && [history_queue size] > 14) {
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad && [history_queue size] > 11) {
         [history_queue pop];
     }
     else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone &&
@@ -415,7 +447,7 @@
     [self displayCurrent];
 }
 
-/*~~~~~~~~~~~~~~~~History Side Bar~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~Side Bar~~~~~~~~~~~~~~~~~*/
 
 -(IBAction)onOpenButtonClick:(id)sender
 {
@@ -423,13 +455,14 @@
     [UIView setAnimationDuration:0.8];
     
     if (SideBar.frame.size.width == self.view.frame.size.width/2 ||
-        SideBar.frame.size.width == self.view.frame.size.width/4) //Closing Side Bar
+        SideBar.frame.size.width == 431) //Closing Side Bar
     {
         
         SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, 0, SideBar.frame.size.height);
+        SideBarBackground.frame = CGRectMake(0, SideBarBackground.frame.origin.y, 0, SideBarBackground.frame.size.height);
         SlideButton.frame = CGRectMake(0, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
         [SlideButton setTitle:@">" forState:UIControlStateNormal];
-        [self HistoryBar:0];
+        [self SideBarAppear:0];
         
     }
     else //Opening Side Bar
@@ -440,12 +473,13 @@
             [SlideButton setTitle:@"<" forState:UIControlStateNormal];
         }
         else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad){
-            SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, self.view.frame.size.width/4, SideBar.frame.size.height);
-            SlideButton.frame = CGRectMake(self.view.frame.size.width/4, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
+            SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, 431, SideBar.frame.size.height);
+            SideBarBackground.frame = CGRectMake(0, SideBarBackground.frame.origin.y, 431, SideBarBackground.frame.size.height);
+            SlideButton.frame = CGRectMake(431, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
             [SlideButton setTitle:@"<" forState:UIControlStateNormal];
         }
 
-        [self HistoryBar:1];
+        [self SideBarAppear:1];
     }
     [UIView commitAnimations];
 }
@@ -459,9 +493,98 @@
 
 -(void) HistoryBar: (int) value
 {
+    ResultHistory.alpha = value;
     HistoryLabel.alpha = value;
     HistoryTable.alpha = value;
     ClearButton.alpha = value;
+    HistoryBG.alpha = value;
+}
+
+-(void) NotesBar: (int) value
+{
+    Notes.alpha = value;
+    NotesBG.alpha = value;
+}
+
+-(void) InfoBar: (int) value
+{
+    Info.alpha = value;
+    textone.alpha = value;
+    texttwo.alpha = value;
+    textthree.alpha = value;
+    textfour.alpha = value;
+    iconview.alpha = value;
+    InfoBG.alpha = value;
+}
+
+-(void) Tabs: (int) value
+{
+    TabOne.alpha = value;
+    TabTwo.alpha = value;
+    TabThree.alpha = value;
+}
+
+-(void) SideBarAppear: (int) value
+{
+    [self Tabs:value];
+    switch (tab) {
+        case 0:
+            TabOne.frame = CGRectMake(TabOne.frame.origin.x, TabOne.frame.origin.y, 60, TabOne.frame.size.height);
+            TabTwo.frame = CGRectMake(TabTwo.frame.origin.x, TabTwo.frame.origin.y, 48, TabTwo.frame.size.height);
+            TabThree.frame = CGRectMake(TabThree.frame.origin.x, TabThree.frame.origin.y, 48, TabThree.frame.size.height);
+            [self HistoryBar:value];
+            break;
+        case 1:
+            TabOne.frame = CGRectMake(TabOne.frame.origin.x, TabOne.frame.origin.y, 48, TabOne.frame.size.height);
+            TabTwo.frame = CGRectMake(TabTwo.frame.origin.x, TabTwo.frame.origin.y, 60, TabTwo.frame.size.height);
+            TabThree.frame = CGRectMake(TabThree.frame.origin.x, TabThree.frame.origin.y, 48, TabThree.frame.size.height);
+            [self resetDrawing];
+            [self NotesBar:value];
+            break;
+        case 2:
+            TabOne.frame = CGRectMake(TabOne.frame.origin.x, TabOne.frame.origin.y, 48, TabOne.frame.size.height);
+            TabTwo.frame = CGRectMake(TabTwo.frame.origin.x, TabTwo.frame.origin.y, 48, TabTwo.frame.size.height);
+            TabThree.frame = CGRectMake(TabThree.frame.origin.x, TabThree.frame.origin.y, 60, TabThree.frame.size.height);
+            [self InfoBar:value];
+        default:
+            break;
+    }
+}
+
+-(IBAction)TabSelect:(UIButton*)sender
+{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.8];
+    tab = sender.tag;
+    switch (tab) {
+        case 0:
+            TabOne.frame = CGRectMake(TabOne.frame.origin.x, TabOne.frame.origin.y, 60, TabOne.frame.size.height);
+            TabTwo.frame = CGRectMake(TabTwo.frame.origin.x, TabTwo.frame.origin.y, 48, TabTwo.frame.size.height);
+            TabThree.frame = CGRectMake(TabThree.frame.origin.x, TabThree.frame.origin.y, 48, TabThree.frame.size.height);
+            [self HistoryBar:1];
+            [self NotesBar:0];
+            [self InfoBar:0];
+            break;
+        case 1:
+            TabOne.frame = CGRectMake(TabOne.frame.origin.x, TabOne.frame.origin.y, 48, TabOne.frame.size.height);
+            TabTwo.frame = CGRectMake(TabTwo.frame.origin.x, TabTwo.frame.origin.y, 60, TabTwo.frame.size.height);
+            TabThree.frame = CGRectMake(TabThree.frame.origin.x, TabThree.frame.origin.y, 48, TabThree.frame.size.height);
+            [self resetDrawing];
+            [self NotesBar:1];
+            [self HistoryBar:0];
+            [self InfoBar:0];
+            break;
+        case 2:
+            TabOne.frame = CGRectMake(TabOne.frame.origin.x, TabOne.frame.origin.y, 48, TabOne.frame.size.height);
+            TabTwo.frame = CGRectMake(TabTwo.frame.origin.x, TabTwo.frame.origin.y, 48, TabTwo.frame.size.height);
+            TabThree.frame = CGRectMake(TabThree.frame.origin.x, TabThree.frame.origin.y, 60, TabThree.frame.size.height);
+            [self InfoBar:1];
+            [self NotesBar:0];
+            [self HistoryBar:0];
+        default:
+            break;
+    }
+    [UIView commitAnimations];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -501,6 +624,89 @@
 }
 
 
+/*~~~~Notes~~~~~*/
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    mouseSwiped = NO;
+    UITouch *touch = [touches anyObject];
+    lastPoint = [touch locationInView:self.Notes];
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    mouseSwiped = YES;
+    UITouch *touch = [touches anyObject];
+    CGPoint currentPoint = [touch locationInView:self.Notes];
+    
+    UIGraphicsBeginImageContext(self.Notes.frame.size);
+    [self.tempDrawing.image drawInRect:CGRectMake(0, 0, self.Notes.frame.size.width, self.Notes.frame.size.height)];
+    CGContextMoveToPoint(UIGraphicsGetCurrentContext(), lastPoint.x, lastPoint.y);
+    CGContextAddLineToPoint(UIGraphicsGetCurrentContext(), currentPoint.x, currentPoint.y);
+    CGContextSetLineCap(UIGraphicsGetCurrentContext(), kCGLineCapRound);
+    CGContextSetLineWidth(UIGraphicsGetCurrentContext(), brush );
+    CGContextSetRGBStrokeColor(UIGraphicsGetCurrentContext(), red, green, blue, 1.0);
+    CGContextSetBlendMode(UIGraphicsGetCurrentContext(),kCGBlendModeNormal);
+    
+    CGContextStrokePath(UIGraphicsGetCurrentContext());
+    self.tempDrawing.image = UIGraphicsGetImageFromCurrentImageContext();
+    [self.tempDrawing setAlpha:opacity];
+    UIGraphicsEndImageContext();
+    
+    lastPoint = currentPoint;
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    if(!mouseSwiped) {
+        UIGraphicsBeginImageContext(self.Notes.frame.size);
+        [self.tempDrawing.image drawInRect:CGRectMake(0, 0, self.Notes.frame.size.width, self.Notes.frame.size.height)];
+        CGContextSetLineCap(UIGraphicsGetCurrentContext(), kCGLineCapRound);
+        CGContextSetLineWidth(UIGraphicsGetCurrentContext(), brush);
+        CGContextSetRGBStrokeColor(UIGraphicsGetCurrentContext(), red, green, blue, opacity);
+        CGContextMoveToPoint(UIGraphicsGetCurrentContext(), lastPoint.x, lastPoint.y);
+        CGContextAddLineToPoint(UIGraphicsGetCurrentContext(), lastPoint.x, lastPoint.y);
+        CGContextStrokePath(UIGraphicsGetCurrentContext());
+        CGContextFlush(UIGraphicsGetCurrentContext());
+        self.tempDrawing.image = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+    }
+    
+    UIGraphicsBeginImageContext(self.mainImage.frame.size);
+    [self.mainImage.image drawInRect:CGRectMake(0, 0, self.Notes.frame.size.width, self.Notes.frame.size.height) blendMode:kCGBlendModeNormal alpha:1.0];
+    [self.tempDrawing.image drawInRect:CGRectMake(0, 0, self.Notes.frame.size.width, self.Notes.frame.size.height) blendMode:kCGBlendModeNormal alpha:opacity];
+    self.mainImage.image = UIGraphicsGetImageFromCurrentImageContext();
+    self.tempDrawing.image = nil;
+    UIGraphicsEndImageContext();
+}
+
+-(IBAction)resetDrawingPressed:(id)sender
+{
+    [self resetDrawing];
+}
+
+-(IBAction)colorSelect:(UIButton*)sender
+{
+    AudioServicesPlaySystemSound(1104);
+    switch (sender.tag) {
+        case 0:
+            red = 0.0/255.0;
+            green = 0.0/255.0;
+            blue = 0.0/255.0;
+            break;
+        case 1:
+            red = 0.0/255.0;
+            green = 0.0/255.0;
+            blue = 255.0/255.0;
+            break;
+        default:
+            break;
+    }
+}
+-(void) resetDrawing
+{
+    self.mainImage.image = nil;
+}
 
 /*~~~~~~~~~~~~~~~~Background Theme~~~~~~~~~~~~~~~~~*/
 

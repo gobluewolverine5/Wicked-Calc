@@ -116,6 +116,12 @@
 		99DA843E169DEC2400524D00 /* Flower (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA8438169DEC2400524D00 /* Flower (2v).png */; };
 		99DA8440169DEC2400524D00 /* Flower [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA843A169DEC2400524D00 /* Flower [1h].png */; };
 		99DA8441169DEC2400524D00 /* Flower [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99DA843B169DEC2400524D00 /* Flower [2h].png */; };
+		99EB218916E8634D003349F2 /* II BackG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99EB218316E8634D003349F2 /* II BackG.jpg */; };
+		99EB218A16E8634D003349F2 /* Side II BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 99EB218416E8634D003349F2 /* Side II BG.png */; };
+		99EB218F16E86872003349F2 /* BackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 99EB218E16E86872003349F2 /* BackGround.png */; };
+		99EB219316E86B97003349F2 /* SideButton (H).png in Resources */ = {isa = PBXBuildFile; fileRef = 99EB219016E86B97003349F2 /* SideButton (H).png */; };
+		99EB219416E86B97003349F2 /* SideButton (I).png in Resources */ = {isa = PBXBuildFile; fileRef = 99EB219116E86B97003349F2 /* SideButton (I).png */; };
+		99EB219516E86B97003349F2 /* SideButton (N).png in Resources */ = {isa = PBXBuildFile; fileRef = 99EB219216E86B97003349F2 /* SideButton (N).png */; };
 		99FA74D016DA5F6D00E4CA10 /* Blue (1v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74CC16DA5F6D00E4CA10 /* Blue (1v).png */; };
 		99FA74D116DA5F6D00E4CA10 /* Blue (2h).png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74CD16DA5F6D00E4CA10 /* Blue (2h).png */; };
 		99FA74D216DA5F6D00E4CA10 /* Blue (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74CE16DA5F6D00E4CA10 /* Blue (2v).png */; };
@@ -261,6 +267,12 @@
 		99DA8438169DEC2400524D00 /* Flower (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower (2v).png"; path = "Pictures/Calc (flower pink theme)/Flower (2v).png"; sourceTree = SOURCE_ROOT; };
 		99DA843A169DEC2400524D00 /* Flower [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower [1h].png"; path = "Pictures/Calc (flower pink theme)/Flower [1h].png"; sourceTree = SOURCE_ROOT; };
 		99DA843B169DEC2400524D00 /* Flower [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Flower [2h].png"; path = "Pictures/Calc (flower pink theme)/Flower [2h].png"; sourceTree = SOURCE_ROOT; };
+		99EB218316E8634D003349F2 /* II BackG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "II BackG.jpg"; sourceTree = "<group>"; };
+		99EB218416E8634D003349F2 /* Side II BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Side II BG.png"; sourceTree = "<group>"; };
+		99EB218E16E86872003349F2 /* BackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackGround.png; sourceTree = "<group>"; };
+		99EB219016E86B97003349F2 /* SideButton (H).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SideButton (H).png"; sourceTree = "<group>"; };
+		99EB219116E86B97003349F2 /* SideButton (I).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SideButton (I).png"; sourceTree = "<group>"; };
+		99EB219216E86B97003349F2 /* SideButton (N).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SideButton (N).png"; sourceTree = "<group>"; };
 		99FA74CC16DA5F6D00E4CA10 /* Blue (1v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue (1v).png"; sourceTree = "<group>"; };
 		99FA74CD16DA5F6D00E4CA10 /* Blue (2h).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue (2h).png"; sourceTree = "<group>"; };
 		99FA74CE16DA5F6D00E4CA10 /* Blue (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue (2v).png"; sourceTree = "<group>"; };
@@ -717,6 +729,7 @@
 				99CC71B416D0036E00819189 /* 13. Frosty Leaves */,
 				99CC71C116D0038E00819189 /* 14. Green */,
 				9952AB7F16B03E030075D233 /* Display */,
+				99EB218116E8634D003349F2 /* Side Bar */,
 				99246ABB169599BE0036FFF0 /* Icon */,
 			);
 			name = Design;
@@ -901,6 +914,20 @@
 			name = Background;
 			sourceTree = "<group>";
 		};
+		99EB218116E8634D003349F2 /* Side Bar */ = {
+			isa = PBXGroup;
+			children = (
+				99EB219016E86B97003349F2 /* SideButton (H).png */,
+				99EB219116E86B97003349F2 /* SideButton (I).png */,
+				99EB219216E86B97003349F2 /* SideButton (N).png */,
+				99EB218E16E86872003349F2 /* BackGround.png */,
+				99EB218316E8634D003349F2 /* II BackG.jpg */,
+				99EB218416E8634D003349F2 /* Side II BG.png */,
+			);
+			name = "Side Bar";
+			path = "Pictures/Side Bar";
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1076,6 +1103,12 @@
 				99FA74EB16DA624200E4CA10 /* New Sky [2h].png in Resources */,
 				99688BA916DFC05C003A1868 /* Metal (Av) brighter.png in Resources */,
 				9902E14916DFC48400F0669D /* Metal (1v).png in Resources */,
+				99EB218916E8634D003349F2 /* II BackG.jpg in Resources */,
+				99EB218A16E8634D003349F2 /* Side II BG.png in Resources */,
+				99EB218F16E86872003349F2 /* BackGround.png in Resources */,
+				99EB219316E86B97003349F2 /* SideButton (H).png in Resources */,
+				99EB219416E86B97003349F2 /* SideButton (I).png in Resources */,
+				99EB219516E86B97003349F2 /* SideButton (N).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,14 @@
 {
     IBOutlet UIView *VerticalView;
     IBOutlet UIView *HorizontalView;
+    
+    CGPoint lastPoint;
+    CGFloat red;
+    CGFloat green;
+    CGFloat blue;
+    CGFloat brush;
+    CGFloat opacity;
+    BOOL mouseSwiped;
 }
 
 //Passed Variables
@@ -27,14 +35,6 @@
 //Orientation Views
 @property (strong, nonatomic) IBOutlet UIView *VerticalView;
 @property (strong, nonatomic) IBOutlet UIView *HorizontalView;
-
-//History Table
-@property (strong, nonatomic) IBOutlet UIView *SideBar;
-@property (strong, nonatomic) IBOutlet UITableView *HistoryTable;
-@property (strong, nonatomic) IBOutlet UIButton *ClearButton;
-@property (strong, nonatomic) IBOutlet UILabel *HistoryLabel;
-@property (strong, nonatomic) IBOutlet UIButton *SlideButton;
-
 
 //Operation displays
 @property (strong, nonatomic) IBOutlet UILabel *opDisplay;
@@ -106,6 +106,37 @@
 //Radians and Degrees selector
 @property (weak, nonatomic) IBOutlet UISegmentedControl *RadDeg;
 
+/*Side Bar*/
+@property (strong, nonatomic) IBOutlet UIView *SideBar;
+@property (strong, nonatomic) IBOutlet UIButton *SlideButton;
+@property (strong, nonatomic) IBOutlet UIImageView *SideBarBackground;
+//Result History
+@property (strong, nonatomic) IBOutlet UITableView *HistoryTable;
+@property (strong, nonatomic) IBOutlet UIButton *ClearButton;
+@property (strong, nonatomic) IBOutlet UILabel *HistoryLabel;
+@property (strong, nonatomic) IBOutlet UIView *ResultHistory;
+@property (strong, nonatomic) IBOutlet UIButton *TabOne;
+@property (strong, nonatomic) IBOutlet UIImageView *HistoryBG;
+//Notes
+@property (strong, nonatomic) IBOutlet UIView *Notes;
+@property (strong, nonatomic) IBOutlet UIButton *TabTwo;
+@property (strong, nonatomic) IBOutlet UIImageView *mainImage;
+@property (strong, nonatomic) IBOutlet UIImageView *tempDrawing;
+@property (strong, nonatomic) IBOutlet UIImageView *Eraser;
+@property (strong, nonatomic) IBOutlet UIImageView *colorBlack;
+@property (strong, nonatomic) IBOutlet UIImageView *colorBlue;
+@property (strong, nonatomic) IBOutlet UIImageView *NotesBG;
+//Info
+@property (strong, nonatomic) IBOutlet UIView *Info;
+@property (strong, nonatomic) IBOutlet UILabel *textone;
+@property (strong, nonatomic) IBOutlet UILabel *texttwo;
+@property (strong, nonatomic) IBOutlet UILabel *textthree;
+@property (strong, nonatomic) IBOutlet UILabel *textfour;
+@property (strong, nonatomic) IBOutlet UIImageView *iconview;
+@property (strong, nonatomic) IBOutlet UIButton *TabThree;
+@property (strong, nonatomic) IBOutlet UILabel *InfoBG;
+
+
 //Display Updates
 -(void) displayResult;
 -(void) displayCurrent;
@@ -136,9 +167,13 @@
 -(IBAction) piButton;
 -(IBAction) epsilonButton;
 
-//History Table
+//Side Bar
 -(IBAction)onOpenButtonClick:(id)sender;
 -(IBAction)clearQueue:(id)sender;
+-(IBAction)TabSelect:(UIButton*)sender;
+-(IBAction)resetDrawingPressed:(id)sender;
+-(IBAction)colorSelect:(UIButton*)sender;
+
 
 //Themes
 -(void) selectBG: (int) num;
