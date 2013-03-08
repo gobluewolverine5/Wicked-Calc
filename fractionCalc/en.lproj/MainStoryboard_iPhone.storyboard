@@ -1058,7 +1058,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="v1.1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ocN-fC-ILn" userLabel="Label - v1.0 Build 1.0">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="v2.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ocN-fC-ILn" userLabel="Label - v1.0 Build 1.0">
                                 <rect key="frame" x="139" y="290" width="42" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -1093,7 +1093,7 @@
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="19"/>
                                 <state key="normal" title="Return">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" patternImage="4CD31B0C-C590-4894-86F1-43B739C719F2" colorSpace="pattern"/>
+                                    <color key="titleShadowColor" patternImage="6841B6A1-987D-46B7-B0DF-7BF62F835035" colorSpace="pattern"/>
                                 </state>
                                 <connections>
                                     <segue destination="2" kind="modal" identifier="SettingsToCalc" modalTransitionStyle="crossDissolve" id="di2-aJ-42t"/>
@@ -1117,7 +1117,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="4CD31B0C-C590-4894-86F1-43B739C719F2" width="320" height="460">
+        <image name="6841B6A1-987D-46B7-B0DF-7BF62F835035" width="320" height="460">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw

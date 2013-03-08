@@ -110,6 +110,7 @@
 @property (strong, nonatomic) IBOutlet UIView *SideBar;
 @property (strong, nonatomic) IBOutlet UIButton *SlideButton;
 @property (strong, nonatomic) IBOutlet UIImageView *SideBarBackground;
+@property (strong, nonatomic) IBOutlet UIButton *infoButton;
 //Result History
 @property (strong, nonatomic) IBOutlet UITableView *HistoryTable;
 @property (strong, nonatomic) IBOutlet UIButton *ClearButton;

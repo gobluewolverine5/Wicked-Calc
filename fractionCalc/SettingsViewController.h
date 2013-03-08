@@ -20,4 +20,11 @@
 @property (strong, nonatomic) IBOutlet UIPickerView *BGscroll;
 @property (strong, nonatomic) IBOutlet UIImageView *PreviewWindow;
 
+@property (strong, nonatomic) IBOutlet UIImageView *mainImage;
+@property (strong, nonatomic) IBOutlet UIImageView *rightImage;
+@property (strong, nonatomic) IBOutlet UIImageView *rightImagetwo;
+@property (strong, nonatomic) IBOutlet UIImageView *leftImage;
+@property (strong, nonatomic) IBOutlet UIImageView *leftImageTwo;
+
+
 @end

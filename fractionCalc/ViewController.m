@@ -46,6 +46,7 @@
 @synthesize SlideButton;
 @synthesize SideBar;
 @synthesize SideBarBackground;
+@synthesize infoButton;
 //History Bar
 @synthesize HistoryTable;
 @synthesize ClearButton;
@@ -160,6 +161,7 @@
     [self NotesBar:0];
     [self InfoBar:0];
     [self Tabs:0];
+    infoButton.alpha = 0;
     
     //Drawing
     red = 0.0 / 255.0;
@@ -174,6 +176,12 @@
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(orientationChanged:) name:@"UIDeviceOrientationDidChangeNotification"
                                                object:nil];
+    if (vertOrHoriz) {
+        self.view = VerticalView;
+    }
+    else {
+        self.view = HorizontalView;
+    }
     
     [self updateOrientation];
     [self selectBG:themeNum];
@@ -527,6 +535,7 @@
 -(void) SideBarAppear: (int) value
 {
     [self Tabs:value];
+    infoButton.alpha = value;
     switch (tab) {
         case 0:
             TabOne.frame = CGRectMake(TabOne.frame.origin.x, TabOne.frame.origin.y, 60, TabOne.frame.size.height);
