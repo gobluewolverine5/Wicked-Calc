@@ -36,6 +36,11 @@
 @synthesize orientation_id;
 @synthesize themeNum;
 
+@synthesize passedBrush;
+@synthesize passedOpacity;
+//Notepad Settings
+@synthesize currentPopoverSegue;
+@synthesize NS;
 //Number displays
 @synthesize VerticalDisplay;
 @synthesize HorizontalDisplay;
@@ -190,6 +195,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     // to fix the controller showing under the status bar
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -206,6 +212,24 @@
         controller.orientation_id = orientation_id;
         controller.themeNum = themeNum;
     }
+    if ([segue.identifier isEqualToString:@"popSettings"]) {
+        currentPopoverSegue = (UIStoryboardPopoverSegue *) segue;
+        NS = [segue destinationViewController];
+        [NS setDelegate:self];
+        [NS obtainBrush:brush];
+        [NS obtainOpacity:opacity];
+        [NS obtainRGB:red Bl:blue Gr:green];
+    }
+}
+
+-(void) dismissPop:(CGFloat)Opacity B:(CGFloat)Brush R:(CGFloat)Red Bl:(CGFloat)Blue Gr:(CGFloat)Green
+{
+    opacity = Opacity;
+    brush = Brush;
+    red = Red;
+    green = Green;
+    blue = Blue;
+    [[currentPopoverSegue popoverController] dismissPopoverAnimated:YES];
 }
 
 /*~~~~~~~~~~~~~~~~Display Updates~~~~~~~~~~~~~~~~~*/
@@ -694,24 +718,6 @@
     [self resetDrawing];
 }
 
--(IBAction)colorSelect:(UIButton*)sender
-{
-    AudioServicesPlaySystemSound(1104);
-    switch (sender.tag) {
-        case 0:
-            red = 0.0/255.0;
-            green = 0.0/255.0;
-            blue = 0.0/255.0;
-            break;
-        case 1:
-            red = 0.0/255.0;
-            green = 0.0/255.0;
-            blue = 255.0/255.0;
-            break;
-        default:
-            break;
-    }
-}
 -(void) resetDrawing
 {
     self.mainImage.image = nil;

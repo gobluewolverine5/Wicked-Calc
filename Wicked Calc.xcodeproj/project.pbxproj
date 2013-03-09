@@ -46,6 +46,7 @@
 		99879ACF16ABA15A00B959D2 /* Car Tech (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99879AC916ABA15A00B959D2 /* Car Tech (2v).png */; };
 		99879AD116ABA15A00B959D2 /* Car Tech [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACB16ABA15A00B959D2 /* Car Tech [1h].png */; };
 		99879AD216ABA15A00B959D2 /* Car Tech [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACC16ABA15A00B959D2 /* Car Tech [2h].png */; };
+		99960EC316EAF46800910251 /* NotepadSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 99960EC216EAF46800910251 /* NotepadSettings.m */; };
 		99A0285016C8C48800AF194C /* queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0284F16C8C48800AF194C /* queue.m */; };
 		99B6328D16CC08FE00AE7208 /* Metal [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6328B16CC08FE00AE7208 /* Metal [Ah].jpg */; };
 		99B6329316CC091700AE7208 /* metal (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99B6328F16CC091700AE7208 /* metal (2v).png */; };
@@ -195,6 +196,8 @@
 		99879AC916ABA15A00B959D2 /* Car Tech (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech (2v).png"; sourceTree = "<group>"; };
 		99879ACB16ABA15A00B959D2 /* Car Tech [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech [1h].png"; sourceTree = "<group>"; };
 		99879ACC16ABA15A00B959D2 /* Car Tech [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech [2h].png"; sourceTree = "<group>"; };
+		99960EC116EAF46800910251 /* NotepadSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotepadSettings.h; sourceTree = "<group>"; };
+		99960EC216EAF46800910251 /* NotepadSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotepadSettings.m; sourceTree = "<group>"; };
 		99A0284E16C8C48800AF194C /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
 		99A0284F16C8C48800AF194C /* queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = queue.m; sourceTree = "<group>"; };
 		99B6328B16CC08FE00AE7208 /* Metal [Ah].jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Metal [Ah].jpg"; path = "Pictures/Calc (metal theme)/Metal [Ah].jpg"; sourceTree = SOURCE_ROOT; };
@@ -339,6 +342,8 @@
 			children = (
 				99A0284E16C8C48800AF194C /* queue.h */,
 				99A0284F16C8C48800AF194C /* queue.m */,
+				99960EC116EAF46800910251 /* NotepadSettings.h */,
+				99960EC216EAF46800910251 /* NotepadSettings.m */,
 			);
 			name = SideBar;
 			sourceTree = "<group>";
@@ -1151,6 +1156,7 @@
 				99A0285016C8C48800AF194C /* queue.m in Sources */,
 				9902E15616DFFD2500F0669D /* SettingsViewController.m in Sources */,
 				99586FDF16E3B5830053C165 /* Calculator.m in Sources */,
+				99960EC316EAF46800910251 /* NotepadSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

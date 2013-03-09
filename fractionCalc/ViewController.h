@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NotepadSettings.h"
 
-@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, NotepadSettingsDelegate,
+    UIPopoverControllerDelegate>
 {
     IBOutlet UIView *VerticalView;
     IBOutlet UIView *HorizontalView;
@@ -28,6 +30,12 @@
 @property (nonatomic) int orientation_id;
 @property (nonatomic) int themeNum;
 
+@property (nonatomic) CGFloat *passedBrush;
+@property (nonatomic) CGFloat *passedOpacity;
+
+//Notepad Settings
+@property (strong, nonatomic) UIStoryboardPopoverSegue *currentPopoverSegue;
+@property (strong, nonatomic) NotepadSettings *NS;
 //Number displays
 @property (strong, nonatomic) IBOutlet UILabel *VerticalDisplay;
 @property (strong, nonatomic) IBOutlet UILabel *HorizontalDisplay;
