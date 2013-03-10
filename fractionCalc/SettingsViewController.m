@@ -31,6 +31,11 @@
 @synthesize leftImage;
 @synthesize leftImageTwo;
 
+@synthesize frameone;
+@synthesize frametwo;
+@synthesize framethree;
+@synthesize framefour;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -99,27 +104,35 @@
     mainImage.image = [bgChooser chooseBackgroundVertical:themeNum];
     if (themeNum != [array count] - 1) {
         rightImage.image = [bgChooser chooseBackgroundVertical:(themeNum + 1) % [array count]];
+        framethree.alpha = 1;
     }
     else{
         rightImage.image = nil;
+        framethree.alpha = 0;
     }
     if (themeNum != ([array count] - 1) && themeNum != ([array count] - 2)) {
         rightImagetwo.image = [bgChooser chooseBackgroundVertical:(themeNum + 2) % [array count]];
+        framefour.alpha = 1;
     }
     else {
         rightImagetwo.image = nil;
+        framefour.alpha = 0;
     }
     if (themeNum != 0) {
         leftImage.image = [bgChooser chooseBackgroundVertical:(themeNum - 1) % ([array count] - 1)];
+        frametwo.alpha = 1;
     }
     else {
         leftImage.image = nil;
+        frametwo.alpha = 0;
     }
     if (themeNum != 0 && themeNum != 1) {
         leftImageTwo.image = [bgChooser chooseBackgroundVertical:(themeNum - 2) % ([array count] - 1)];
+        frameone.alpha = 1;
     }
     else {
         leftImageTwo.image = nil;
+        frameone.alpha = 0;
     }
 }
 
@@ -128,27 +141,35 @@
     mainImage.image = [bgChooser chooseBackgroundHorizontal:themeNum];
     if (themeNum != [array count] - 1) {
         rightImage.image = [bgChooser chooseBackgroundHorizontal:(themeNum + 1) % [array count]];
+        framethree.alpha = 1;
     }
     else{
         rightImage.image = nil;
+        framethree.alpha = 0;
     }
     if (themeNum != ([array count] - 1) && themeNum != ([array count] - 2)) {
         rightImagetwo.image = [bgChooser chooseBackgroundHorizontal:(themeNum + 2) % [array count]];
+        framefour.alpha = 1;
     }
     else {
         rightImagetwo.image = nil;
+        framefour.alpha = 0;
     }
     if (themeNum != 0) {
         leftImage.image = [bgChooser chooseBackgroundHorizontal:(themeNum - 1) % ([array count] - 1)];
+        frametwo.alpha = 1;
     }
     else {
         leftImage.image = nil;
+        frametwo.alpha = 0;
     }
     if (themeNum != 0 && themeNum != 1) {
         leftImageTwo.image = [bgChooser chooseBackgroundHorizontal:(themeNum - 2) % ([array count] - 1)];
+        frameone.alpha = 1;
     }
     else {
         leftImageTwo.image = nil;
+        frameone.alpha = 0;
     }
 }
 

@@ -26,5 +26,9 @@
 @property (strong, nonatomic) IBOutlet UIImageView *leftImage;
 @property (strong, nonatomic) IBOutlet UIImageView *leftImageTwo;
 
+@property (strong, nonatomic) IBOutlet UIImageView *frameone;
+@property (strong, nonatomic) IBOutlet UIImageView *frametwo;
+@property (strong, nonatomic) IBOutlet UIImageView *framethree;
+@property (strong, nonatomic) IBOutlet UIImageView *framefour;
 
 @end

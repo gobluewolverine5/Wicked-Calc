@@ -1398,14 +1398,17 @@
                         <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Theme Lib.jpg" id="Hne-qW-gcn">
+                                <rect key="frame" x="0.0" y="-1" width="1024" height="749"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SJF-tL-h9n">
                                 <rect key="frame" x="437" y="663" width="150" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="19"/>
-                                <state key="normal" title="Return">
-                                    <color key="titleColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" patternImage="8A6EF7E5-FC6E-4989-874A-920A544121A9" colorSpace="pattern"/>
+                                <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="33"/>
+                                <state key="normal" title="Return" backgroundImage="ReturnB.png">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" patternImage="5DE2C2B1-0C98-4629-AFBF-B67C990FCE01" colorSpace="pattern"/>
                                 </state>
                                 <connections>
                                     <action selector="gotoCalc" destination="2" eventType="touchUpInside" id="xx9-rH-kBz"/>
@@ -1418,19 +1421,35 @@
                             </pickerView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Flower [Ah].jpg" id="inf-Ua-fBp" userLabel="right image 2">
                                 <rect key="frame" x="656" y="135" width="314" height="214"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="M-BG.png" id="axw-e5-8Mc">
+                                <rect key="frame" x="656" y="135" width="314" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Car Tech [Ah].jpg" id="CCs-fH-8kj" userLabel="left image 2">
                                 <rect key="frame" x="65" y="135" width="314" height="214"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="M-BG.png" id="SOJ-3D-Ema">
+                                <rect key="frame" x="65" y="135" width="314" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Space [Ah].jpg" id="PvR-Mz-XDf" userLabel="right image">
                                 <rect key="frame" x="458" y="111" width="451" height="261"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="M-BG.png" id="BYv-XC-cZm">
+                                <rect key="frame" x="458" y="111" width="451" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Wood [Ah].jpg" highlighted="YES" id="ihH-CM-A03" userLabel="left image">
                                 <rect key="frame" x="128" y="111" width="451" height="261"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="M-BG.png" id="nRj-LW-T3H">
+                                <rect key="frame" x="127" y="111" width="451" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Metal [Ah].jpg" id="uhL-50-Xbs" userLabel="main image">
                                 <rect key="frame" x="255" y="64" width="521" height="355"/>
@@ -1443,6 +1462,10 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="M-BG.png" id="eaI-61-Mn0">
+                                <rect key="frame" x="255" y="64" width="521" height="355"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -1450,6 +1473,10 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="BGscroll" destination="uyp-W6-eRQ" id="1W6-ej-1AH"/>
+                        <outlet property="framefour" destination="axw-e5-8Mc" id="rzk-SY-92L"/>
+                        <outlet property="frameone" destination="SOJ-3D-Ema" id="db4-UZ-5RE"/>
+                        <outlet property="framethree" destination="BYv-XC-cZm" id="mAI-w6-nrO"/>
+                        <outlet property="frametwo" destination="nRj-LW-T3H" id="dLM-s7-acP"/>
                         <outlet property="leftImage" destination="ihH-CM-A03" id="xri-Cx-qxa"/>
                         <outlet property="leftImageTwo" destination="CCs-fH-8kj" id="2fA-Ge-tc6"/>
                         <outlet property="mainImage" destination="uhL-50-Xbs" id="wsY-d9-OX5"/>
@@ -1512,7 +1539,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="8A6EF7E5-FC6E-4989-874A-920A544121A9" width="320" height="460">
+        <image name="5DE2C2B1-0C98-4629-AFBF-B67C990FCE01" width="320" height="460">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -11352,16 +11379,19 @@ CP6lAAAAAAAABAEAAAAAAAAAQgAAAAAAAAAAAAAAAAAI/qc
         <image name="II BackG.jpg" width="340" height="598"/>
         <image name="Light Clean Corners (Dv).png" width="768" height="145"/>
         <image name="Light Clean Corners [Dh].png" width="1024" height="133"/>
+        <image name="M-BG.png" width="521" height="355"/>
         <image name="Metal (Av) brighter.png" width="768" height="960"/>
         <image name="Metal [1h].png" width="115" height="69"/>
         <image name="Metal [2h].png" width="115" height="164"/>
         <image name="Metal [Ah].jpg" width="1024" height="748"/>
         <image name="New Sky [1h].png" width="115" height="69"/>
         <image name="Pyramids [1h].png" width="115" height="69"/>
+        <image name="ReturnB.png" width="150" height="65"/>
         <image name="SideButton (H).png" width="48" height="75"/>
         <image name="SideButton (I).png" width="48" height="75"/>
         <image name="SideButton (N).png" width="48" height="75"/>
         <image name="Space [Ah].jpg" width="1024" height="748"/>
+        <image name="Theme Lib.jpg" width="1024" height="758"/>
         <image name="Wood [Ah].jpg" width="1024" height="748"/>
         <image name="icon(114).png" width="114" height="114"/>
         <image name="metal (2v).png" width="150" height="250"/>
@@ -11389,6 +11419,10 @@ CP6lAAAAAAAABAEAAAAAAAAAQgAAAAAAAAAAAAAAAAAI/qc
             <relationships>
                 <relationship kind="outlet" name="BGscroll" candidateClass="UIPickerView"/>
                 <relationship kind="outlet" name="PreviewWindow" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="framefour" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="frameone" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="framethree" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="frametwo" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="leftImage" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="leftImageTwo" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="mainImage" candidateClass="UIImageView"/>

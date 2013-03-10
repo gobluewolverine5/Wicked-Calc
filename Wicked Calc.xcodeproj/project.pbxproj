@@ -46,6 +46,9 @@
 		99879ACF16ABA15A00B959D2 /* Car Tech (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99879AC916ABA15A00B959D2 /* Car Tech (2v).png */; };
 		99879AD116ABA15A00B959D2 /* Car Tech [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACB16ABA15A00B959D2 /* Car Tech [1h].png */; };
 		99879AD216ABA15A00B959D2 /* Car Tech [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99879ACC16ABA15A00B959D2 /* Car Tech [2h].png */; };
+		9991727816EC2033005E18E6 /* M-BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 9991727516EC2033005E18E6 /* M-BG.png */; };
+		9991727C16EC2373005E18E6 /* Theme Lib.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9991727B16EC2373005E18E6 /* Theme Lib.jpg */; };
+		9991727E16EC237A005E18E6 /* ReturnB.png in Resources */ = {isa = PBXBuildFile; fileRef = 9991727D16EC237A005E18E6 /* ReturnB.png */; };
 		99960EC316EAF46800910251 /* NotepadSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 99960EC216EAF46800910251 /* NotepadSettings.m */; };
 		99A0285016C8C48800AF194C /* queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A0284F16C8C48800AF194C /* queue.m */; };
 		99B6328D16CC08FE00AE7208 /* Metal [Ah].jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99B6328B16CC08FE00AE7208 /* Metal [Ah].jpg */; };
@@ -196,6 +199,9 @@
 		99879AC916ABA15A00B959D2 /* Car Tech (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech (2v).png"; sourceTree = "<group>"; };
 		99879ACB16ABA15A00B959D2 /* Car Tech [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech [1h].png"; sourceTree = "<group>"; };
 		99879ACC16ABA15A00B959D2 /* Car Tech [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Car Tech [2h].png"; sourceTree = "<group>"; };
+		9991727516EC2033005E18E6 /* M-BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "M-BG.png"; sourceTree = "<group>"; };
+		9991727B16EC2373005E18E6 /* Theme Lib.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Theme Lib.jpg"; sourceTree = "<group>"; };
+		9991727D16EC237A005E18E6 /* ReturnB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReturnB.png; sourceTree = "<group>"; };
 		99960EC116EAF46800910251 /* NotepadSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotepadSettings.h; sourceTree = "<group>"; };
 		99960EC216EAF46800910251 /* NotepadSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotepadSettings.m; sourceTree = "<group>"; };
 		99A0284E16C8C48800AF194C /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
@@ -566,6 +572,17 @@
 			name = Background;
 			sourceTree = "<group>";
 		};
+		9991727416EC2033005E18E6 /* Theme Library */ = {
+			isa = PBXGroup;
+			children = (
+				9991727D16EC237A005E18E6 /* ReturnB.png */,
+				9991727B16EC2373005E18E6 /* Theme Lib.jpg */,
+				9991727516EC2033005E18E6 /* M-BG.png */,
+			);
+			name = "Theme Library";
+			path = "Pictures/Theme Library";
+			sourceTree = SOURCE_ROOT;
+		};
 		99B632A616CC0A1A00AE7208 /* 6. Int Flower */ = {
 			isa = PBXGroup;
 			children = (
@@ -734,6 +751,7 @@
 				99CC71B416D0036E00819189 /* 13. Frosty Leaves */,
 				99CC71C116D0038E00819189 /* 14. Green */,
 				9952AB7F16B03E030075D233 /* Display */,
+				9991727416EC2033005E18E6 /* Theme Library */,
 				99EB218116E8634D003349F2 /* Side Bar */,
 				99246ABB169599BE0036FFF0 /* Icon */,
 			);
@@ -1114,6 +1132,9 @@
 				99EB219316E86B97003349F2 /* SideButton (H).png in Resources */,
 				99EB219416E86B97003349F2 /* SideButton (I).png in Resources */,
 				99EB219516E86B97003349F2 /* SideButton (N).png in Resources */,
+				9991727816EC2033005E18E6 /* M-BG.png in Resources */,
+				9991727C16EC2373005E18E6 /* Theme Lib.jpg in Resources */,
+				9991727E16EC237A005E18E6 /* ReturnB.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
