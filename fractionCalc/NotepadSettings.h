@@ -20,8 +20,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *RedColor;
 @property (strong, nonatomic) IBOutlet UIButton *GreenColor;
 
-@property (strong, nonatomic) IBOutlet UIButton *ColorSelection;
-
+@property (strong, nonatomic) IBOutlet UIImageView *ColorSelection;
 
 @property (strong, nonatomic) IBOutlet UISlider *BrushSlider;
 

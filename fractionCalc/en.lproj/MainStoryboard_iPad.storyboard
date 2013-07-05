@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -1345,22 +1345,10 @@
                                     <action selector="goBack:" destination="SaI-Oe-RYU" eventType="touchUpInside" id="kng-Bx-hTJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YeN-RF-hvJ">
-                                <rect key="frame" x="203" y="139" width="82" height="46"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="krq-Kk-FYk">
+                                <rect key="frame" x="194" y="134" width="82" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button" image="Pyramids [1h].png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="colorSelect:" destination="SaI-Oe-RYU" eventType="touchUpInside" id="Wr4-rp-V83"/>
-                                    <action selector="colorSelect:" destination="2" eventType="touchUpInside" id="gbh-5d-qAn"/>
-                                </connections>
-                            </button>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1369,7 +1357,7 @@
                         <outlet property="BlackColor" destination="LaY-W2-pBC" id="gWY-E2-76o"/>
                         <outlet property="BlueColor" destination="ad2-YQ-CYd" id="tZZ-rF-Pke"/>
                         <outlet property="BrushSlider" destination="NGn-ML-7yY" id="ygx-9O-T2A"/>
-                        <outlet property="ColorSelection" destination="YeN-RF-hvJ" id="dpf-y5-LA9"/>
+                        <outlet property="ColorSelection" destination="krq-Kk-FYk" id="dhc-kX-51a"/>
                         <outlet property="GreenColor" destination="e30-3h-pcP" id="Yiw-Uu-tk8"/>
                         <outlet property="OpacitySlider" destination="Z1R-Id-zOa" id="In0-B0-bBy"/>
                         <outlet property="RedColor" destination="1cf-n3-MLq" id="QZ1-00-3Ge"/>
@@ -1555,155 +1543,6 @@
         <image name="icon(114).png" width="114" height="114"/>
         <image name="metal (2v).png" width="150" height="250"/>
     </resources>
-    <classes>
-        <class className="NotepadSettings" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NotepadSettings.h"/>
-            <relationships>
-                <relationship kind="action" name="colorSelect:" candidateClass="UIButton"/>
-                <relationship kind="action" name="goBack:"/>
-                <relationship kind="action" name="opacityChanged:"/>
-                <relationship kind="action" name="valueChanged:"/>
-                <relationship kind="outlet" name="BlackColor" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="BlueColor" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="BrushSlider" candidateClass="UISlider"/>
-                <relationship kind="outlet" name="ColorSelection" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="GreenColor" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="OpacitySlider" candidateClass="UISlider"/>
-                <relationship kind="outlet" name="RedColor" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="Save" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="SettingsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SettingsViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="BGscroll" candidateClass="UIPickerView"/>
-                <relationship kind="outlet" name="PreviewWindow" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="framefour" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="frameone" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="framethree" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="frametwo" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="leftImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="leftImageTwo" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="mainImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="rightImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="rightImagetwo" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="SqrRootButton"/>
-                <relationship kind="action" name="TabSelect:" candidateClass="UIButton"/>
-                <relationship kind="action" name="additionalOps:" candidateClass="UIButton"/>
-                <relationship kind="action" name="clearQueue:"/>
-                <relationship kind="action" name="clickClear"/>
-                <relationship kind="action" name="clickDel"/>
-                <relationship kind="action" name="clickDigit:" candidateClass="UIButton"/>
-                <relationship kind="action" name="clickDot"/>
-                <relationship kind="action" name="clickEquals"/>
-                <relationship kind="action" name="clickOp:" candidateClass="UIButton"/>
-                <relationship kind="action" name="clickSign"/>
-                <relationship kind="action" name="colorSelect:" candidateClass="UIButton"/>
-                <relationship kind="action" name="epsilonButton"/>
-                <relationship kind="action" name="factorialButton"/>
-                <relationship kind="action" name="onOpenButtonClick:"/>
-                <relationship kind="action" name="openToolbox:"/>
-                <relationship kind="action" name="piButton"/>
-                <relationship kind="action" name="resetDrawingPressed:"/>
-                <relationship kind="action" name="ytoxButton"/>
-                <relationship kind="outlet" name="ClearButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="Eraser" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="HistoryBG" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="HistoryLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HistoryTable" candidateClass="UITableView"/>
-                <relationship kind="outlet" name="HorizOpDisplay" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HorizontalBackground" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="HorizontalDisplay" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="HorizontalView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="Info" candidateClass="UIView"/>
-                <relationship kind="outlet" name="InfoBG" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Notes" candidateClass="UIView"/>
-                <relationship kind="outlet" name="NotesBG" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="RadDeg" candidateClass="UISegmentedControl"/>
-                <relationship kind="outlet" name="ResultHistory" candidateClass="UIView"/>
-                <relationship kind="outlet" name="SideBar" candidateClass="UIView"/>
-                <relationship kind="outlet" name="SideBarBackground" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="SlideButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="TabOne" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="TabThree" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="TabTwo" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="VerticalBackground" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="VerticalDisplay" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="VerticalView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="absH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="acH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="acV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="cH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="cV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="colorBlack" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="colorBlue" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="cosH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="divH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="divV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="divXH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="dotH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="dotV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="eH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="eToXH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="eightH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="eightV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="equalsH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="equalsV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="factorialH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="fiveH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="fiveV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="fourH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="fourV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="iconview" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="infoButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="lnH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="logH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="mainImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="minH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="minV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="multH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="multV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="nineH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="nineV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="oneH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="oneV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="opDisplay" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="percH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="piH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="plusH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="plusV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="settingsH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="settingsV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="sevenH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="sevenV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="signH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="signV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="sinH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="sixH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="sixV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="sqrtH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="tanH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="tempDrawing" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="textfour" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="textone" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="textthree" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="texttwo" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="threeH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="threeV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="twoH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="twoV" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="xSqrH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="yToXH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="zeroH" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="zeroV" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

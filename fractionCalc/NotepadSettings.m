@@ -81,19 +81,19 @@
     switch (color_mode) {
         case 0:
             NSLog(@"Black Selected");
-            ColorSelection.imageView.image = [UIImage imageNamed:@"Pyramids [1h].png"];
+            ColorSelection.image = [UIImage imageNamed:@"Pyramids [1h].png"];
             break;
         case 1:
             NSLog(@"Blue Selected");
-            ColorSelection.imageView.image = [UIImage imageNamed:@"New Sky [1h].png"];
+            ColorSelection.image = [UIImage imageNamed:@"New Sky [1h].png"];
             break;
         case 2:
             NSLog(@"Red Selected");
-            ColorSelection.imageView.image = [UIImage imageNamed:@"Red B.png"];
+            ColorSelection.image = [UIImage imageNamed:@"Red B.png"];
             break;
         case 3:
             NSLog(@"Green Selected");
-            ColorSelection.imageView.image = [UIImage imageNamed:@"Green B.png"];
+            ColorSelection.image = [UIImage imageNamed:@"Green B.png"];
             break;
         default:
             NSLog(@"Default Selected");
