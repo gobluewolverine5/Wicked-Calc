@@ -153,20 +153,20 @@
     tab = 0;
     
     /*Object Allocation*/
-    myCalculator = [[Calculator alloc] init];
-    bgChooser = [[BackgroundChooser alloc] init];
+    myCalculator    = [[Calculator alloc] init];
+    bgChooser       = [[BackgroundChooser alloc] init];
     
     /*Side Bar*/
-    history_queue = [[queue alloc] init];
-    HistoryTable.delegate = self; //Setting VC as Table delegate
+    history_queue           = [[queue alloc] init];
+    HistoryTable.delegate   = self; //Setting VC as Table delegate
     HistoryTable.dataSource = self; //Setting VC as Table data source
-    SideBar.frame = CGRectMake(0, SideBar.frame.origin.y, 0, SideBar.frame.size.height);
-    SlideButton.frame = CGRectMake(0, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
+    SideBar.frame           = CGRectMake(0, SideBar.frame.origin.y, 0, SideBar.frame.size.height);
+    SlideButton.frame       = CGRectMake(0, SlideButton.frame.origin.y, SlideButton.frame.size.width, SlideButton.frame.size.height);
     SideBarBackground.frame = CGRectMake(0, SideBarBackground.frame.origin.y, 0, SideBarBackground.frame.size.height);
     [self HistoryBar:0];
-    [self NotesBar:0];
-    [self InfoBar:0];
-    [self Tabs:0];
+    [self NotesBar  :0];
+    [self InfoBar   :0];
+    [self Tabs      :0];
     infoButton.alpha = 0;
     toolbox_showing = false;
     
@@ -211,19 +211,19 @@
 {
     if ([segue.identifier isEqualToString:@"CalcToSettings"] || [segue.identifier isEqualToString:@"CalcToSettings2"]) {
         SettingsViewController *controller = (SettingsViewController*) segue.destinationViewController;
-        controller.vertOrHoriz = vertOrHoriz;
-        controller.orientation_id = orientation_id;
-        controller.themeNum = themeNum;
+        controller.vertOrHoriz              = vertOrHoriz;
+        controller.orientation_id           = orientation_id;
+        controller.themeNum                 = themeNum;
     }
     if ([segue.identifier isEqualToString:@"myPopover"]) {
         
         currentPopoverSegue = (UIStoryboardPopoverSegue *) segue;
         NS = [segue destinationViewController];
-        [NS setDelegate:self];
-        [NS obtainBrush:brush];
-        [NS obtainOpacity:opacity];
-        [NS obtainRGB:red Bl:blue Gr:green];
-        [NS obtainColor:Mode];
+        [NS setDelegate     :self];
+        [NS obtainBrush     :brush];
+        [NS obtainOpacity   :opacity];
+        [NS obtainRGB       :red  Bl:blue Gr:green];
+        [NS obtainColor     :Mode];
     }
 }
 
@@ -242,11 +242,11 @@
 -(void) dismissPop:(CGFloat)Opacity B:(CGFloat)Brush R:(CGFloat)Red Bl:(CGFloat)Blue Gr:(CGFloat)Green Color:(int)mode
 {
     opacity = Opacity;
-    brush = Brush;
-    red = Red;
-    green = Green;
-    blue = Blue;
-    Mode = mode;
+    brush   = Brush;
+    red     = Red;
+    green   = Green;
+    blue    = Blue;
+    Mode    = mode;
     [[currentPopoverSegue popoverController] dismissPopoverAnimated:YES];
     toolbox_showing = false;
     
@@ -256,35 +256,35 @@
 
 -(void) displayResult
 {
-    VerticalDisplay.text = [NSString stringWithFormat:@"%.10g",
+    VerticalDisplay.text    = [NSString stringWithFormat:@"%.10g",
                             [[myCalculator returnResult] doubleValue]];
-    HorizontalDisplay.text = [NSString stringWithFormat:@"%.10g",
+    HorizontalDisplay.text  = [NSString stringWithFormat:@"%.10g",
                               [[myCalculator returnResult] doubleValue]];
 }
 
 -(void) displayCurrent
 {
-    VerticalDisplay.text = [NSString stringWithFormat:@"%.10g",
+    VerticalDisplay.text    = [NSString stringWithFormat:@"%.10g",
                             [[myCalculator returnCurrent] doubleValue]];
-    HorizontalDisplay.text = [NSString stringWithFormat:@"%.10g",
+    HorizontalDisplay.text  = [NSString stringWithFormat:@"%.10g",
                               [[myCalculator returnCurrent] doubleValue]];
 }
 
 -(void) displayDisplayString
 {
-    VerticalDisplay.text = [myCalculator returnDisplayString];
-    HorizontalDisplay.text = [myCalculator returnDisplayString];
+    VerticalDisplay.text    = [myCalculator returnDisplayString];
+    HorizontalDisplay.text  = [myCalculator returnDisplayString];
 }
 
 -(void) displayInvalid
 {
-    VerticalDisplay.text = [NSString stringWithFormat:@"Invalid Operation"];
-    HorizontalDisplay.text = [NSString stringWithFormat:@"Invalid Operation"];
+    VerticalDisplay.text    = [NSString stringWithFormat:@"Invalid Operation"];
+    HorizontalDisplay.text  = [NSString stringWithFormat:@"Invalid Operation"];
 }
 
 -(void) clearOps
 {
-    opDisplay.text = [NSString stringWithFormat:@""];
+    opDisplay.text      = [NSString stringWithFormat:@""];
     HorizOpDisplay.text = [NSString stringWithFormat:@""];
 }
 
