@@ -21,7 +21,8 @@
     CGFloat blue;
     CGFloat brush;
     CGFloat opacity;
-    BOOL mouseSwiped;
+    int Mode;
+    BOOL    mouseSwiped;
 }
 
 //Passed Variables
@@ -182,6 +183,7 @@
 -(IBAction)TabSelect:(UIButton*)sender;
 -(IBAction)resetDrawingPressed:(id)sender;
 -(IBAction)colorSelect:(UIButton*)sender;
+-(IBAction)openToolbox:(id)sender;
 
 
 //Themes

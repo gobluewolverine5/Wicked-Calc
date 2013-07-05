@@ -28,6 +28,7 @@
     queue *history_queue;
     Calculator *myCalculator;
     int tab;
+    BOOL toolbox_showing;
 
 }
 //Passed Variables
@@ -167,13 +168,15 @@
     [self InfoBar:0];
     [self Tabs:0];
     infoButton.alpha = 0;
+    toolbox_showing = false;
     
     //Drawing
-    red = 0.0 / 255.0;
-    green = 0.0 / 255.0;
-    blue = 0.0 / 255.0;
-    brush = 3.0;
+    red     = 0.0 / 255.0;
+    green   = 0.0 / 255.0;
+    blue    = 0.0 / 255.0;
+    brush   = 3.0;
     opacity = 1.0;
+    Mode    = 0;
     
     /*Orientation code*/
     //self.view = self.HorizontalView;
@@ -212,24 +215,41 @@
         controller.orientation_id = orientation_id;
         controller.themeNum = themeNum;
     }
-    if ([segue.identifier isEqualToString:@"popSettings"]) {
+    if ([segue.identifier isEqualToString:@"myPopover"]) {
+        
         currentPopoverSegue = (UIStoryboardPopoverSegue *) segue;
         NS = [segue destinationViewController];
         [NS setDelegate:self];
         [NS obtainBrush:brush];
         [NS obtainOpacity:opacity];
         [NS obtainRGB:red Bl:blue Gr:green];
+        [NS obtainColor:Mode];
     }
 }
 
--(void) dismissPop:(CGFloat)Opacity B:(CGFloat)Brush R:(CGFloat)Red Bl:(CGFloat)Blue Gr:(CGFloat)Green
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender {
+    if ([identifier isEqualToString:@"myPopover"]){
+        if (toolbox_showing)
+            return NO;
+        else
+            toolbox_showing = true;
+            return YES;
+    }else{
+        return YES;
+    }
+}
+
+-(void) dismissPop:(CGFloat)Opacity B:(CGFloat)Brush R:(CGFloat)Red Bl:(CGFloat)Blue Gr:(CGFloat)Green Color:(int)mode
 {
     opacity = Opacity;
     brush = Brush;
     red = Red;
     green = Green;
     blue = Blue;
+    Mode = mode;
     [[currentPopoverSegue popoverController] dismissPopoverAnimated:YES];
+    toolbox_showing = false;
+    
 }
 
 /*~~~~~~~~~~~~~~~~Display Updates~~~~~~~~~~~~~~~~~*/
@@ -800,7 +820,7 @@
     [absH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:num] forState:UIControlStateNormal];
     [piH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:num] forState:UIControlStateNormal];
     [eH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:num] forState:UIControlStateNormal];
-    [SlideButton setBackgroundImage:[bgChooser chooseKeyHorizontalOne:num] forState:UIControlStateNormal];
+    //[SlideButton setBackgroundImage:[bgChooser chooseKeyHorizontalOne:num] forState:UIControlStateNormal];
     
 }
 

@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "fractionCalc/ViewController.m"
-         timestampString = "384505311.565362"
+         timestampString = "394744924.954322"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "946"
-         endingLineNumber = "946">
+         startingLineNumber = "966"
+         endingLineNumber = "966">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"

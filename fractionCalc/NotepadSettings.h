@@ -20,7 +20,8 @@
 @property (strong, nonatomic) IBOutlet UIButton *RedColor;
 @property (strong, nonatomic) IBOutlet UIButton *GreenColor;
 
-@property (strong, nonatomic) IBOutlet UILabel *ColorSelection;
+@property (strong, nonatomic) IBOutlet UIButton *ColorSelection;
+
 
 @property (strong, nonatomic) IBOutlet UISlider *BrushSlider;
 
@@ -30,6 +31,7 @@
 - (void) obtainBrush:(CGFloat) brush;
 - (void) obtainOpacity:(CGFloat) opacity;
 - (void) obtainRGB: (CGFloat) Red Bl:(CGFloat) Blue Gr:(CGFloat) Green;
+- (void) obtainColor: (int) mode;
 - (IBAction)goBack:(id)sender;
 - (IBAction)valueChanged:(id)sender;
 - (IBAction)opacityChanged:(id)sender;
@@ -43,6 +45,6 @@
 @required
 
 -(void)dismissPop:(CGFloat)Opacity B:(CGFloat) Brush
-                R:(CGFloat) Red Bl:(CGFloat) Blue Gr:(CGFloat) Green;
+R:(CGFloat) Red Bl:(CGFloat) Blue Gr:(CGFloat) Green Color:(int)mode;
 
 @end
