@@ -138,6 +138,7 @@
 		99FA74E916DA624200E4CA10 /* New Sky (2v).png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74E516DA624200E4CA10 /* New Sky (2v).png */; };
 		99FA74EA16DA624200E4CA10 /* New Sky [1h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74E616DA624200E4CA10 /* New Sky [1h].png */; };
 		99FA74EB16DA624200E4CA10 /* New Sky [2h].png in Resources */ = {isa = PBXBuildFile; fileRef = 99FA74E716DA624200E4CA10 /* New Sky [2h].png */; };
+		D05C69B11787293A00F502E6 /* Tab 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D05C69B01787293A00F502E6 /* Tab 2.png */; };
 		D087D4E11785C0A600D1F2CF /* Green B.png in Resources */ = {isa = PBXBuildFile; fileRef = D087D4DF1785C0A600D1F2CF /* Green B.png */; };
 		D087D4E21785C0A600D1F2CF /* Red B.png in Resources */ = {isa = PBXBuildFile; fileRef = D087D4E01785C0A600D1F2CF /* Red B.png */; };
 		D087D4E61785C21F00D1F2CF /* SBBG (1).png in Resources */ = {isa = PBXBuildFile; fileRef = D087D4E31785C21E00D1F2CF /* SBBG (1).png */; };
@@ -299,6 +300,7 @@
 		99FA74E516DA624200E4CA10 /* New Sky (2v).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Sky (2v).png"; path = "Pictures/Calc (farm theme)/New Sky (2v).png"; sourceTree = SOURCE_ROOT; };
 		99FA74E616DA624200E4CA10 /* New Sky [1h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Sky [1h].png"; path = "Pictures/Calc (farm theme)/New Sky [1h].png"; sourceTree = SOURCE_ROOT; };
 		99FA74E716DA624200E4CA10 /* New Sky [2h].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "New Sky [2h].png"; path = "Pictures/Calc (farm theme)/New Sky [2h].png"; sourceTree = SOURCE_ROOT; };
+		D05C69B01787293A00F502E6 /* Tab 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tab 2.png"; sourceTree = "<group>"; };
 		D087D4DF1785C0A600D1F2CF /* Green B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green B.png"; sourceTree = "<group>"; };
 		D087D4E01785C0A600D1F2CF /* Red B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red B.png"; sourceTree = "<group>"; };
 		D087D4E31785C21E00D1F2CF /* SBBG (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SBBG (1).png"; sourceTree = "<group>"; };
@@ -950,6 +952,7 @@
 		99EB218116E8634D003349F2 /* Side Bar */ = {
 			isa = PBXGroup;
 			children = (
+				D05C69B01787293A00F502E6 /* Tab 2.png */,
 				D087D4E31785C21E00D1F2CF /* SBBG (1).png */,
 				D087D4E41785C21F00D1F2CF /* SBBG (2).png */,
 				D087D4E51785C21F00D1F2CF /* SBBG (3).png */,
@@ -1155,6 +1158,7 @@
 				D087D4E61785C21F00D1F2CF /* SBBG (1).png in Resources */,
 				D087D4E71785C21F00D1F2CF /* SBBG (2).png in Resources */,
 				D087D4E81785C21F00D1F2CF /* SBBG (3).png in Resources */,
+				D05C69B11787293A00F502E6 /* Tab 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
