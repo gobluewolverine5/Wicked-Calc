@@ -444,7 +444,7 @@
             color = [UIColor blackColor];
             break;
         case 3://Tech
-            color = [UIColor blackColor];
+            color = [UIColor whiteColor];
             break;
         case 4://Space
             color = [UIColor cyanColor];

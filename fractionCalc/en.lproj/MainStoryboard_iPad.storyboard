@@ -1408,7 +1408,7 @@
                                 <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="33"/>
                                 <state key="normal" title="Return" backgroundImage="ReturnB.png">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" patternImage="15591CE2-5D80-440D-A17F-EDE47876DF1A" colorSpace="pattern"/>
+                                    <color key="titleShadowColor" patternImage="544205F5-50AC-42B1-A86F-416D6E3B7196" colorSpace="pattern"/>
                                 </state>
                                 <connections>
                                     <action selector="gotoCalc" destination="2" eventType="touchUpInside" id="xx9-rH-kBz"/>
@@ -1539,7 +1539,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="15591CE2-5D80-440D-A17F-EDE47876DF1A" width="320" height="460">
+        <image name="544205F5-50AC-42B1-A86F-416D6E3B7196" width="320" height="460">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESViRjbGFzc1ZOU1JlcHNcTlNJbWFnZUZsYWdzVk5TU2l6
