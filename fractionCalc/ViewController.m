@@ -780,7 +780,7 @@
     [zeroV setBackgroundImage: [bgChooser chooseKeyVerticalOne:num] forState:UIControlStateNormal];
     [signV setBackgroundImage: [bgChooser chooseKeyVerticalOne:num] forState:UIControlStateNormal];
     [dotV setBackgroundImage: [bgChooser chooseKeyVerticalOne:num] forState:UIControlStateNormal];
-    [settingsV setBackgroundImage: [bgChooser chooseKeyVerticalOne:num] forState:UIControlStateNormal];
+    //[settingsV setBackgroundImage: [bgChooser chooseKeyVerticalOne:num] forState:UIControlStateNormal];
     [equalsV setBackgroundImage: [bgChooser chooseKeyVerticalTwo:num] forState:UIControlStateNormal];
     
     //Horizontal Buttons
@@ -802,7 +802,7 @@
     [zeroH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:num] forState:UIControlStateNormal];
     [dotH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:num] forState:UIControlStateNormal];
     [signH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:num] forState:UIControlStateNormal];
-    [settingsH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:num] forState:UIControlStateNormal];
+    //[settingsH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:num] forState:UIControlStateNormal];
     [equalsH setBackgroundImage: [bgChooser chooseKeyHorizontalTwo:num] forState:UIControlStateNormal];
     
     [factorialH setBackgroundImage: [bgChooser chooseKeyHorizontalOne:num] forState:UIControlStateNormal];
@@ -847,7 +847,7 @@
     [signV setTitleColor:myColor forState:UIControlStateNormal];
     [dotV setTitleColor:myColor forState:UIControlStateNormal];
     [equalsV setTitleColor:myColor forState:UIControlStateNormal];
-    [settingsV setTitleColor:myColor forState:UIControlStateNormal];
+    //[settingsV setTitleColor:myColor forState:UIControlStateNormal];
     
     //Horizontal Buttons
     [cH setTitleColor:myColor forState:UIControlStateNormal];
@@ -869,7 +869,7 @@
     [dotH setTitleColor:myColor forState:UIControlStateNormal];
     [signH setTitleColor:myColor forState:UIControlStateNormal];
     [equalsH setTitleColor:myColor forState:UIControlStateNormal];
-    [settingsH setTitleColor:myColor forState:UIControlStateNormal];
+    //[settingsH setTitleColor:myColor forState:UIControlStateNormal];
     
     [factorialH setTitleColor:myColor forState:UIControlStateNormal];
     [sqrtH setTitleColor:myColor forState:UIControlStateNormal];
@@ -886,7 +886,7 @@
     [absH setTitleColor:myColor forState:UIControlStateNormal];
     [piH setTitleColor:myColor forState:UIControlStateNormal];
     [eH setTitleColor:myColor forState:UIControlStateNormal];
-    [SlideButton setTitleColor:myColor forState:UIControlStateNormal];
+    //[SlideButton setTitleColor:myColor forState:UIControlStateNormal];
     
 }
 
