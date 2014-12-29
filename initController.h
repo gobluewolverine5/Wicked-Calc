@@ -1,4 +1,4 @@
-//  Longer Comment by Evan
+//  Longer Comment by Mark
 //  initController.h
 //  Wicked Calc
 //
